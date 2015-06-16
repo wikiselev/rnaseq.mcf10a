@@ -1,0 +1,280 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0006414,"translational elongation",0.313%, 6.303,-1.069,2.441,-7.0410,0.816,0.000,6414,0
+GO:0006614,"SRP-dependent cotranslational protein targeting to membrane",0.150%,-5.201,-3.949,2.124,-5.7212,0.738,0.000,6614,0
+GO:0044802,"single-organism membrane organization",1.380%,null,null,3.084,-3.3979,0.858,0.874,6614,1
+GO:0072657,"protein localization to membrane",0.687%,null,null,2.781,-4.0044,0.723,0.736,6614,1
+GO:0072599,"establishment of protein localization to endoplasmic reticulum",0.160%,null,null,2.149,-5.6383,0.830,0.962,6614,1
+GO:0006612,"protein targeting to membrane",0.303%,null,null,2.427,-4.6778,0.732,0.894,6614,1
+GO:0006613,"cotranslational protein targeting to membrane",0.156%,null,null,2.140,-5.6778,0.744,0.892,6614,1
+GO:0045047,"protein targeting to ER",0.158%,null,null,2.146,-5.6576,0.811,0.993,6614,1
+GO:0090150,"establishment of protein localization to membrane",0.514%,null,null,2.655,-4.4685,0.727,0.840,6614,1
+GO:0009720,"detection of hormone stimulus",0.001%,-0.315, 0.012,0.301,-2.3936,0.967,0.000,9720,0
+GO:0051179,"localization",18.927%, 0.124,-0.658,4.220,-1.3645,0.994,0.000,51179,0
+GO:0051704,"multi-organism process",4.431%,-0.163,-1.775,3.590,-3.1192,0.993,0.000,51704,0
+GO:0071840,"cellular component organization or biogenesis",12.603%,-0.107,-2.049,4.044,-2.6144,0.994,0.000,71840,0
+GO:0002035,"brain renin-angiotensin system",0.015%,-3.351, 1.948,1.146,-2.0937,0.890,0.012,2035,0
+GO:0001976,"neurological system process involved in regulation of systemic arterial blood pressure",0.046%,null,null,1.613,-1.4466,0.883,0.743,2035,1
+GO:0002016,"regulation of blood volume by renin-angiotensin",0.023%,null,null,1.322,-1.6985,0.887,0.861,2035,1
+GO:0042100,"B cell proliferation",0.158%,-0.704,-0.290,2.146,-2.1918,0.876,0.034,42100,0
+GO:0051249,"regulation of lymphocyte activation",0.741%,null,null,2.814,-1.4365,0.821,0.883,42100,1
+GO:0050864,"regulation of B cell activation",0.201%,null,null,2.248,-1.7642,0.836,0.837,42100,1
+GO:0070663,"regulation of leukocyte proliferation",0.370%,null,null,2.513,-1.3659,0.851,0.920,42100,1
+GO:0042113,"B cell activation",0.487%,null,null,2.631,-1.9796,0.885,0.726,42100,1
+GO:0032944,"regulation of mononuclear cell proliferation",0.362%,null,null,2.504,-1.3952,0.849,0.992,42100,1
+GO:0030889,"negative regulation of B cell proliferation",0.028%,null,null,1.415,-1.6202,0.814,0.859,42100,1
+GO:0030888,"regulation of B cell proliferation",0.108%,null,null,1.982,-2.4191,0.830,0.798,42100,1
+GO:0050670,"regulation of lymphocyte proliferation",0.359%,null,null,2.500,-1.4053,0.815,0.899,42100,1
+GO:0002694,"regulation of leukocyte activation",0.850%,null,null,2.873,-1.3028,0.820,0.965,42100,1
+GO:0046649,"lymphocyte activation",1.314%,null,null,3.062,-1.4509,0.877,0.844,42100,1
+GO:0051343,"positive regulation of cyclic-nucleotide phosphodiesterase activity",0.005%, 2.214,-0.150,0.699,-1.7945,0.894,0.035,51343,0
+GO:0010224,"response to UV-B",0.034%,-0.168,-1.833,1.491,-1.4466,0.977,0.041,10224,0
+GO:0010225,"response to UV-C",0.027%,null,null,1.398,-1.4016,0.978,0.729,10224,1
+GO:0044033,"multi-organism metabolic process",0.213%,-2.926,-3.069,2.274,-5.8239,0.900,0.046,44033,0
+GO:0030010,"establishment of cell polarity",0.232%, 0.117,-0.742,2.312,-1.6153,0.918,0.069,30010,0
+GO:0032878,"regulation of establishment or maintenance of cell polarity",0.050%,null,null,1.653,-1.4466,0.875,0.822,30010,1
+GO:2000114,"regulation of establishment of cell polarity",0.046%,null,null,1.613,-1.4969,0.876,0.816,30010,1
+GO:0000132,"establishment of mitotic spindle orientation",0.068%,null,null,1.785,-1.3242,0.747,0.841,30010,1
+GO:0009058,"biosynthetic process",19.017%, 3.376, 0.705,4.222,-2.0168,0.920,0.073,9058,0
+GO:0009056,"catabolic process",7.851%, 2.281, 0.051,3.838,-1.8681,0.930,0.130,9056,0
+GO:0033490,"cholesterol biosynthetic process via lathosterol",0.001%, 4.927,-0.419,0.301,-2.3936,0.837,0.159,33490,0
+GO:0016125,"sterol metabolic process",0.296%,null,null,2.417,-1.3286,0.817,0.806,33490,1
+GO:0016126,"sterol biosynthetic process",0.126%,null,null,2.049,-1.9083,0.784,0.876,33490,1
+GO:0045540,"regulation of cholesterol biosynthetic process",0.036%,null,null,1.519,-1.3242,0.761,0.910,33490,1
+GO:0045542,"positive regulation of cholesterol biosynthetic process",0.013%,null,null,1.079,-1.6985,0.745,0.848,33490,1
+GO:0006695,"cholesterol biosynthetic process",0.119%,null,null,2.021,-2.0146,0.783,0.736,33490,1
+GO:0008203,"cholesterol metabolic process",0.278%,null,null,2.389,-1.3853,0.814,0.924,33490,1
+GO:0010893,"positive regulation of steroid biosynthetic process",0.030%,null,null,1.431,-1.4016,0.739,0.919,33490,1
+GO:0090205,"positive regulation of cholesterol metabolic process",0.014%,null,null,1.114,-1.6202,0.769,0.875,33490,1
+GO:0000184,"nuclear-transcribed mRNA catabolic process, nonsense-mediated decay",0.142%, 6.268,-0.363,2.100,-5.4089,0.794,0.164,184,0
+GO:0000956,"nuclear-transcribed mRNA catabolic process",0.245%,null,null,2.334,-4.3979,0.785,0.938,184,1
+GO:0006402,"mRNA catabolic process",0.271%,null,null,2.378,-4.2218,0.783,0.963,184,1
+GO:0048597,"post-embryonic camera-type eye morphogenesis",0.010%,-2.999, 1.240,1.000,-1.7945,0.920,0.178,48597,0
+GO:0048050,"post-embryonic eye morphogenesis",0.010%,null,null,1.000,-1.7945,0.920,0.952,48597,1
+GO:0048563,"post-embryonic organ morphogenesis",0.016%,null,null,1.176,-1.6202,0.919,0.915,48597,1
+GO:0031077,"post-embryonic camera-type eye development",0.023%,null,null,1.322,-1.4969,0.918,0.920,48597,1
+GO:1901360,"organic cyclic compound metabolic process",25.430%, 4.972, 1.110,4.349,-1.8914,0.875,0.180,1901360,0
+GO:0006725,"cellular aromatic compound metabolic process",24.907%, 5.970, 1.398,4.340,-1.7235,0.852,0.198,6725,0
+GO:1901998,"toxin transport",0.016%,-4.485, 3.323,1.176,-1.7945,0.914,0.199,1901998,0
+GO:0000720,"pyrimidine dimer repair by nucleotide-excision repair",0.008%, 4.138,-0.791,0.903,-1.9187,0.836,0.199,720,0
+GO:0048625,"myoblast fate commitment",0.016%,-2.684, 1.004,1.176,-1.7945,0.919,0.213,48625,0
+GO:0045935,"positive regulation of nucleobase-containing compound metabolic process",3.128%, 5.523, 1.990,3.439,-2.1373,0.664,0.214,45935,0
+GO:1902680,"positive regulation of RNA biosynthetic process",2.779%,null,null,3.387,-1.4632,0.615,0.943,45935,1
+GO:0031328,"positive regulation of cellular biosynthetic process",3.341%,null,null,3.467,-1.5511,0.663,0.954,45935,1
+GO:0031325,"positive regulation of cellular metabolic process",5.082%,null,null,3.649,-1.5337,0.697,0.921,45935,1
+GO:0051254,"positive regulation of RNA metabolic process",2.813%,null,null,3.393,-1.4168,0.640,0.945,45935,1
+GO:0010628,"positive regulation of gene expression",2.987%,null,null,3.419,-1.3793,0.719,0.822,45935,1
+GO:0010604,"positive regulation of macromolecule metabolic process",4.917%,null,null,3.635,-1.6236,0.715,0.862,45935,1
+GO:0010557,"positive regulation of macromolecule biosynthetic process",3.143%,null,null,3.441,-1.6706,0.684,0.800,45935,1
+GO:0009891,"positive regulation of biosynthetic process",3.388%,null,null,3.473,-1.9876,0.716,0.809,45935,1
+GO:0051173,"positive regulation of nitrogen compound metabolic process",3.225%,null,null,3.452,-2.0778,0.738,0.800,45935,1
+GO:0044236,"multicellular organismal metabolic process",0.220%,-1.697, 1.686,2.288,-1.3564,0.882,0.215,44236,0
+GO:0002764,"immune response-regulating signaling pathway",1.064%, 0.213, 1.527,2.971,-1.4292,0.830,0.220,2764,0
+GO:0042982,"amyloid precursor protein metabolic process",0.072%, 3.700,-0.791,1.806,-2.6326,0.901,0.226,42982,0
+GO:0009187,"cyclic nucleotide metabolic process",0.382%, 5.897, 0.976,2.526,-1.4578,0.814,0.238,9187,0
+GO:0034374,"low-density lipoprotein particle remodeling",0.019%,-2.797,-6.705,1.255,-1.6202,0.826,0.243,34374,0
+GO:0034375,"high-density lipoprotein particle remodeling",0.022%,null,null,1.301,-1.5541,0.825,0.921,34374,1
+GO:0034368,"protein-lipid complex remodeling",0.040%,null,null,1.556,-1.3242,0.885,1.000,34374,1
+GO:0034369,"plasma lipoprotein particle remodeling",0.040%,null,null,1.556,-1.3242,0.819,0.962,34374,1
+GO:0006499,"N-terminal protein myristoylation",0.023%, 5.077,-1.218,1.322,-1.7945,0.846,0.251,6499,0
+GO:0018377,"protein myristoylation",0.024%,null,null,1.342,-1.7945,0.847,0.736,6499,1
+GO:0006498,"N-terminal protein lipidation",0.028%,null,null,1.415,-1.6985,0.844,0.923,6499,1
+GO:0045835,"negative regulation of meiosis",0.032%,-1.875,-6.655,1.462,-1.7945,0.791,0.252,45835,0
+GO:0042157,"lipoprotein metabolic process",0.387%, 4.782,-0.842,2.533,-1.3952,0.886,0.260,42157,0
+GO:0055091,"phospholipid homeostasis",0.014%,-2.316, 1.532,1.114,-1.7945,0.916,0.273,55091,0
+GO:0048569,"post-embryonic organ development",0.038%,-3.295, 1.206,1.531,-1.3242,0.933,0.283,48569,0
+GO:0002682,"regulation of immune system process",21.361%,-0.099, 1.092,4.273,-1.7089,0.900,0.285,2682,0
+GO:2000543,"positive regulation of gastrulation",0.014%,-2.197, 1.930,1.114,-1.7945,0.883,0.293,2000543,0
+GO:0055099,"response to high density lipoprotein particle",0.003%,-0.369,-0.030,0.602,-2.0937,0.967,0.293,55099,0
+GO:0050860,"negative regulation of T cell receptor signaling pathway",0.036%,-0.591, 1.340,1.519,-1.4969,0.822,0.293,50860,0
+GO:0050858,"negative regulation of antigen receptor-mediated signaling pathway",0.041%,null,null,1.568,-1.4466,0.820,0.875,50860,1
+GO:0043491,"protein kinase B signaling",0.280%, 0.454, 1.013,2.393,-1.3108,0.853,0.295,43491,0
+GO:0019538,"protein metabolic process",17.009%, 6.390,-0.088,4.174,-1.8480,0.843,0.309,19538,0
+GO:0022411,"cellular component disassembly",0.713%,-1.446,-7.249,2.797,-4.4437,0.845,0.320,22411,0
+GO:0016071,"mRNA metabolic process",1.098%, 7.630,-0.210,2.985,-1.8362,0.805,0.323,16071,0
+GO:0055094,"response to lipoprotein particle",0.036%,-0.387,-0.002,1.519,-1.4969,0.963,0.348,55094,0
+GO:0030574,"collagen catabolic process",0.104%, 2.575, 1.550,1.964,-1.8511,0.803,0.349,30574,0
+GO:0044243,"multicellular organismal catabolic process",0.112%,null,null,1.996,-1.7978,0.874,0.893,30574,1
+GO:0044259,"multicellular organismal macromolecule metabolic process",0.197%,null,null,2.241,-1.4363,0.832,0.975,30574,1
+GO:0032963,"collagen metabolic process",0.183%,null,null,2.210,-1.4799,0.833,0.944,30574,1
+GO:0040034,"regulation of development, heterochronic",0.034%,-2.117, 0.943,1.491,-1.6985,0.924,0.353,40034,0
+GO:1901165,"positive regulation of trophoblast cell migration",0.002%,-5.385, 2.442,0.477,-2.0937,0.733,0.354,1901165,0
+GO:1901163,"regulation of trophoblast cell migration",0.006%,null,null,0.778,-1.7945,0.745,0.955,1901165,1
+GO:0033700,"phospholipid efflux",0.017%,-4.673, 3.582,1.204,-1.7945,0.851,0.357,33700,0
+GO:0048584,"positive regulation of response to stimulus",22.389%, 0.157, 2.005,4.293,-1.9097,0.859,0.359,48584,0
+GO:0046483,"heterocycle metabolic process",24.799%, 6.014, 1.388,4.338,-1.7165,0.852,0.359,46483,0
+GO:0010745,"negative regulation of macrophage derived foam cell differentiation",0.019%,-1.960, 1.149,1.255,-1.4969,0.844,0.360,10745,0
+GO:0043619,"regulation of transcription from RNA polymerase II promoter in response to oxidative stress",0.025%, 5.912, 0.321,1.362,-1.6985,0.747,0.366,43619,0
+GO:0006412,"translation",1.984%, 6.944,-0.772,3.241,-4.5850,0.785,0.367,6412,0
+GO:0051342,"regulation of cyclic-nucleotide phosphodiesterase activity",0.023%, 2.334,-0.108,1.322,-1.5541,0.883,0.367,51342,0
+GO:0008544,"epidermis development",0.590%,-3.684, 1.479,2.715,-1.3028,0.917,0.371,8544,0
+GO:0030216,"keratinocyte differentiation",0.196%,null,null,2.238,-1.4259,0.880,0.867,8544,1
+GO:0043950,"positive regulation of cAMP-mediated signaling",0.021%, 0.620, 1.702,1.279,-1.6985,0.831,0.376,43950,0
+GO:0043949,"regulation of cAMP-mediated signaling",0.034%,null,null,1.491,-1.4016,0.862,0.871,43950,1
+GO:0097067,"cellular response to thyroid hormone stimulus",0.016%,-0.491, 0.197,1.176,-1.4466,0.925,0.381,97067,0
+GO:0034436,"glycoprotein transport",0.003%,-4.721, 3.480,0.602,-1.9187,0.877,0.382,34436,0
+GO:0061024,"membrane organization",1.629%,-1.663,-7.864,3.156,-4.1427,0.892,0.404,61024,0
+GO:0042986,"positive regulation of amyloid precursor protein biosynthetic process",0.003%, 5.061, 0.749,0.602,-2.0937,0.764,0.411,42986,0
+GO:0010560,"positive regulation of glycoprotein biosynthetic process",0.018%,null,null,1.230,-1.4466,0.749,0.899,42986,1
+GO:0042987,"amyloid precursor protein catabolic process",0.054%,null,null,1.681,-1.4466,0.889,0.859,42986,1
+GO:0042983,"amyloid precursor protein biosynthetic process",0.009%,null,null,0.954,-1.6202,0.900,0.739,42986,1
+GO:0042984,"regulation of amyloid precursor protein biosynthetic process",0.009%,null,null,0.954,-1.6202,0.785,0.950,42986,1
+GO:0051270,"regulation of cellular component movement",1.289%,-4.461, 4.451,3.054,-1.7069,0.741,0.417,51270,0
+GO:0044087,"regulation of cellular component biogenesis",1.045%,-1.490,-7.636,2.963,-1.4292,0.837,0.417,44087,0
+GO:0009726,"detection of endogenous stimulus",0.008%,-0.301,-0.473,0.903,-2.0937,0.974,0.419,9726,0
+GO:1902578,"single-organism localization",14.013%,-5.272, 3.929,4.090,-4.5528,0.841,0.427,1902578,0
+GO:0051896,"regulation of protein kinase B signaling",0.222%, 0.373, 1.169,2.292,-1.4363,0.847,0.435,51896,0
+GO:0031327,"negative regulation of cellular biosynthetic process",2.588%, 5.000, 0.815,3.356,-1.9562,0.693,0.438,31327,0
+GO:1902679,"negative regulation of RNA biosynthetic process",2.216%,null,null,3.289,-1.3731,0.646,0.971,31327,1
+GO:0045892,"negative regulation of transcription, DNA-templated",2.182%,null,null,3.282,-1.4070,0.644,0.949,31327,1
+GO:0010558,"negative regulation of macromolecule biosynthetic process",2.484%,null,null,3.339,-1.5277,0.704,0.966,31327,1
+GO:2000113,"negative regulation of cellular macromolecule biosynthetic process",2.396%,null,null,3.323,-1.6183,0.670,0.961,31327,1
+GO:0009890,"negative regulation of biosynthetic process",2.615%,null,null,3.361,-1.9151,0.737,0.847,31327,1
+GO:0043129,"surfactant homeostasis",0.023%,-3.504, 2.230,1.322,-1.4466,0.883,0.440,43129,0
+GO:0009893,"positive regulation of metabolic process",5.415%, 2.596, 1.397,3.677,-2.1878,0.801,0.446,9893,0
+GO:0007020,"microtubule nucleation",0.027%,-1.562,-7.253,1.398,-1.3611,0.839,0.450,7020,0
+GO:0042415,"norepinephrine metabolic process",0.033%, 3.755, 0.284,1.477,-1.7945,0.856,0.458,42415,0
+GO:0010467,"gene expression",15.379%, 6.182,-0.179,4.130,-1.7118,0.847,0.465,10467,0
+GO:0001556,"oocyte maturation",0.064%,-3.850,-1.823,1.756,-1.5541,0.847,0.471,1556,0
+GO:0048469,"cell maturation",0.359%,null,null,2.500,-1.3952,0.898,0.800,1556,1
+GO:0006290,"pyrimidine dimer repair",0.023%, 5.808,-0.952,1.322,-1.5541,0.825,0.472,6290,0
+GO:0051901,"positive regulation of mitochondrial depolarization",0.015%,-1.032, 2.780,1.146,-1.7945,0.849,0.474,51901,0
+GO:0051882,"mitochondrial depolarization",0.031%,null,null,1.447,-1.5541,0.916,0.823,51901,1
+GO:0051900,"regulation of mitochondrial depolarization",0.028%,null,null,1.415,-1.5541,0.853,0.952,51901,1
+GO:0035308,"negative regulation of protein dephosphorylation",0.007%, 3.843,-0.162,0.845,-1.7945,0.782,0.480,35308,0
+GO:0010818,"T cell chemotaxis",0.018%,-3.857, 3.896,1.230,-1.4969,0.823,0.484,10818,0
+GO:0071310,"cellular response to organic substance",4.572%,-0.538, 0.345,3.603,-1.4090,0.891,0.484,71310,0
+GO:0070887,"cellular response to chemical stimulus",5.433%,null,null,3.678,-1.6714,0.892,0.744,71310,1
+GO:0010033,"response to organic substance",6.118%,null,null,3.730,-1.4597,0.955,0.782,71310,1
+GO:0071822,"protein complex subunit organization",3.467%,-1.673,-8.112,3.483,-3.0605,0.859,0.490,71822,0
+GO:0060632,"regulation of microtubule-based movement",0.022%,-4.525, 3.664,1.301,-1.6202,0.799,0.491,60632,0
+GO:0044267,"cellular protein metabolic process",12.981%, 7.436,-0.179,4.057,-1.4385,0.795,0.493,44267,0
+GO:1902580,"single-organism cellular localization",1.731%,-5.141, 3.820,3.182,-4.5528,0.828,0.495,1902580,0
+GO:0010872,"regulation of cholesterol esterification",0.011%, 3.571, 1.121,1.041,-1.7945,0.782,0.495,10872,0
+GO:0034435,"cholesterol esterification",0.015%,null,null,1.146,-1.6985,0.836,0.985,10872,1
+GO:0034434,"sterol esterification",0.015%,null,null,1.146,-1.6985,0.836,1.000,10872,1
+GO:0034367,"macromolecular complex remodeling",0.040%,-1.491,-7.869,1.556,-1.3242,0.898,0.498,34367,0
+GO:0032844,"regulation of homeostatic process",0.737%,-2.225, 1.747,2.812,-1.4186,0.894,0.499,32844,0
+GO:0044803,"multi-organism membrane organization",0.007%,-2.725,-6.842,0.845,-1.6985,0.874,0.503,44803,0
+GO:0045899,"positive regulation of RNA polymerase II transcriptional preinitiation complex assembly",0.007%, 3.210,-5.564,0.845,-2.0937,0.669,0.509,45899,0
+GO:0045898,"regulation of RNA polymerase II transcriptional preinitiation complex assembly",0.010%,null,null,1.000,-1.6985,0.696,0.967,45899,1
+GO:0060260,"regulation of transcription initiation from RNA polymerase II promoter",0.027%,null,null,1.398,-1.4016,0.681,0.909,45899,1
+GO:0051123,"RNA polymerase II transcriptional preinitiation complex assembly",0.014%,null,null,1.114,-1.6202,0.745,0.946,45899,1
+GO:0019058,"viral life cycle",0.401%,-2.748,-2.933,2.548,-5.4949,0.887,0.510,19058,0
+GO:0016032,"viral process",0.955%,null,null,2.924,-4.4089,0.879,0.901,19058,1
+GO:0019080,"viral gene expression",0.186%,null,null,2.215,-5.8861,0.816,0.780,19058,1
+GO:0019083,"viral transcription",0.174%,null,null,2.188,-4.8539,0.743,0.971,19058,1
+GO:0019082,"viral protein processing",0.014%,null,null,1.114,-1.4016,0.838,0.808,19058,1
+GO:0044403,"symbiosis, encompassing mutualism through parasitism",1.105%,null,null,2.987,-4.1805,0.920,0.973,19058,1
+GO:0032774,"RNA biosynthetic process",10.939%, 7.743, 0.027,3.982,-2.5467,0.702,0.532,32774,0
+GO:0016070,"RNA metabolic process",12.843%,null,null,4.052,-1.6269,0.746,0.747,32774,1
+GO:0034654,"nucleobase-containing compound biosynthetic process",13.254%,null,null,4.066,-2.1656,0.724,0.818,32774,1
+GO:0034645,"cellular macromolecule biosynthetic process",14.343%,null,null,4.100,-2.0799,0.738,0.784,32774,1
+GO:0035970,"peptidyl-threonine dephosphorylation",0.016%, 4.713,-0.649,1.176,-1.4969,0.870,0.535,35970,0
+GO:0043162,"ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway",0.032%, 4.809,-1.003,1.462,-1.4016,0.840,0.542,43162,0
+GO:0040017,"positive regulation of locomotion",0.632%,-0.697, 1.498,2.745,-1.3561,0.885,0.547,40017,0
+GO:0030334,"regulation of cell migration",1.088%,null,null,2.980,-1.3545,0.731,0.900,40017,1
+GO:0030335,"positive regulation of cell migration",0.578%,null,null,2.706,-1.4305,0.708,0.912,40017,1
+GO:2000147,"positive regulation of cell motility",0.590%,null,null,2.715,-1.4129,0.708,0.983,40017,1
+GO:0010887,"negative regulation of cholesterol storage",0.016%,-4.864, 3.721,1.176,-1.7945,0.766,0.549,10887,0
+GO:0010878,"cholesterol storage",0.047%,null,null,1.623,-1.4016,0.792,0.799,10887,1
+GO:0010885,"regulation of cholesterol storage",0.046%,null,null,1.613,-1.4466,0.776,0.933,10887,1
+GO:0010888,"negative regulation of lipid storage",0.031%,null,null,1.447,-1.3242,0.757,0.836,10887,1
+GO:0001778,"plasma membrane repair",0.016%,-0.972,-6.945,1.176,-1.7945,0.882,0.554,1778,0
+GO:0010991,"negative regulation of SMAD protein complex assembly",0.013%,-1.335,-6.096,1.079,-2.0937,0.755,0.557,10991,0
+GO:0010990,"regulation of SMAD protein complex assembly",0.013%,null,null,1.079,-2.0937,0.778,0.908,10991,1
+GO:0033036,"macromolecule localization",5.646%,-5.284, 3.909,3.695,-2.7471,0.869,0.558,33036,0
+GO:0007183,"SMAD protein complex assembly",0.028%,-1.267,-6.510,1.415,-1.4466,0.784,0.560,7183,0
+GO:0071702,"organic substance transport",5.810%,-5.721, 4.172,3.708,-1.9270,0.860,0.561,71702,0
+GO:0050765,"negative regulation of phagocytosis",0.025%,-4.706,-3.699,1.362,-1.6202,0.729,0.563,50765,0
+GO:0051641,"cellular localization",6.184%,-5.054, 3.819,3.735,-1.9851,0.867,0.568,51641,0
+GO:0002684,"positive regulation of immune system process",20.525%, 0.091, 2.025,4.256,-1.6275,0.854,0.578,2684,0
+GO:0006139,"nucleobase-containing compound metabolic process",24.258%, 7.384, 0.610,4.328,-1.8665,0.768,0.578,6139,0
+GO:0032927,"positive regulation of activin receptor signaling pathway",0.008%, 0.673, 1.510,0.903,-1.6985,0.835,0.579,32927,0
+GO:0038092,"nodal signaling pathway",0.028%,null,null,1.415,-1.6202,0.864,0.828,32927,1
+GO:0032464,"positive regulation of protein homooligomerization",0.014%,-1.314,-7.294,1.114,-1.4466,0.832,0.579,32464,0
+GO:0043933,"macromolecular complex subunit organization",5.276%,-1.532,-7.507,3.666,-3.7447,0.880,0.581,43933,0
+GO:0016043,"cellular component organization",12.380%,null,null,4.036,-2.7773,0.872,0.720,43933,1
+GO:0043691,"reverse cholesterol transport",0.032%,-5.579, 3.901,1.462,-1.5541,0.839,0.584,43691,0
+GO:0032367,"intracellular cholesterol transport",0.017%,null,null,1.204,-1.4969,0.830,0.742,43691,1
+GO:0032366,"intracellular sterol transport",0.017%,null,null,1.204,-1.4969,0.830,0.936,43691,1
+GO:0032373,"positive regulation of sterol transport",0.040%,null,null,1.556,-1.4466,0.773,0.925,43691,1
+GO:0032376,"positive regulation of cholesterol transport",0.040%,null,null,1.556,-1.4466,0.772,0.996,43691,1
+GO:0010874,"regulation of cholesterol efflux",0.047%,null,null,1.623,-1.4016,0.789,0.938,43691,1
+GO:0010875,"positive regulation of cholesterol efflux",0.038%,null,null,1.531,-1.5541,0.773,0.779,43691,1
+GO:0044764,"multi-organism cellular process",0.977%,-3.214,-3.257,2.933,-4.3768,0.895,0.587,44764,0
+GO:0045721,"negative regulation of gluconeogenesis",0.023%, 3.336,-0.175,1.322,-1.6202,0.765,0.589,45721,0
+GO:0045184,"establishment of protein localization",3.785%,-5.209, 3.883,3.522,-3.1308,0.809,0.592,45184,0
+GO:0015031,"protein transport",3.600%,null,null,3.500,-2.7747,0.806,0.877,45184,1
+GO:0070727,"cellular macromolecule localization",3.140%,null,null,3.440,-1.7510,0.805,0.805,45184,1
+GO:0033365,"protein localization to organelle",1.274%,null,null,3.049,-2.7423,0.810,0.758,45184,1
+GO:0006886,"intracellular protein transport",2.201%,null,null,3.286,-2.0287,0.793,0.882,45184,1
+GO:0008104,"protein localization",4.788%,null,null,3.624,-2.8665,0.812,0.859,45184,1
+GO:0034613,"cellular protein localization",3.129%,null,null,3.439,-1.7652,0.793,0.921,45184,1
+GO:0034433,"steroid esterification",0.015%, 2.994, 0.287,1.146,-1.6985,0.841,0.597,34433,0
+GO:1902590,"multi-organism organelle organization",0.007%,-2.756,-6.990,0.845,-2.0937,0.856,0.607,1902590,0
+GO:0046755,"viral budding",0.007%,-4.767,-4.407,0.845,-2.0937,0.779,0.610,46755,0
+GO:1902592,"multi-organism membrane budding",0.007%,null,null,0.845,-2.0937,0.783,1.000,46755,1
+GO:0030218,"erythrocyte differentiation",0.267%,-3.035, 2.519,2.371,-1.4053,0.816,0.613,30218,0
+GO:0034101,"erythrocyte homeostasis",0.278%,null,null,2.389,-1.3286,0.890,0.962,30218,1
+GO:0006415,"translational termination",0.130%, 2.985,-6.204,2.061,-6.0915,0.721,0.619,6415,0
+GO:0043241,"protein complex disassembly",0.373%,null,null,2.516,-4.4685,0.815,0.980,6415,1
+GO:0022617,"extracellular matrix disassembly",0.179%,null,null,2.199,-1.4470,0.847,0.827,6415,1
+GO:0043624,"cellular protein complex disassembly",0.344%,null,null,2.481,-4.7447,0.816,0.905,6415,1
+GO:0032984,"macromolecular complex disassembly",0.392%,null,null,2.538,-4.3768,0.820,0.805,6415,1
+GO:0042127,"regulation of cell proliferation",3.148%, 0.726, 0.999,3.442,-1.3478,0.834,0.620,42127,0
+GO:0070897,"DNA-templated transcriptional preinitiation complex assembly",0.016%, 3.378,-6.247,1.176,-1.5541,0.748,0.625,70897,0
+GO:0042347,"negative regulation of NF-kappaB import into nucleus",0.030%,-3.817, 3.847,1.431,-1.3242,0.706,0.631,42347,0
+GO:0090304,"nucleic acid metabolic process",15.268%, 7.477, 0.273,4.127,-1.4544,0.761,0.636,90304,0
+GO:0061450,"trophoblast cell migration",0.006%,-5.571, 1.543,0.778,-1.7945,0.799,0.641,61450,0
+GO:0006401,"RNA catabolic process",0.316%, 6.665,-0.302,2.444,-4.0000,0.784,0.643,6401,0
+GO:0044265,"cellular macromolecule catabolic process",1.775%,null,null,3.193,-2.5654,0.793,0.756,6401,1
+GO:0043254,"regulation of protein complex assembly",0.549%,-1.389,-7.291,2.684,-2.3737,0.815,0.651,43254,0
+GO:0031334,"positive regulation of protein complex assembly",0.286%,null,null,2.401,-1.3853,0.795,0.816,43254,1
+GO:1901362,"organic cyclic compound biosynthetic process",13.849%, 7.064,-0.017,4.085,-2.3497,0.768,0.652,1901362,0
+GO:0009059,"macromolecule biosynthetic process",14.776%,null,null,4.113,-1.9714,0.779,0.746,1901362,1
+GO:0044249,"cellular biosynthetic process",18.384%,null,null,4.208,-2.1972,0.773,0.732,1901362,1
+GO:1901576,"organic substance biosynthetic process",18.650%,null,null,4.214,-2.0937,0.793,0.797,1901362,1
+GO:0044419,"interspecies interaction between organisms",1.105%,-2.712,-2.931,2.987,-4.1805,0.933,0.652,44419,0
+GO:0031326,"regulation of cellular biosynthetic process",11.466%, 6.096, 1.057,4.003,-1.3175,0.676,0.656,31326,0
+GO:0030816,"positive regulation of cAMP metabolic process",0.130%, 5.347, 2.423,2.061,-2.1637,0.691,0.657,30816,0
+GO:0030807,"positive regulation of cyclic nucleotide catabolic process",0.002%,null,null,0.477,-2.0937,0.733,0.897,30816,1
+GO:0030805,"regulation of cyclic nucleotide catabolic process",0.007%,null,null,0.845,-1.7945,0.754,0.748,30816,1
+GO:0030814,"regulation of cAMP metabolic process",0.197%,null,null,2.241,-1.7978,0.725,0.944,30816,1
+GO:0030813,"positive regulation of nucleotide catabolic process",0.023%,null,null,1.322,-1.9187,0.714,0.846,30816,1
+GO:0030820,"regulation of cAMP catabolic process",0.007%,null,null,0.845,-1.7945,0.750,0.946,30816,1
+GO:0030822,"positive regulation of cAMP catabolic process",0.002%,null,null,0.477,-2.0937,0.732,0.879,30816,1
+GO:0030799,"regulation of cyclic nucleotide metabolic process",0.227%,null,null,2.301,-1.6712,0.727,0.871,30816,1
+GO:0030801,"positive regulation of cyclic nucleotide metabolic process",0.147%,null,null,2.114,-2.0146,0.690,0.966,30816,1
+GO:1900544,"positive regulation of purine nucleotide metabolic process",0.171%,null,null,2.179,-1.9492,0.699,0.987,30816,1
+GO:0046058,"cAMP metabolic process",0.270%,null,null,2.377,-1.6289,0.786,0.924,30816,1
+GO:0006198,"cAMP catabolic process",0.038%,null,null,1.531,-1.3242,0.780,0.874,30816,1
+GO:0033123,"positive regulation of purine nucleotide catabolic process",0.023%,null,null,1.322,-1.9187,0.711,0.846,30816,1
+GO:0048875,"chemical homeostasis within a tissue",0.025%,-2.802, 1.730,1.362,-1.3611,0.882,0.662,48875,0
+GO:0051272,"positive regulation of cellular component movement",0.616%,-3.914, 4.522,2.734,-1.3783,0.713,0.665,51272,0
+GO:0019068,"virion assembly",0.024%,-2.468,-6.535,1.342,-1.3611,0.842,0.665,19068,0
+GO:0034655,"nucleobase-containing compound catabolic process",4.390%, 6.369, 0.572,3.586,-2.6216,0.764,0.665,34655,0
+GO:0009057,"macromolecule catabolic process",2.264%,null,null,3.298,-2.0585,0.827,0.700,34655,1
+GO:0044248,"cellular catabolic process",6.840%,null,null,3.778,-1.5672,0.817,0.814,34655,1
+GO:0044270,"cellular nitrogen compound catabolic process",4.524%,null,null,3.599,-2.5436,0.793,0.803,34655,1
+GO:0019439,"aromatic compound catabolic process",4.542%,null,null,3.601,-2.5317,0.795,0.808,34655,1
+GO:0046700,"heterocycle catabolic process",4.531%,null,null,3.600,-2.5391,0.796,0.807,34655,1
+GO:1901361,"organic cyclic compound catabolic process",4.616%,null,null,3.608,-2.4672,0.806,0.781,34655,1
+GO:0035305,"negative regulation of dephosphorylation",0.016%, 1.664, 0.081,1.176,-1.6202,0.804,0.671,35305,0
+GO:0009886,"post-embryonic morphogenesis",0.027%,-2.442, 0.960,1.398,-1.4466,0.923,0.674,9886,0
+GO:2000021,"regulation of ion homeostasis",0.358%,-1.787, 1.376,2.498,-1.3952,0.893,0.675,2000021,0
+GO:0051281,"positive regulation of release of sequestered calcium ion into cytosol",0.039%,null,null,1.544,-1.3242,0.676,0.723,2000021,1
+GO:1902582,"single-organism intracellular transport",2.514%,-5.982, 4.125,3.344,-3.9208,0.810,0.675,1902582,0
+GO:0046907,"intracellular transport",3.541%,null,null,3.493,-3.1739,0.824,0.786,1902582,1
+GO:0006605,"protein targeting",1.102%,null,null,2.986,-3.0223,0.793,0.787,1902582,1
+GO:0051649,"establishment of localization in cell",5.403%,null,null,3.676,-1.9957,0.819,0.834,1902582,1
+GO:0016482,"cytoplasmic transport",1.537%,null,null,3.130,-2.5607,0.832,0.820,1902582,1
+GO:0019438,"aromatic compound biosynthetic process",13.512%, 7.554,-0.035,4.074,-2.0857,0.753,0.676,19438,0
+GO:0045981,"positive regulation of nucleotide metabolic process",0.171%, 5.005, 2.337,2.179,-1.9492,0.712,0.676,45981,0
+GO:0070972,"protein localization to endoplasmic reticulum",0.196%,-5.160, 3.923,2.238,-5.3665,0.833,0.677,70972,0
+GO:0072594,"establishment of protein localization to organelle",0.948%,null,null,2.921,-3.3279,0.808,0.791,70972,1
+GO:2000142,"regulation of DNA-templated transcription, initiation",0.031%, 3.577,-5.611,1.447,-1.3242,0.683,0.679,2000142,0
+GO:0044765,"single-organism transport",13.545%,-6.084, 4.188,4.075,-1.6602,0.826,0.681,44765,0
+GO:0006413,"translational initiation",0.465%, 6.494,-1.024,2.612,-6.0269,0.810,0.690,6413,0
+GO:0018130,"heterocycle biosynthetic process",13.553%, 7.271,-0.088,4.075,-2.0747,0.754,0.691,18130,0
+GO:0044271,"cellular nitrogen compound biosynthetic process",13.670%, 7.717,-0.067,4.079,-1.9940,0.750,0.693,44271,0
+GO:0034641,"cellular nitrogen compound metabolic process",25.263%, 6.461, 0.383,4.346,-1.5063,0.808,0.697,34641,0

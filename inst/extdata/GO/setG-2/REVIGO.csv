@@ -1,0 +1,174 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0033578,"protein glycosylation in Golgi",0.011%,-3.137,-6.555,1.041,-3.2007,0.795,0.000,33578,0
+GO:0060613,"fat pad development",0.017%, 6.746,-0.036,1.204,-2.8239,0.798,0.011,60613,0
+GO:0071499,"cellular response to laminar fluid shear stress",0.008%,-0.105, 1.093,0.903,-2.8239,0.909,0.023,71499,0
+GO:0034616,"response to laminar fluid shear stress",0.033%,null,null,1.477,-1.6059,0.948,0.889,71499,1
+GO:0071498,"cellular response to fluid shear stress",0.022%,null,null,1.301,-2.1290,0.905,0.819,71499,1
+GO:0033157,"regulation of intracellular protein transport",0.447%,-1.565, 1.173,2.594,-1.7156,0.869,0.029,33157,0
+GO:1900180,"regulation of protein localization to nucleus",0.340%,null,null,2.476,-1.3953,0.871,0.869,33157,1
+GO:0042306,"regulation of protein import into nucleus",0.295%,null,null,2.415,-1.5216,0.867,0.854,33157,1
+GO:0072538,"T-helper 17 type immune response",0.025%, 2.000, 0.720,1.362,-1.5720,0.972,0.045,72538,0
+GO:0002446,"neutrophil mediated immunity",0.040%, 3.029, 1.215,1.556,-1.5095,0.981,0.107,2446,0
+GO:0006635,"fatty acid beta-oxidation",0.108%,-2.650,-2.268,1.982,-2.6925,0.731,0.123,6635,0
+GO:0072329,"monocarboxylic acid catabolic process",0.172%,null,null,2.182,-1.5355,0.775,0.914,6635,1
+GO:0016054,"organic acid catabolic process",0.449%,null,null,2.597,-2.4214,0.766,0.949,6635,1
+GO:0046395,"carboxylic acid catabolic process",0.449%,null,null,2.597,-2.4214,0.763,0.880,6635,1
+GO:0009062,"fatty acid catabolic process",0.140%,null,null,2.093,-2.0177,0.732,0.948,6635,1
+GO:0009063,"cellular amino acid catabolic process",0.283%,null,null,2.396,-1.3437,0.762,0.955,6635,1
+GO:0009083,"branched-chain amino acid catabolic process",0.025%,null,null,1.362,-2.1261,0.794,0.712,6635,1
+GO:0019395,"fatty acid oxidation",0.155%,null,null,2.137,-2.4001,0.750,0.968,6635,1
+GO:0034440,"lipid oxidation",0.158%,null,null,2.146,-2.3487,0.796,0.804,6635,1
+GO:0019626,"short-chain fatty acid catabolic process",0.010%,null,null,1.000,-1.5720,0.769,0.819,6635,1
+GO:0035359,"negative regulation of peroxisome proliferator activated receptor signaling pathway",0.003%, 0.442,-0.715,0.602,-2.5243,0.853,0.136,35359,0
+GO:0035358,"regulation of peroxisome proliferator activated receptor signaling pathway",0.019%,null,null,1.255,-1.4118,0.864,0.880,35359,1
+GO:0010833,"telomere maintenance via telomere lengthening",0.056%,-4.000, 3.792,1.699,-2.5391,0.684,0.136,10833,0
+GO:0007004,"telomere maintenance via telomerase",0.028%,null,null,1.415,-2.1261,0.661,0.873,10833,1
+GO:0032212,"positive regulation of telomere maintenance via telomerase",0.013%,null,null,1.079,-2.5243,0.635,0.787,10833,1
+GO:0032210,"regulation of telomere maintenance via telomerase",0.018%,null,null,1.230,-1.4118,0.635,0.933,10833,1
+GO:0032206,"positive regulation of telomere maintenance",0.021%,null,null,1.279,-2.0630,0.652,0.913,10833,1
+GO:0000723,"telomere maintenance",0.152%,null,null,2.127,-1.4182,0.664,0.922,10833,1
+GO:0070102,"interleukin-6-mediated signaling pathway",0.022%,-1.016, 2.172,1.301,-1.8336,0.845,0.164,70102,0
+GO:0071354,"cellular response to interleukin-6",0.034%,null,null,1.491,-1.5095,0.904,0.943,70102,1
+GO:0097527,"necroptotic signaling pathway",0.009%,-1.927, 2.383,0.954,-1.5720,0.870,0.173,97527,0
+GO:0048026,"positive regulation of mRNA splicing, via spliceosome",0.007%,-5.690,-2.344,0.845,-1.7781,0.821,0.186,48026,0
+GO:0033120,"positive regulation of RNA splicing",0.014%,null,null,1.114,-1.4118,0.816,0.717,48026,1
+GO:0097056,"selenocysteinyl-tRNA(Sec) biosynthetic process",0.008%,-5.174,-4.153,0.903,-1.7781,0.861,0.188,97056,0
+GO:0001514,"selenocysteine incorporation",0.008%,-3.825,-5.764,0.903,-1.5720,0.805,0.197,1514,0
+GO:0032648,"regulation of interferon-beta production",0.063%, 6.705,-2.187,1.748,-2.4547,0.727,0.200,32648,0
+GO:0032608,"interferon-beta production",0.068%,null,null,1.785,-2.3737,0.763,0.862,32648,1
+GO:0045357,"regulation of interferon-beta biosynthetic process",0.024%,null,null,1.342,-1.5720,0.618,0.972,32648,1
+GO:0045359,"positive regulation of interferon-beta biosynthetic process",0.015%,null,null,1.146,-1.7781,0.620,0.900,32648,1
+GO:0045350,"interferon-beta biosynthetic process",0.024%,null,null,1.342,-1.5720,0.685,0.930,32648,1
+GO:0032728,"positive regulation of interferon-beta production",0.030%,null,null,1.431,-1.6702,0.734,0.940,32648,1
+GO:0032479,"regulation of type I interferon production",0.168%,null,null,2.170,-1.4309,0.716,0.924,32648,1
+GO:0032480,"negative regulation of type I interferon production",0.055%,null,null,1.690,-1.7158,0.710,0.857,32648,1
+GO:0042157,"lipoprotein metabolic process",0.387%,-2.143,-6.093,2.533,-1.9727,0.870,0.201,42157,0
+GO:0060023,"soft palate development",0.010%, 6.007, 1.499,1.000,-2.5243,0.892,0.214,60023,0
+GO:0009186,"deoxyribonucleoside diphosphate metabolic process",0.023%,-3.008,-1.112,1.322,-1.4118,0.841,0.227,9186,0
+GO:0060972,"left/right pattern formation",0.040%, 7.337,-0.063,1.556,-2.3696,0.788,0.235,60972,0
+GO:0045599,"negative regulation of fat cell differentiation",0.089%, 5.088, 0.285,1.898,-2.1543,0.749,0.271,45599,0
+GO:0045598,"regulation of fat cell differentiation",0.201%,null,null,2.248,-1.3516,0.759,0.827,45599,1
+GO:0006497,"protein lipidation",0.210%,-3.369,-5.699,2.267,-2.6757,0.800,0.275,6497,0
+GO:0016254,"preassembly of GPI anchor in ER membrane",0.019%,null,null,1.255,-1.3430,0.722,0.825,6497,1
+GO:0042158,"lipoprotein biosynthetic process",0.228%,null,null,2.303,-2.5607,0.811,0.903,6497,1
+GO:0006501,"C-terminal protein lipidation",0.032%,null,null,1.462,-1.5287,0.815,0.854,6497,1
+GO:0006506,"GPI anchor biosynthetic process",0.120%,null,null,2.025,-1.3465,0.692,0.941,6497,1
+GO:0009409,"response to cold",0.093%, 0.755, 0.622,1.919,-1.4037,0.960,0.280,9409,0
+GO:0090042,"tubulin deacetylation",0.023%,-2.611,-6.701,1.322,-2.0630,0.858,0.288,90042,0
+GO:0072539,"T-helper 17 cell differentiation",0.022%, 6.621,-0.007,1.301,-2.0630,0.759,0.300,72539,0
+GO:0045581,"negative regulation of T cell differentiation",0.050%,null,null,1.653,-1.6059,0.680,0.855,72539,1
+GO:0045580,"regulation of T cell differentiation",0.236%,null,null,2.318,-1.5308,0.669,0.723,72539,1
+GO:0018410,"C-terminal protein amino acid modification",0.043%,-2.517,-5.871,1.591,-1.4037,0.848,0.301,18410,0
+GO:0007224,"smoothened signaling pathway",0.316%,-2.015, 2.174,2.444,-1.3437,0.846,0.310,7224,0
+GO:0006513,"protein monoubiquitination",0.067%,-2.712,-5.983,1.778,-1.6560,0.843,0.311,6513,0
+GO:0016567,"protein ubiquitination",1.323%,null,null,3.065,-1.3166,0.810,0.723,6513,1
+GO:0007389,"pattern specification process",1.143%, 7.782,-0.267,3.002,-1.4900,0.776,0.316,7389,0
+GO:0032438,"melanosome organization",0.039%,-1.703, 7.045,1.544,-1.4224,0.834,0.322,32438,0
+GO:0048753,"pigment granule organization",0.041%,null,null,1.568,-1.4224,0.834,0.871,32438,1
+GO:0044252,"negative regulation of multicellular organismal metabolic process",0.007%, 4.801,-3.412,0.845,-1.5720,0.736,0.323,44252,0
+GO:0044246,"regulation of multicellular organismal metabolic process",0.073%,null,null,1.813,-1.4037,0.723,0.726,44252,1
+GO:0060743,"epithelial cell maturation involved in prostate gland development",0.008%, 7.389, 0.254,0.903,-2.0630,0.753,0.335,60743,0
+GO:0060742,"epithelial cell differentiation involved in prostate gland development",0.038%,null,null,1.531,-1.7131,0.733,0.719,60743,1
+GO:0071360,"cellular response to exogenous dsRNA",0.011%,-0.512, 2.432,1.041,-1.4118,0.921,0.336,71360,0
+GO:0070244,"negative regulation of thymocyte apoptotic process",0.017%, 0.793,-1.999,1.204,-1.5720,0.855,0.341,70244,0
+GO:0070229,"negative regulation of lymphocyte apoptotic process",0.070%,null,null,1.792,-1.3430,0.844,0.857,70244,1
+GO:0060271,"cilium morphogenesis",0.426%, 3.433, 5.595,2.574,-2.0496,0.718,0.360,60271,0
+GO:0050687,"negative regulation of defense response to virus",0.022%, 1.401,-1.231,1.301,-1.8336,0.891,0.384,50687,0
+GO:0008635,"activation of cysteine-type endopeptidase activity involved in apoptotic process by cytochrome c",0.021%,-2.988,-5.042,1.279,-1.4118,0.800,0.390,8635,0
+GO:0010847,"regulation of chromatin assembly",0.002%,-4.432, 4.640,0.477,-2.5243,0.745,0.404,10847,0
+GO:0070647,"protein modification by small protein conjugation or removal",1.542%,-4.124,-6.125,3.132,-1.4302,0.815,0.405,70647,0
+GO:0045444,"fat cell differentiation",0.409%, 6.417, 1.605,2.556,-1.3246,0.803,0.410,45444,0
+GO:0048285,"organelle fission",1.175%,-1.842, 7.546,3.014,-1.6878,0.828,0.414,48285,0
+GO:0031650,"regulation of heat generation",0.026%, 5.998,-1.607,1.380,-2.1290,0.755,0.422,31650,0
+GO:0031649,"heat generation",0.036%,null,null,1.519,-1.6059,0.790,0.891,31650,1
+GO:0007031,"peroxisome organization",0.092%,-1.724, 7.285,1.914,-1.6702,0.856,0.432,7031,0
+GO:0030500,"regulation of bone mineralization",0.121%, 7.412,-0.607,2.029,-1.5909,0.726,0.433,30500,0
+GO:0070167,"regulation of biomineral tissue development",0.131%,null,null,2.064,-1.5016,0.724,0.894,30500,1
+GO:0032042,"mitochondrial DNA metabolic process",0.044%,-4.861, 4.496,1.602,-1.4224,0.777,0.440,32042,0
+GO:0010888,"negative regulation of lipid storage",0.031%, 2.820,-1.606,1.447,-1.6059,0.883,0.445,10888,0
+GO:0044282,"small molecule catabolic process",0.575%,-2.430,-2.351,2.704,-2.0630,0.841,0.455,44282,0
+GO:0032462,"regulation of protein homooligomerization",0.021%,-1.658, 6.775,1.279,-1.4224,0.872,0.471,32462,0
+GO:0009081,"branched-chain amino acid metabolic process",0.043%,-3.342,-1.445,1.591,-1.8324,0.815,0.472,9081,0
+GO:0006278,"RNA-dependent DNA replication",0.132%,-5.631,-3.894,2.068,-1.9226,0.799,0.474,6278,0
+GO:0006261,"DNA-dependent DNA replication",0.272%,null,null,2.380,-1.5516,0.790,0.740,6278,1
+GO:0032048,"cardiolipin metabolic process",0.016%,-1.497,-1.384,1.176,-1.8336,0.811,0.480,32048,0
+GO:0035965,"cardiolipin acyl-chain remodeling",0.008%,null,null,0.903,-1.5720,0.817,0.861,32048,1
+GO:0045017,"glycerolipid biosynthetic process",0.440%,null,null,2.588,-1.3766,0.745,0.865,32048,1
+GO:0006661,"phosphatidylinositol biosynthetic process",0.226%,null,null,2.299,-1.3143,0.749,0.923,32048,1
+GO:0046474,"glycerophospholipid biosynthetic process",0.363%,null,null,2.505,-1.6306,0.742,0.700,32048,1
+GO:0071071,"regulation of phospholipid biosynthetic process",0.013%,null,null,1.079,-1.4118,0.755,0.736,32048,1
+GO:1901031,"regulation of response to reactive oxygen species",0.050%, 0.244, 2.377,1.653,-1.5720,0.912,0.481,1901031,0
+GO:0060664,"epithelial cell proliferation involved in salivary gland morphogenesis",0.028%, 7.339, 0.278,1.415,-1.5720,0.799,0.484,60664,0
+GO:0007126,"meiotic nuclear division",0.461%,-2.333, 7.065,2.609,-1.8639,0.788,0.502,7126,0
+GO:0000280,"nuclear division",1.116%,null,null,2.991,-1.5252,0.788,0.890,7126,1
+GO:0007143,"female meiotic division",0.065%,null,null,1.763,-1.5095,0.814,0.817,7126,1
+GO:0007127,"meiosis I",0.199%,null,null,2.246,-1.9017,0.796,0.896,7126,1
+GO:0090285,"negative regulation of protein glycosylation in Golgi",0.002%,-2.421,-6.190,0.477,-2.5243,0.747,0.503,90285,0
+GO:0090283,"regulation of protein glycosylation in Golgi",0.003%,null,null,0.602,-2.0630,0.760,0.866,90285,1
+GO:0060051,"negative regulation of protein glycosylation",0.006%,null,null,0.778,-1.7781,0.736,0.887,90285,1
+GO:0035458,"cellular response to interferon-beta",0.021%,-0.653, 3.027,1.279,-1.4118,0.911,0.513,35458,0
+GO:0000019,"regulation of mitotic recombination",0.011%,-5.997,-2.568,1.041,-2.0630,0.809,0.516,19,0
+GO:0070213,"protein auto-ADP-ribosylation",0.005%,-2.857,-6.813,0.699,-2.0630,0.802,0.521,70213,0
+GO:0070212,"protein poly-ADP-ribosylation",0.005%,null,null,0.699,-2.0630,0.802,0.718,70213,1
+GO:0048871,"multicellular organismal homeostasis",0.562%, 6.326,-1.310,2.694,-1.4095,0.761,0.524,48871,0
+GO:0006071,"glycerol metabolic process",0.052%,-1.837,-3.456,1.672,-1.7131,0.817,0.525,6071,0
+GO:0006066,"alcohol metabolic process",0.738%,null,null,2.812,-1.3517,0.841,0.713,6071,1
+GO:0019400,"alditol metabolic process",0.058%,null,null,1.716,-1.5095,0.816,0.820,6071,1
+GO:0070536,"protein K63-linked deubiquitination",0.024%,-2.295,-6.028,1.342,-1.4224,0.852,0.525,70536,0
+GO:0033211,"adiponectin-activated signaling pathway",0.013%,-0.875, 2.450,1.079,-1.5720,0.854,0.529,33211,0
+GO:0006768,"biotin metabolic process",0.014%,-2.694,-1.109,1.114,-1.9706,0.819,0.542,6768,0
+GO:0000289,"nuclear-transcribed mRNA poly(A) tail shortening",0.049%,-5.751,-3.290,1.643,-1.6560,0.828,0.554,289,0
+GO:0016042,"lipid catabolic process",0.537%,-2.390,-2.700,2.674,-1.6432,0.792,0.555,16042,0
+GO:0032876,"negative regulation of DNA endoreduplication",0.006%,-4.916,-2.547,0.778,-1.7781,0.727,0.566,32876,0
+GO:0033044,"regulation of chromosome organization",0.410%,-2.516, 6.485,2.558,-1.6347,0.764,0.566,33044,0
+GO:0016568,"chromatin modification",1.536%,null,null,3.130,-1.5190,0.793,0.760,33044,1
+GO:0006325,"chromatin organization",1.762%,null,null,3.189,-1.3996,0.792,0.894,33044,1
+GO:0045073,"regulation of chemokine biosynthetic process",0.031%, 3.283,-5.019,1.447,-2.1290,0.617,0.576,45073,0
+GO:0042033,"chemokine biosynthetic process",0.032%,null,null,1.462,-1.9706,0.684,0.956,45073,1
+GO:0045414,"regulation of interleukin-8 biosynthetic process",0.015%,null,null,1.146,-1.4118,0.644,0.722,45073,1
+GO:0045080,"positive regulation of chemokine biosynthetic process",0.023%,null,null,1.322,-1.4118,0.615,0.977,45073,1
+GO:0072567,"chemokine (C-X-C motif) ligand 2 production",0.013%,null,null,1.079,-1.7781,0.784,0.777,45073,1
+GO:2000341,"regulation of chemokine (C-X-C motif) ligand 2 production",0.011%,null,null,1.041,-2.0630,0.755,0.797,45073,1
+GO:0032642,"regulation of chemokine production",0.106%,null,null,1.973,-1.4924,0.724,0.888,45073,1
+GO:0050755,"chemokine metabolic process",0.044%,null,null,1.602,-1.8336,0.838,0.754,45073,1
+GO:0032722,"positive regulation of chemokine production",0.062%,null,null,1.740,-1.5972,0.727,0.931,45073,1
+GO:0042228,"interleukin-8 biosynthetic process",0.016%,null,null,1.176,-1.4118,0.709,0.831,45073,1
+GO:0072015,"glomerular visceral epithelial cell development",0.018%, 6.825, 0.126,1.230,-1.4118,0.745,0.587,72015,0
+GO:0072310,"glomerular epithelial cell development",0.019%,null,null,1.255,-1.4118,0.744,0.942,72015,1
+GO:0001672,"regulation of chromatin assembly or disassembly",0.007%,-1.929, 6.729,0.845,-1.7781,0.804,0.591,1672,0
+GO:0042832,"defense response to protozoan",0.042%, 1.166, 0.854,1.580,-1.4118,0.957,0.595,42832,0
+GO:2000188,"regulation of cholesterol homeostasis",0.032%, 2.758, 0.273,1.462,-1.5720,0.902,0.598,2000188,0
+GO:0051276,"chromosome organization",2.327%,-1.903, 7.389,3.310,-1.6735,0.819,0.602,51276,0
+GO:0001947,"heart looping",0.113%, 7.561,-0.062,2.000,-1.7786,0.705,0.605,1947,0
+GO:0060971,"embryonic heart tube left/right pattern formation",0.008%,null,null,0.903,-1.7781,0.758,0.787,1947,1
+GO:0061371,"determination of heart left/right asymmetry",0.117%,null,null,2.017,-1.7158,0.746,0.908,1947,1
+GO:0042249,"establishment of planar polarity of embryonic epithelium",0.039%,null,null,1.544,-1.4224,0.814,0.906,1947,1
+GO:0007368,"determination of left/right symmetry",0.212%,null,null,2.272,-1.4203,0.758,0.937,1947,1
+GO:0090178,"regulation of establishment of planar polarity involved in neural tube closure",0.035%,null,null,1.505,-1.5095,0.709,0.988,1947,1
+GO:0090177,"establishment of planar polarity involved in neural tube closure",0.038%,null,null,1.531,-1.5095,0.752,0.992,1947,1
+GO:0090179,"planar cell polarity pathway involved in neural tube closure",0.033%,null,null,1.477,-1.5095,0.650,0.831,1947,1
+GO:0060287,"epithelial cilium movement involved in determination of left/right asymmetry",0.017%,null,null,1.204,-1.7781,0.756,0.795,1947,1
+GO:0003143,"embryonic heart tube morphogenesis",0.126%,null,null,2.049,-1.4924,0.736,0.948,1947,1
+GO:0001841,"neural tube formation",0.255%,null,null,2.352,-1.5835,0.731,0.740,1947,1
+GO:0035148,"tube formation",0.328%,null,null,2.461,-1.3317,0.754,0.798,1947,1
+GO:0006451,"translational readthrough",0.008%,-3.774,-5.678,0.903,-1.5720,0.805,0.609,6451,0
+GO:0060716,"labyrinthine layer blood vessel development",0.049%, 7.883, 0.036,1.643,-1.3430,0.777,0.611,60716,0
+GO:0032200,"telomere organization",0.157%,-1.885, 7.096,2.143,-1.3785,0.826,0.615,32200,0
+GO:0061046,"regulation of branching involved in lung morphogenesis",0.021%, 7.107,-0.418,1.279,-1.7781,0.731,0.618,61046,0
+GO:0060612,"adipose tissue development",0.075%, 7.023,-0.071,1.826,-2.2336,0.780,0.623,60612,0
+GO:0006312,"mitotic recombination",0.049%,-6.238,-2.313,1.643,-1.5287,0.838,0.624,6312,0
+GO:0032606,"type I interferon production",0.178%, 6.979,-2.069,2.196,-1.4022,0.769,0.630,32606,0
+GO:0030258,"lipid modification",0.468%,-1.592,-2.122,2.615,-1.6306,0.786,0.632,30258,0
+GO:0044782,"cilium organization",0.384%,-1.744, 7.426,2.529,-1.6655,0.808,0.635,44782,0
+GO:0019221,"cytokine-mediated signaling pathway",0.956%,-2.409, 2.658,2.924,-1.4476,0.812,0.664,19221,0
+GO:0001659,"temperature homeostasis",0.074%, 5.727,-1.247,1.820,-1.5287,0.785,0.667,1659,0
+GO:0035050,"embryonic heart tube development",0.168%, 7.405,-0.205,2.170,-1.5016,0.746,0.668,35050,0
+GO:0051321,"meiotic cell cycle",0.540%, 0.414, 3.249,2.677,-1.9739,0.888,0.684,51321,0
+GO:0030328,"prenylcysteine catabolic process",0.014%,-3.473,-1.729,1.114,-2.5243,0.796,0.684,30328,0
+GO:0030329,"prenylcysteine metabolic process",0.014%,null,null,1.114,-2.5243,0.821,0.763,30328,1
+GO:2001252,"positive regulation of chromosome organization",0.175%,-2.587, 6.534,2.190,-1.6870,0.756,0.687,2001252,0
+GO:1902275,"regulation of chromatin organization",0.247%,null,null,2.338,-1.4046,0.759,0.887,2001252,1
+GO:0009953,"dorsal/ventral pattern formation",0.244%, 6.722,-0.283,2.332,-1.6801,0.763,0.691,9953,0
+GO:0003002,"regionalization",0.918%,null,null,2.907,-1.5123,0.741,0.826,9953,1
+GO:0009798,"axis specification",0.219%,null,null,2.286,-1.5308,0.765,0.728,9953,1
+GO:0009799,"specification of symmetry",0.235%,null,null,2.316,-1.6801,0.764,0.732,9953,1

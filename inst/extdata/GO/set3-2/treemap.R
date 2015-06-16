@@ -1,0 +1,237 @@
+
+
+# A treemap R script produced by the REVIGO server at http://revigo.irb.hr/
+# If you found REVIGO useful in your work, please cite the following reference:
+# Supek F et al. "REVIGO summarizes and visualizes long lists of Gene Ontology
+# terms" PLoS ONE 2011. doi:10.1371/journal.pone.0021800
+
+# author: Anton Kratz <anton.kratz@gmail.com>, RIKEN Omics Science Center, Functional Genomics Technology Team, Japan
+# created: Fri, Nov 02, 2012  7:25:52 PM
+# last change: Fri, Nov 09, 2012  3:20:01 PM
+
+# -----------------------------------------------------------------------------
+# If you don't have the treemap package installed, uncomment the following line:
+# install.packages( "treemap" );
+library(treemap) 								# treemap package by Martijn Tennekes
+
+# Set the working directory if necessary
+# setwd("C:/Users/username/workingdir");
+
+# --------------------------------------------------------------------------
+# Here is your data from REVIGO. Scroll down for plot configuration options.
+
+revigo.names <- c("term_ID","description","freqInDbPercent","abslog10pvalue","uniqueness","dispensability","representative");
+revigo.data <- rbind(c("GO:0002376","immune system process",29.354,1.6955,0.996,0.000,"immune system process"),
+c("GO:0007167","enzyme linked receptor protein signaling pathway",2.356,4.9586,0.747,0.000,"enzyme linked receptor protein signaling pathway"),
+c("GO:0009719","response to endogenous stimulus",3.718,2.0110,0.964,0.112,"enzyme linked receptor protein signaling pathway"),
+c("GO:0048519","negative regulation of biological process",8.588,4.7959,0.895,0.113,"enzyme linked receptor protein signaling pathway"),
+c("GO:0006928","cellular component movement",3.830,2.7258,0.901,0.124,"enzyme linked receptor protein signaling pathway"),
+c("GO:0065009","regulation of molecular function",6.209,2.1325,0.906,0.125,"enzyme linked receptor protein signaling pathway"),
+c("GO:0051239","regulation of multicellular organismal process",5.506,3.4202,0.901,0.131,"enzyme linked receptor protein signaling pathway"),
+c("GO:0007049","cell cycle",3.703,1.9389,0.901,0.132,"enzyme linked receptor protein signaling pathway"),
+c("GO:0051716","cellular response to stimulus",19.092,3.2291,0.908,0.160,"enzyme linked receptor protein signaling pathway"),
+c("GO:0007154","cell communication",17.535,4.0088,0.880,0.173,"enzyme linked receptor protein signaling pathway"),
+c("GO:0071228","cellular response to tumor cell",0.001,1.7226,0.934,0.177,"enzyme linked receptor protein signaling pathway"),
+c("GO:0048518","positive regulation of biological process",28.712,3.6576,0.874,0.190,"enzyme linked receptor protein signaling pathway"),
+c("GO:0006950","response to stress",8.191,2.5143,0.961,0.190,"enzyme linked receptor protein signaling pathway"),
+c("GO:0042221","response to chemical",8.684,2.7496,0.961,0.193,"enzyme linked receptor protein signaling pathway"),
+c("GO:0051726","regulation of cell cycle",1.952,2.9031,0.798,0.229,"enzyme linked receptor protein signaling pathway"),
+c("GO:2000113","negative regulation of cellular macromolecule biosynthetic process",2.396,4.8539,0.653,0.235,"enzyme linked receptor protein signaling pathway"),
+c("GO:0019222","regulation of metabolic process",17.756,3.6021,0.876,0.236,"enzyme linked receptor protein signaling pathway"),
+c("GO:0042981","regulation of apoptotic process",3.144,4.4685,0.746,0.245,"enzyme linked receptor protein signaling pathway"),
+c("GO:0042127","regulation of cell proliferation",3.148,3.7696,0.790,0.254,"enzyme linked receptor protein signaling pathway"),
+c("GO:0035357","peroxisome proliferator activated receptor signaling pathway",0.025,3.0044,0.833,0.255,"enzyme linked receptor protein signaling pathway"),
+c("GO:0048583","regulation of response to stimulus",26.518,2.4401,0.859,0.273,"enzyme linked receptor protein signaling pathway"),
+c("GO:0043412","macromolecule modification",10.189,1.9462,0.920,0.282,"enzyme linked receptor protein signaling pathway"),
+c("GO:0048522","positive regulation of cellular process",8.548,2.8297,0.790,0.297,"enzyme linked receptor protein signaling pathway"),
+c("GO:0060377","negative regulation of mast cell differentiation",0.001,1.7226,0.674,0.310,"enzyme linked receptor protein signaling pathway"),
+c("GO:1900102","negative regulation of endoplasmic reticulum unfolded protein response",0.001,1.7226,0.789,0.310,"enzyme linked receptor protein signaling pathway"),
+c("GO:0090272","negative regulation of fibroblast growth factor production",0.002,1.7226,0.770,0.311,"enzyme linked receptor protein signaling pathway"),
+c("GO:0019216","regulation of lipid metabolic process",0.558,2.0039,0.831,0.319,"enzyme linked receptor protein signaling pathway"),
+c("GO:0038007","netrin-activated signaling pathway",0.006,1.7226,0.844,0.326,"enzyme linked receptor protein signaling pathway"),
+c("GO:0048015","phosphatidylinositol-mediated signaling",0.367,3.2596,0.783,0.328,"enzyme linked receptor protein signaling pathway"),
+c("GO:0050789","regulation of biological process",49.744,2.8297,0.870,0.335,"enzyme linked receptor protein signaling pathway"),
+c("GO:0045725","positive regulation of glycogen biosynthetic process",0.031,1.8377,0.789,0.336,"enzyme linked receptor protein signaling pathway"),
+c("GO:0050794","regulation of cellular process",28.971,2.9957,0.851,0.337,"enzyme linked receptor protein signaling pathway"),
+c("GO:0030522","intracellular receptor signaling pathway",0.684,2.0250,0.785,0.352,"enzyme linked receptor protein signaling pathway"),
+c("GO:0071733","transcriptional activation by promoter-enhancer looping",0.003,1.7226,0.813,0.365,"enzyme linked receptor protein signaling pathway"),
+c("GO:0000160","phosphorelay signal transduction system",0.030,1.7226,0.828,0.367,"enzyme linked receptor protein signaling pathway"),
+c("GO:0051782","negative regulation of cell division",0.023,2.2933,0.802,0.387,"enzyme linked receptor protein signaling pathway"),
+c("GO:0071310","cellular response to organic substance",4.572,2.4498,0.849,0.392,"enzyme linked receptor protein signaling pathway"),
+c("GO:0043549","regulation of kinase activity",1.684,3.5229,0.730,0.399,"enzyme linked receptor protein signaling pathway"),
+c("GO:0010481","epidermal cell division",0.003,1.7226,0.936,0.429,"enzyme linked receptor protein signaling pathway"),
+c("GO:0046777","protein autophosphorylation",0.414,1.8983,0.876,0.429,"enzyme linked receptor protein signaling pathway"),
+c("GO:0071931","positive regulation of transcription involved in G1/S transition of mitotic cell cycle",0.002,1.7226,0.810,0.434,"enzyme linked receptor protein signaling pathway"),
+c("GO:0048017","inositol lipid-mediated signaling",0.367,3.2596,0.791,0.450,"enzyme linked receptor protein signaling pathway"),
+c("GO:0051174","regulation of phosphorus metabolic process",4.788,1.9003,0.732,0.460,"enzyme linked receptor protein signaling pathway"),
+c("GO:0038095","Fc-epsilon receptor signaling pathway",0.370,2.4698,0.778,0.471,"enzyme linked receptor protein signaling pathway"),
+c("GO:0035023","regulation of Rho protein signal transduction",0.691,1.8548,0.759,0.476,"enzyme linked receptor protein signaling pathway"),
+c("GO:0045403","negative regulation of interleukin-4 biosynthetic process",0.001,1.7226,0.704,0.477,"enzyme linked receptor protein signaling pathway"),
+c("GO:0051246","regulation of protein metabolic process",4.423,2.0013,0.786,0.477,"enzyme linked receptor protein signaling pathway"),
+c("GO:0051250","negative regulation of lymphocyte activation",0.258,1.7513,0.762,0.483,"enzyme linked receptor protein signaling pathway"),
+c("GO:0051389","inactivation of MAPKK activity",0.001,1.7226,0.735,0.508,"enzyme linked receptor protein signaling pathway"),
+c("GO:0001100","negative regulation of exit from mitosis",0.001,1.7226,0.818,0.515,"enzyme linked receptor protein signaling pathway"),
+c("GO:0071285","cellular response to lithium ion",0.051,1.7560,0.900,0.517,"enzyme linked receptor protein signaling pathway"),
+c("GO:0016055","Wnt signaling pathway",0.887,1.7430,0.771,0.520,"enzyme linked receptor protein signaling pathway"),
+c("GO:2000271","positive regulation of fibroblast apoptotic process",0.009,2.4634,0.823,0.524,"enzyme linked receptor protein signaling pathway"),
+c("GO:0010458","exit from mitosis",0.033,2.5058,0.902,0.531,"enzyme linked receptor protein signaling pathway"),
+c("GO:0010604","positive regulation of macromolecule metabolic process",4.917,1.7135,0.774,0.533,"enzyme linked receptor protein signaling pathway"),
+c("GO:0043276","anoikis",0.033,2.2857,0.893,0.536,"enzyme linked receptor protein signaling pathway"),
+c("GO:0016310","phosphorylation",10.160,1.9876,0.881,0.541,"enzyme linked receptor protein signaling pathway"),
+c("GO:0007165","signal transduction",16.054,3.7959,0.695,0.545,"enzyme linked receptor protein signaling pathway"),
+c("GO:0051897","positive regulation of protein kinase B signaling",0.138,1.8077,0.771,0.549,"enzyme linked receptor protein signaling pathway"),
+c("GO:0007169","transmembrane receptor protein tyrosine kinase signaling pathway",1.599,4.0915,0.753,0.558,"enzyme linked receptor protein signaling pathway"),
+c("GO:0006357","regulation of transcription from RNA polymerase II promoter",3.684,1.8972,0.716,0.564,"enzyme linked receptor protein signaling pathway"),
+c("GO:0018108","peptidyl-tyrosine phosphorylation",1.130,1.8533,0.859,0.565,"enzyme linked receptor protein signaling pathway"),
+c("GO:0002053","positive regulation of mesenchymal cell proliferation",0.084,1.9465,0.826,0.583,"enzyme linked receptor protein signaling pathway"),
+c("GO:0080090","regulation of primary metabolic process",15.914,3.4202,0.770,0.586,"enzyme linked receptor protein signaling pathway"),
+c("GO:0035358","regulation of peroxisome proliferator activated receptor signaling pathway",0.019,2.2933,0.820,0.588,"enzyme linked receptor protein signaling pathway"),
+c("GO:0009893","positive regulation of metabolic process",5.415,1.7786,0.793,0.598,"enzyme linked receptor protein signaling pathway"),
+c("GO:0006464","cellular protein modification process",9.809,2.2757,0.844,0.616,"enzyme linked receptor protein signaling pathway"),
+c("GO:0009968","negative regulation of signal transduction",2.090,2.3737,0.658,0.617,"enzyme linked receptor protein signaling pathway"),
+c("GO:1902041","regulation of extrinsic apoptotic signaling pathway via death domain receptors",0.079,1.7296,0.760,0.631,"enzyme linked receptor protein signaling pathway"),
+c("GO:0010646","regulation of cell communication",6.570,3.0555,0.754,0.631,"enzyme linked receptor protein signaling pathway"),
+c("GO:0043627","response to estrogen",0.539,2.0799,0.933,0.631,"enzyme linked receptor protein signaling pathway"),
+c("GO:0023051","regulation of signaling",6.570,3.3372,0.826,0.637,"enzyme linked receptor protein signaling pathway"),
+c("GO:0001808","negative regulation of type IV hypersensitivity",0.003,1.7226,0.853,0.639,"enzyme linked receptor protein signaling pathway"),
+c("GO:0035556","intracellular signal transduction",6.704,1.8153,0.725,0.640,"enzyme linked receptor protein signaling pathway"),
+c("GO:0009892","negative regulation of metabolic process",3.994,3.3188,0.727,0.646,"enzyme linked receptor protein signaling pathway"),
+c("GO:2000107","negative regulation of leukocyte apoptotic process",0.107,3.0809,0.746,0.649,"enzyme linked receptor protein signaling pathway"),
+c("GO:0048585","negative regulation of response to stimulus",2.501,2.3063,0.779,0.650,"enzyme linked receptor protein signaling pathway"),
+c("GO:0050680","negative regulation of epithelial cell proliferation",0.255,2.7878,0.757,0.651,"enzyme linked receptor protein signaling pathway"),
+c("GO:0023056","positive regulation of signaling",2.489,2.3635,0.814,0.673,"enzyme linked receptor protein signaling pathway"),
+c("GO:0010647","positive regulation of cell communication",2.500,2.3478,0.741,0.673,"enzyme linked receptor protein signaling pathway"),
+c("GO:0023057","negative regulation of signaling",2.197,2.2426,0.730,0.677,"enzyme linked receptor protein signaling pathway"),
+c("GO:0070663","regulation of leukocyte proliferation",0.370,1.7104,0.829,0.678,"enzyme linked receptor protein signaling pathway"),
+c("GO:0010648","negative regulation of cell communication",2.203,2.2190,0.684,0.678,"enzyme linked receptor protein signaling pathway"),
+c("GO:1901700","response to oxygen-containing compound",3.064,2.1752,0.935,0.679,"enzyme linked receptor protein signaling pathway"),
+c("GO:0007166","cell surface receptor signaling pathway",8.919,4.0132,0.715,0.683,"enzyme linked receptor protein signaling pathway"),
+c("GO:0007050","cell cycle arrest",0.482,2.6038,0.746,0.685,"enzyme linked receptor protein signaling pathway"),
+c("GO:0051338","regulation of transferase activity",1.829,3.3279,0.812,0.690,"enzyme linked receptor protein signaling pathway"),
+c("GO:0017148","negative regulation of translation",0.138,2.1752,0.718,0.698,"enzyme linked receptor protein signaling pathway"),
+c("GO:0009967","positive regulation of signal transduction",2.348,1.9450,0.711,0.700,"enzyme linked receptor protein signaling pathway"),
+c("GO:0023052","signaling",17.329,3.4815,0.995,0.000,"signaling"),
+c("GO:0032501","multicellular organismal process",15.657,2.3261,0.995,0.000,"multicellular organismal process"),
+c("GO:0032502","developmental process",13.055,1.7683,0.995,0.000,"developmental process"),
+c("GO:0040011","locomotion",3.285,2.7352,0.994,0.000,"locomotion"),
+c("GO:0050896","response to stimulus",47.248,4.0177,0.997,0.000,"response to stimulus"),
+c("GO:0065007","biological regulation",51.216,3.2218,0.997,0.000,"biological regulation"),
+c("GO:0090136","epithelial cell-cell adhesion",0.050,1.9292,0.977,0.017,"epithelial cell-cell adhesion"),
+c("GO:0048732","gland development",1.335,3.9208,0.689,0.023,"gland development"),
+c("GO:0009956","radial pattern formation",0.003,1.7226,0.810,0.266,"gland development"),
+c("GO:0044058","regulation of digestive system process",0.055,2.2933,0.780,0.272,"gland development"),
+c("GO:0003017","lymph circulation",0.001,1.7226,0.874,0.321,"gland development"),
+c("GO:0003342","proepicardium development",0.002,1.7226,0.780,0.322,"gland development"),
+c("GO:0060435","bronchiole development",0.006,1.7226,0.786,0.343,"gland development"),
+c("GO:0044246","regulation of multicellular organismal metabolic process",0.073,1.9957,0.728,0.372,"gland development"),
+c("GO:0045165","cell fate commitment",0.620,1.9496,0.718,0.378,"gland development"),
+c("GO:0031017","exocrine pancreas development",0.028,2.6799,0.764,0.387,"gland development"),
+c("GO:0035272","exocrine system development",0.178,2.2140,0.753,0.393,"gland development"),
+c("GO:0048736","appendage development",0.500,1.7807,0.743,0.404,"gland development"),
+c("GO:0060173","limb development",0.500,1.7807,0.743,0.404,"gland development"),
+c("GO:0055123","digestive system development",0.349,2.0367,0.740,0.419,"gland development"),
+c("GO:0021772","olfactory bulb development",0.082,2.1024,0.735,0.423,"gland development"),
+c("GO:0060537","muscle tissue development",0.965,3.4318,0.725,0.427,"gland development"),
+c("GO:0060613","fat pad development",0.017,2.4634,0.753,0.456,"gland development"),
+c("GO:0030850","prostate gland development",0.195,3.2076,0.710,0.457,"gland development"),
+c("GO:0001655","urogenital system development",0.815,2.2388,0.721,0.458,"gland development"),
+c("GO:2000380","regulation of mesoderm development",0.027,2.4634,0.730,0.473,"gland development"),
+c("GO:0061458","reproductive system development",1.184,2.0685,0.712,0.478,"gland development"),
+c("GO:0003343","septum transversum development",0.002,1.7226,0.780,0.479,"gland development"),
+c("GO:0002070","epithelial cell maturation",0.040,3.1367,0.731,0.487,"gland development"),
+c("GO:0060538","skeletal muscle organ development",0.498,2.4510,0.688,0.502,"gland development"),
+c("GO:1900134","negative regulation of renin secretion into blood stream",0.003,1.7226,0.702,0.508,"gland development"),
+c("GO:0009888","tissue development",4.199,3.5528,0.725,0.510,"gland development"),
+c("GO:0003007","heart morphogenesis",0.586,3.8239,0.658,0.511,"gland development"),
+c("GO:0060764","cell-cell signaling involved in mammary gland development",0.003,1.7226,0.730,0.515,"gland development"),
+c("GO:0030099","myeloid cell differentiation",0.703,1.8228,0.652,0.521,"gland development"),
+c("GO:2000026","regulation of multicellular organismal development",3.472,3.0088,0.611,0.542,"gland development"),
+c("GO:0007417","central nervous system development",2.238,2.8665,0.688,0.548,"gland development"),
+c("GO:0072359","circulatory system development",2.260,1.9083,0.695,0.551,"gland development"),
+c("GO:0021545","cranial nerve development",0.150,2.1605,0.748,0.556,"gland development"),
+c("GO:0021888","hypothalamus gonadotrophin-releasing hormone neuron development",0.016,1.7226,0.726,0.560,"gland development"),
+c("GO:0050793","regulation of developmental process",4.431,2.8570,0.670,0.563,"gland development"),
+c("GO:0003166","bundle of His development",0.007,2.9747,0.716,0.587,"gland development"),
+c("GO:0060971","embryonic heart tube left/right pattern formation",0.008,2.6799,0.727,0.594,"gland development"),
+c("GO:0007499","ectoderm and mesoderm interaction",0.001,1.7226,0.762,0.595,"gland development"),
+c("GO:0009887","organ morphogenesis",2.260,3.4815,0.669,0.596,"gland development"),
+c("GO:0001818","negative regulation of cytokine production",0.301,2.1024,0.684,0.598,"gland development"),
+c("GO:0030238","male sex determination",0.097,2.2933,0.760,0.607,"gland development"),
+c("GO:0060644","mammary gland epithelial cell differentiation",0.047,2.8861,0.693,0.612,"gland development"),
+c("GO:0021816","extension of a leading process involved in cell motility in cerebral cortex radial glia guided migration",0.009,1.7226,0.715,0.612,"gland development"),
+c("GO:0030878","thyroid gland development",0.051,1.8377,0.744,0.616,"gland development"),
+c("GO:0030278","regulation of ossification",0.401,1.7102,0.749,0.617,"gland development"),
+c("GO:0043589","skin morphogenesis",0.108,1.9957,0.730,0.619,"gland development"),
+c("GO:0007530","sex determination",0.126,2.8861,0.791,0.619,"gland development"),
+c("GO:0060485","mesenchyme development",0.581,2.2328,0.687,0.621,"gland development"),
+c("GO:0060612","adipose tissue development",0.075,2.1024,0.729,0.623,"gland development"),
+c("GO:0002065","columnar/cuboidal epithelial cell differentiation",0.235,2.6498,0.699,0.623,"gland development"),
+c("GO:0003002","regionalization",0.918,2.2684,0.724,0.626,"gland development"),
+c("GO:0042693","muscle cell fate commitment",0.036,2.2933,0.730,0.631,"gland development"),
+c("GO:0014706","striated muscle tissue development",0.931,3.0555,0.705,0.652,"gland development"),
+c("GO:0003006","developmental process involved in reproduction",1.709,2.1469,0.748,0.652,"gland development"),
+c("GO:0001570","vasculogenesis",0.210,1.7242,0.670,0.655,"gland development"),
+c("GO:0001893","maternal placenta development",0.083,2.1605,0.725,0.659,"gland development"),
+c("GO:0048513","organ development",7.380,3.5376,0.657,0.662,"gland development"),
+c("GO:0042662","negative regulation of mesodermal cell fate specification",0.009,1.7226,0.602,0.665,"gland development"),
+c("GO:0060668","regulation of branching involved in salivary gland morphogenesis by extracellular matrix-epithelial cell signaling",0.002,1.7226,0.682,0.671,"gland development"),
+c("GO:0051241","negative regulation of multicellular organismal process",0.833,2.0716,0.661,0.672,"gland development"),
+c("GO:0060923","cardiac muscle cell fate commitment",0.015,2.4634,0.665,0.681,"gland development"),
+c("GO:0060911","cardiac cell fate commitment",0.027,1.9292,0.686,0.688,"gland development"),
+c("GO:0061515","myeloid cell development",0.120,1.9957,0.691,0.690,"gland development"),
+c("GO:0030154","cell differentiation",8.015,1.7865,0.642,0.693,"gland development"),
+c("GO:0044707","single-multicellular organism process",15.092,2.1385,0.759,0.695,"gland development"),
+c("GO:0008283","cell proliferation",4.075,2.9747,0.968,0.027,"cell proliferation"),
+c("GO:0016265","death",4.501,1.9382,0.968,0.030,"death"),
+c("GO:0006914","autophagy",0.414,2.1720,0.931,0.045,"autophagy"),
+c("GO:0035609","C-terminal protein deglutamylation",0.006,1.7226,0.915,0.066,"C-terminal protein deglutamylation"),
+c("GO:0070358","actin polymerization-dependent cell motility",0.008,3.4437,0.920,0.066,"actin polymerization-dependent cell motility"),
+c("GO:0070715","sodium-dependent organic cation transport",0.001,1.7226,0.967,0.130,"actin polymerization-dependent cell motility"),
+c("GO:0051674","localization of cell",2.570,2.2840,0.975,0.206,"actin polymerization-dependent cell motility"),
+c("GO:0090327","negative regulation of locomotion involved in locomotory behavior",0.001,1.7226,0.865,0.317,"actin polymerization-dependent cell motility"),
+c("GO:0051050","positive regulation of transport",1.381,2.0339,0.877,0.340,"actin polymerization-dependent cell motility"),
+c("GO:0003363","lamellipodium assembly involved in ameboidal cell migration",0.001,1.7226,0.919,0.343,"actin polymerization-dependent cell motility"),
+c("GO:0003331","positive regulation of extracellular matrix constituent secretion",0.005,1.7226,0.839,0.465,"actin polymerization-dependent cell motility"),
+c("GO:0051957","positive regulation of amino acid transport",0.033,1.7226,0.896,0.539,"actin polymerization-dependent cell motility"),
+c("GO:0048870","cell motility",2.570,2.2840,0.877,0.545,"actin polymerization-dependent cell motility"),
+c("GO:0042752","regulation of circadian rhythm",0.179,1.8989,0.926,0.070,"regulation of circadian rhythm"),
+c("GO:0048872","homeostasis of number of cells",0.558,3.9586,0.887,0.073,"homeostasis of number of cells"),
+c("GO:0097009","energy homeostasis",0.046,1.7560,0.782,0.515,"homeostasis of number of cells"),
+c("GO:0031651","negative regulation of heat generation",0.001,1.7226,0.757,0.540,"homeostasis of number of cells"),
+c("GO:0002262","myeloid cell homeostasis",0.334,2.4989,0.874,0.610,"homeostasis of number of cells"),
+c("GO:0032844","regulation of homeostatic process",0.737,2.5702,0.880,0.658,"homeostasis of number of cells"),
+c("GO:0048871","multicellular organismal homeostasis",0.562,1.8008,0.742,0.658,"homeostasis of number of cells"),
+c("GO:0007044","cell-substrate junction assembly",0.174,1.7242,0.910,0.086,"cell-substrate junction assembly"),
+c("GO:1901194","negative regulation of formation of translation preinitiation complex",0.001,1.7226,0.795,0.332,"cell-substrate junction assembly"),
+c("GO:0006425","glutaminyl-tRNA aminoacylation",0.011,1.7226,0.872,0.376,"cell-substrate junction assembly"),
+c("GO:0070060","'de novo' actin filament nucleation",0.001,1.7226,0.842,0.397,"cell-substrate junction assembly"),
+c("GO:0006542","glutamine biosynthetic process",0.008,1.7226,0.899,0.441,"cell-substrate junction assembly"),
+c("GO:1901193","regulation of formation of translation preinitiation complex",0.001,1.7226,0.829,0.644,"cell-substrate junction assembly"));
+
+stuff <- data.frame(revigo.data);
+names(stuff) <- revigo.names;
+
+stuff$abslog10pvalue <- as.numeric( as.character(stuff$abslog10pvalue) );
+stuff$freqInDbPercent <- as.numeric( as.character(stuff$freqInDbPercent) );
+stuff$uniqueness <- as.numeric( as.character(stuff$uniqueness) );
+stuff$dispensability <- as.numeric( as.character(stuff$dispensability) );
+
+# by default, outputs to a PDF file
+pdf( file="revigo_treemap.pdf", width=16, height=9 ) # width and height are in inches
+
+# check the tmPlot command documentation for all possible parameters - there are a lot more
+tmPlot(
+	stuff,
+	index = c("representative","description"),
+	vSize = "abslog10pvalue",
+	type = "categorical",
+	vColor = "representative",
+	title = "REVIGO Gene Ontology treemap",
+	inflate.labels = FALSE,      # set this to TRUE for space-filling group labels - good for posters
+	lowerbound.cex.labels = 0,   # try to draw as many labels as possible (still, some small squares may not get a label)
+	bg.labels = "#CCCCCCAA",     # define background color of group labels
+												       # "#CCCCCC00" is fully transparent, "#CCCCCCAA" is semi-transparent grey, NA is opaque
+	position.legend = "none"
+)
+
+dev.off()

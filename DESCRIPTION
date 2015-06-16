@@ -1,0 +1,22 @@
+Package: rnaseq.mcf10a
+Type: Package
+Title: Supplementary R package to the paper "Perturbations of PIP3 signalling trigger a global remodelling of mRNA landscape and reveal a transcriptional feedback loop"
+Version: 0.1
+Date: 2015-06-16
+Author: Vladimir Kiselev
+Maintainer: Vladimir Kiselev <vladimir.yu.kiselev@gmail.com>
+Description: Allows one to fully reproduce results presented in the paper. Contains all data used in the paper with their description.
+License: The MIT License (MIT)
+LazyData: TRUE
+Imports:
+    DESeq2 (== 1.4.5),
+    fpc,
+    ggplot2,
+    reshape,
+    data.table,
+    topGO (== 2.16.0),
+    GO.db (== 2.14.0),
+    org.Hs.eg.db (== 2.14.0),
+    treemap,
+    gplots,
+    rtracklayer

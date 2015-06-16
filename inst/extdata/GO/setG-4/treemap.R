@@ -1,0 +1,237 @@
+
+
+# A treemap R script produced by the REVIGO server at http://revigo.irb.hr/
+# If you found REVIGO useful in your work, please cite the following reference:
+# Supek F et al. "REVIGO summarizes and visualizes long lists of Gene Ontology
+# terms" PLoS ONE 2011. doi:10.1371/journal.pone.0021800
+
+# author: Anton Kratz <anton.kratz@gmail.com>, RIKEN Omics Science Center, Functional Genomics Technology Team, Japan
+# created: Fri, Nov 02, 2012  7:25:52 PM
+# last change: Fri, Nov 09, 2012  3:20:01 PM
+
+# -----------------------------------------------------------------------------
+# If you don't have the treemap package installed, uncomment the following line:
+# install.packages( "treemap" );
+library(treemap) 								# treemap package by Martijn Tennekes
+
+# Set the working directory if necessary
+# setwd("C:/Users/username/workingdir");
+
+# --------------------------------------------------------------------------
+# Here is your data from REVIGO. Scroll down for plot configuration options.
+
+revigo.names <- c("term_ID","description","freqInDbPercent","abslog10pvalue","uniqueness","dispensability","representative");
+revigo.data <- rbind(c("GO:0003183","mitral valve morphogenesis",0.007,3.1135,0.754,0.000,"mitral valve morphogenesis"),
+c("GO:0003095","pressure natriuresis",0.003,2.9172,0.830,0.162,"mitral valve morphogenesis"),
+c("GO:0032633","interleukin-4 production",0.068,1.7781,0.824,0.190,"mitral valve morphogenesis"),
+c("GO:0007386","compartment pattern specification",0.008,1.9488,0.816,0.204,"mitral valve morphogenesis"),
+c("GO:0021557","oculomotor nerve development",0.006,2.9172,0.789,0.216,"mitral valve morphogenesis"),
+c("GO:2000331","regulation of terminal button organization",0.002,1.4587,0.854,0.231,"mitral valve morphogenesis"),
+c("GO:0035356","cellular triglyceride homeostasis",0.010,1.9488,0.911,0.249,"mitral valve morphogenesis"),
+c("GO:2000974","negative regulation of pro-B cell differentiation",0.006,2.9172,0.657,0.249,"mitral valve morphogenesis"),
+c("GO:0070384","Harderian gland development",0.008,1.4587,0.795,0.254,"mitral valve morphogenesis"),
+c("GO:0001503","ossification",0.817,1.6990,0.803,0.265,"mitral valve morphogenesis"),
+c("GO:0051145","smooth muscle cell differentiation",0.128,2.3382,0.746,0.282,"mitral valve morphogenesis"),
+c("GO:0009912","auditory receptor cell fate commitment",0.016,2.4522,0.706,0.309,"mitral valve morphogenesis"),
+c("GO:0002087","regulation of respiratory gaseous exchange by neurological system process",0.025,1.5318,0.787,0.326,"mitral valve morphogenesis"),
+c("GO:0048568","embryonic organ development",1.162,2.4112,0.694,0.366,"mitral valve morphogenesis"),
+c("GO:0072141","renal interstitial fibroblast development",0.017,1.7830,0.747,0.368,"mitral valve morphogenesis"),
+c("GO:0035026","leading edge cell differentiation",0.002,1.4587,0.781,0.440,"mitral valve morphogenesis"),
+c("GO:2000227","negative regulation of pancreatic A cell differentiation",0.002,1.4587,0.677,0.440,"mitral valve morphogenesis"),
+c("GO:0051562","negative regulation of mitochondrial calcium ion concentration",0.003,1.4587,0.916,0.441,"mitral valve morphogenesis"),
+c("GO:0060979","vasculogenesis involved in coronary vascular morphogenesis",0.005,1.4587,0.742,0.442,"mitral valve morphogenesis"),
+c("GO:2000737","negative regulation of stem cell differentiation",0.010,1.7830,0.701,0.442,"mitral valve morphogenesis"),
+c("GO:0060843","venous endothelial cell differentiation",0.003,1.4587,0.741,0.450,"mitral valve morphogenesis"),
+c("GO:0035295","tube development",1.620,1.8468,0.741,0.453,"mitral valve morphogenesis"),
+c("GO:0021510","spinal cord development",0.198,2.6216,0.735,0.464,"mitral valve morphogenesis"),
+c("GO:0060253","negative regulation of glial cell proliferation",0.023,1.7830,0.649,0.477,"mitral valve morphogenesis"),
+c("GO:0007387","anterior compartment pattern formation",0.001,1.4587,0.832,0.482,"mitral valve morphogenesis"),
+c("GO:0050891","multicellular organismal water homeostasis",0.068,1.5732,0.796,0.491,"mitral valve morphogenesis"),
+c("GO:0060348","bone development",0.513,1.5262,0.728,0.496,"mitral valve morphogenesis"),
+c("GO:0072359","circulatory system development",2.260,1.7862,0.720,0.507,"mitral valve morphogenesis"),
+c("GO:0001501","skeletal system development",1.209,1.5278,0.734,0.510,"mitral valve morphogenesis"),
+c("GO:0046331","lateral inhibition",0.002,1.4587,0.779,0.520,"mitral valve morphogenesis"),
+c("GO:0014908","myotube differentiation involved in skeletal muscle regeneration",0.002,1.4587,0.755,0.530,"mitral valve morphogenesis"),
+c("GO:0002520","immune system development",1.845,1.4988,0.708,0.537,"mitral valve morphogenesis"),
+c("GO:0007507","heart development",1.251,2.0048,0.691,0.546,"mitral valve morphogenesis"),
+c("GO:0030099","myeloid cell differentiation",0.703,2.7212,0.645,0.547,"mitral valve morphogenesis"),
+c("GO:0097150","neuronal stem cell maintenance",0.032,1.5318,0.665,0.549,"mitral valve morphogenesis"),
+c("GO:0009888","tissue development",4.199,1.7496,0.750,0.549,"mitral valve morphogenesis"),
+c("GO:0045595","regulation of cell differentiation",3.246,2.3990,0.605,0.554,"mitral valve morphogenesis"),
+c("GO:0060136","embryonic process involved in female pregnancy",0.026,1.9488,0.761,0.558,"mitral valve morphogenesis"),
+c("GO:0021522","spinal cord motor neuron differentiation",0.090,1.5732,0.709,0.561,"mitral valve morphogenesis"),
+c("GO:0050793","regulation of developmental process",4.431,1.5432,0.713,0.563,"mitral valve morphogenesis"),
+c("GO:0061102","stomach neuroendocrine cell differentiation",0.003,1.4587,0.742,0.576,"mitral valve morphogenesis"),
+c("GO:0002051","osteoblast fate commitment",0.018,2.1605,0.758,0.582,"mitral valve morphogenesis"),
+c("GO:0045408","regulation of interleukin-6 biosynthetic process",0.054,1.6469,0.639,0.583,"mitral valve morphogenesis"),
+c("GO:0003266","regulation of secondary heart field cardioblast proliferation",0.025,1.9488,0.650,0.585,"mitral valve morphogenesis"),
+c("GO:0021778","oligodendrocyte cell fate specification",0.016,1.4587,0.736,0.590,"mitral valve morphogenesis"),
+c("GO:0045655","regulation of monocyte differentiation",0.019,2.6882,0.655,0.597,"mitral valve morphogenesis"),
+c("GO:0060377","negative regulation of mast cell differentiation",0.001,1.4587,0.680,0.606,"mitral valve morphogenesis"),
+c("GO:0097084","vascular smooth muscle cell development",0.021,1.9488,0.729,0.607,"mitral valve morphogenesis"),
+c("GO:2000978","negative regulation of forebrain neuron differentiation",0.002,1.4587,0.684,0.614,"mitral valve morphogenesis"),
+c("GO:0060716","labyrinthine layer blood vessel development",0.049,1.8570,0.727,0.617,"mitral valve morphogenesis"),
+c("GO:0030220","platelet formation",0.032,1.5318,0.665,0.620,"mitral valve morphogenesis"),
+c("GO:0048048","embryonic eye morphogenesis",0.101,2.1938,0.717,0.624,"mitral valve morphogenesis"),
+c("GO:0003433","chondrocyte development involved in endochondral bone morphogenesis",0.018,1.4587,0.716,0.628,"mitral valve morphogenesis"),
+c("GO:0035914","skeletal muscle cell differentiation",0.138,1.6666,0.703,0.630,"mitral valve morphogenesis"),
+c("GO:0003170","heart valve development",0.068,1.5732,0.741,0.635,"mitral valve morphogenesis"),
+c("GO:0021953","central nervous system neuron differentiation",0.427,1.5505,0.688,0.636,"mitral valve morphogenesis"),
+c("GO:0035855","megakaryocyte development",0.033,2.8827,0.696,0.644,"mitral valve morphogenesis"),
+c("GO:0045403","negative regulation of interleukin-4 biosynthetic process",0.001,1.4587,0.692,0.646,"mitral valve morphogenesis"),
+c("GO:0045658","regulation of neutrophil differentiation",0.005,1.4587,0.681,0.651,"mitral valve morphogenesis"),
+c("GO:0021558","trochlear nerve development",0.005,1.4587,0.800,0.657,"mitral valve morphogenesis"),
+c("GO:0048513","organ development",7.380,1.6148,0.690,0.662,"mitral valve morphogenesis"),
+c("GO:0016525","negative regulation of angiogenesis",0.139,1.5759,0.636,0.676,"mitral valve morphogenesis"),
+c("GO:0060411","cardiac septum morphogenesis",0.111,1.4921,0.717,0.677,"mitral valve morphogenesis"),
+c("GO:0030224","monocyte differentiation",0.043,1.6368,0.695,0.681,"mitral valve morphogenesis"),
+c("GO:0061515","myeloid cell development",0.120,2.9136,0.675,0.690,"mitral valve morphogenesis"),
+c("GO:0045668","negative regulation of osteoblast differentiation",0.095,1.9918,0.644,0.697,"mitral valve morphogenesis"),
+c("GO:0006357","regulation of transcription from RNA polymerase II promoter",3.684,6.8239,0.661,0.000,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0009058","biosynthetic process",19.017,3.4089,0.929,0.110,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006211","5-methylcytosine catabolic process",0.001,1.4587,0.900,0.143,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0046596","regulation of viral entry into host cell",0.024,2.6882,0.854,0.151,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0070389","chaperone cofactor-dependent protein refolding",0.010,1.9488,0.898,0.162,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0050789","regulation of biological process",49.744,2.8097,0.899,0.163,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0051239","regulation of multicellular organismal process",5.506,2.0910,0.922,0.181,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006807","nitrogen compound metabolic process",26.566,3.1249,0.924,0.183,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0042412","taurine biosynthetic process",0.002,1.4587,0.892,0.198,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0048519","negative regulation of biological process",8.588,1.9722,0.917,0.207,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:1901360","organic cyclic compound metabolic process",25.430,3.5086,0.888,0.208,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0046483","heterocycle metabolic process",24.799,4.1135,0.852,0.213,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:1901663","quinone biosynthetic process",0.033,3.2441,0.828,0.244,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0044237","cellular metabolic process",42.121,1.5035,0.879,0.249,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0046272","stilbene catabolic process",0.001,1.4587,0.878,0.258,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0019222","regulation of metabolic process",17.756,2.3420,0.875,0.269,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0002682","regulation of immune system process",21.361,1.5829,0.866,0.291,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0048522","positive regulation of cellular process",8.548,1.7440,0.807,0.306,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006471","protein ADP-ribosylation",0.076,1.9427,0.808,0.317,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0018205","peptidyl-lysine modification",0.432,1.7169,0.854,0.332,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0048518","positive regulation of biological process",28.712,2.0367,0.902,0.335,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0050794","regulation of cellular process",28.971,2.4789,0.864,0.337,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0061014","positive regulation of mRNA catabolic process",0.023,1.8570,0.762,0.345,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006725","cellular aromatic compound metabolic process",24.907,3.9586,0.852,0.359,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006306","DNA methylation",0.147,2.1152,0.785,0.381,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0043620","regulation of DNA-templated transcription in response to stress",0.077,1.4921,0.729,0.393,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0090304","nucleic acid metabolic process",15.268,5.1871,0.784,0.414,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0040029","regulation of gene expression, epigenetic",0.334,2.5784,0.820,0.415,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0071712","ER-associated misfolded protein catabolic process",0.003,1.4587,0.811,0.424,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:1901675","negative regulation of histone H3-K27 acetylation",0.001,1.4587,0.760,0.430,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0035408","histone H3-T6 phosphorylation",0.002,1.4587,0.840,0.448,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0010467","gene expression",15.379,3.2757,0.857,0.452,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006352","DNA-templated transcription, initiation",0.406,2.9208,0.805,0.455,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0071733","transcriptional activation by promoter-enhancer looping",0.003,1.4587,0.754,0.456,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006259","DNA metabolic process",3.159,1.9792,0.802,0.471,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006304","DNA modification",0.188,1.8955,0.835,0.523,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0044260","cellular macromolecule metabolic process",25.627,1.5050,0.801,0.524,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0051173","positive regulation of nitrogen compound metabolic process",3.225,3.2518,0.750,0.526,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0019857","5-methylcytosine metabolic process",0.001,1.4587,0.914,0.531,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0051171","regulation of nitrogen compound metabolic process",13.046,4.7447,0.752,0.533,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0010629","negative regulation of gene expression",2.446,3.0655,0.721,0.533,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0019438","aromatic compound biosynthetic process",13.512,4.8239,0.768,0.538,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0072365","regulation of cellular ketone metabolic process by negative regulation of transcription from RNA polymerase II promoter",0.001,1.4587,0.762,0.556,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0009110","vitamin biosynthetic process",0.052,2.5243,0.826,0.571,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0009893","positive regulation of metabolic process",5.415,1.8729,0.787,0.574,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0010594","regulation of endothelial cell migration",0.141,1.6319,0.705,0.579,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0043618","regulation of transcription from RNA polymerase II promoter in response to stress",0.072,1.7149,0.723,0.588,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006260","DNA replication",0.926,1.5887,0.790,0.611,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006366","transcription from RNA polymerase II promoter",3.963,7.1805,0.750,0.613,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006139","nucleobase-containing compound metabolic process",24.258,4.0506,0.787,0.636,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0016458","gene silencing",0.191,1.8496,0.756,0.639,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0019076","viral release from host cell",0.015,1.8570,0.930,0.641,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0030513","positive regulation of BMP signaling pathway",0.171,2.1391,0.693,0.641,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0009892","negative regulation of metabolic process",3.994,1.7095,0.763,0.648,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0007178","transmembrane receptor protein serine/threonine kinase signaling pathway",0.794,1.4920,0.805,0.653,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:1901362","organic cyclic compound biosynthetic process",13.849,4.2147,0.797,0.676,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0006367","transcription initiation from RNA polymerase II promoter",0.283,2.6655,0.804,0.676,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0009889","regulation of biosynthetic process",11.561,3.1549,0.739,0.678,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0018130","heterocycle biosynthetic process",13.553,4.7696,0.767,0.691,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0044271","cellular nitrogen compound biosynthetic process",13.670,4.6198,0.762,0.693,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0034641","cellular nitrogen compound metabolic process",25.263,3.4685,0.807,0.697,"regulation of transcription from RNA polymerase II promoter"),
+c("GO:0007136","meiotic prophase II",0.013,1.4587,0.994,0.000,"meiotic prophase II"),
+c("GO:0051412","response to corticosterone",0.073,2.9626,0.963,0.000,"response to corticosterone"),
+c("GO:0071248","cellular response to metal ion",0.232,1.9322,0.896,0.336,"response to corticosterone"),
+c("GO:0051595","response to methylglyoxal",0.008,1.4587,0.968,0.406,"response to corticosterone"),
+c("GO:0065007","biological regulation",51.216,2.4763,0.997,0.000,"biological regulation"),
+c("GO:0042942","D-serine transport",0.006,1.4587,0.978,0.010,"D-serine transport"),
+c("GO:0070889","platelet alpha granule organization",0.009,2.9172,0.928,0.033,"platelet alpha granule organization"),
+c("GO:0048213","Golgi vesicle prefusion complex stabilization",0.001,1.4587,0.946,0.177,"platelet alpha granule organization"),
+c("GO:0045143","homologous chromosome segregation",0.017,2.4522,0.870,0.275,"platelet alpha granule organization"),
+c("GO:0051276","chromosome organization",2.327,2.3716,0.893,0.397,"platelet alpha granule organization"),
+c("GO:0045023","G0 to G1 transition",0.013,1.6469,0.909,0.404,"platelet alpha granule organization"),
+c("GO:0000076","DNA replication checkpoint",0.014,1.7830,0.912,0.406,"platelet alpha granule organization"),
+c("GO:0000079","regulation of cyclin-dependent protein serine/threonine kinase activity",0.203,2.0419,0.742,0.427,"platelet alpha granule organization"),
+c("GO:1902017","regulation of cilium assembly",0.050,2.1605,0.651,0.435,"platelet alpha granule organization"),
+c("GO:0070172","positive regulation of tooth mineralization",0.003,1.4587,0.721,0.442,"platelet alpha granule organization"),
+c("GO:0036344","platelet morphogenesis",0.032,1.5318,0.732,0.447,"platelet alpha granule organization"),
+c("GO:2000707","positive regulation of dense core granule biogenesis",0.001,1.4587,0.915,0.476,"platelet alpha granule organization"),
+c("GO:0070316","regulation of G0 to G1 transition",0.010,1.7830,0.857,0.502,"platelet alpha granule organization"),
+c("GO:0006338","chromatin remodeling",0.236,2.2899,0.897,0.503,"platelet alpha granule organization"),
+c("GO:1901201","regulation of extracellular matrix assembly",0.007,1.4587,0.857,0.525,"platelet alpha granule organization"),
+c("GO:0045931","positive regulation of mitotic cell cycle",0.088,1.8732,0.811,0.583,"platelet alpha granule organization"),
+c("GO:0044089","positive regulation of cellular component biogenesis",0.062,1.9427,0.893,0.602,"platelet alpha granule organization"),
+c("GO:0043966","histone H3 acetylation",0.109,2.1152,0.797,0.639,"platelet alpha granule organization"),
+c("GO:0045736","negative regulation of cyclin-dependent protein serine/threonine kinase activity",0.040,1.7049,0.730,0.658,"platelet alpha granule organization"),
+c("GO:0045977","positive regulation of mitotic cell cycle, embryonic",0.002,1.4587,0.689,0.673,"platelet alpha granule organization"),
+c("GO:0031573","intra-S DNA damage checkpoint",0.031,1.5318,0.761,0.676,"platelet alpha granule organization"),
+c("GO:0010389","regulation of G2/M transition of mitotic cell cycle",0.065,1.5137,0.836,0.682,"platelet alpha granule organization"),
+c("GO:0007059","chromosome segregation",0.438,2.6126,0.916,0.048,"chromosome segregation"),
+c("GO:0009649","entrainment of circadian clock",0.052,1.5318,0.931,0.065,"entrainment of circadian clock"),
+c("GO:0051365","cellular response to potassium ion starvation",0.001,1.4587,0.885,0.314,"entrainment of circadian clock"),
+c("GO:0071726","cellular response to diacyl bacterial lipopeptide",0.002,1.4587,0.902,0.326,"entrainment of circadian clock"),
+c("GO:0071460","cellular response to cell-matrix adhesion",0.005,1.4587,0.899,0.508,"entrainment of circadian clock"),
+c("GO:0009314","response to radiation",0.915,1.8661,0.965,0.066,"response to radiation"),
+c("GO:1900037","regulation of cellular response to hypoxia",0.005,1.4587,0.832,0.504,"response to radiation"),
+c("GO:0002218","activation of innate immune response",0.424,2.6180,0.808,0.080,"activation of innate immune response"),
+c("GO:0002560","basophil mediated immunity",0.001,1.4587,0.965,0.103,"activation of innate immune response"),
+c("GO:0001774","microglial cell activation",0.046,1.9488,0.901,0.132,"activation of innate immune response"),
+c("GO:0002764","immune response-regulating signaling pathway",1.064,1.8589,0.790,0.251,"activation of innate immune response"),
+c("GO:0002253","activation of immune response",1.043,1.7286,0.869,0.276,"activation of innate immune response"),
+c("GO:0038095","Fc-epsilon receptor signaling pathway",0.370,1.8000,0.772,0.303,"activation of innate immune response"),
+c("GO:0043122","regulation of I-kappaB kinase/NF-kappaB signaling",0.382,1.6064,0.811,0.304,"activation of innate immune response"),
+c("GO:0060168","positive regulation of adenosine receptor signaling pathway",0.002,1.4587,0.846,0.328,"activation of innate immune response"),
+c("GO:0048013","ephrin receptor signaling pathway",0.101,1.5137,0.834,0.352,"activation of innate immune response"),
+c("GO:0000160","phosphorelay signal transduction system",0.030,1.4587,0.848,0.368,"activation of innate immune response"),
+c("GO:0007249","I-kappaB kinase/NF-kappaB signaling",0.425,1.6859,0.816,0.457,"activation of innate immune response"),
+c("GO:0038178","complement component C5a signaling pathway",0.001,1.4587,0.835,0.579,"activation of innate immune response"),
+c("GO:1902229","regulation of intrinsic apoptotic signaling pathway in response to DNA damage",0.047,1.8732,0.797,0.587,"activation of innate immune response"),
+c("GO:0045575","basophil activation",0.002,1.4587,0.914,0.614,"activation of innate immune response"),
+c("GO:0002430","complement receptor mediated signaling pathway",0.006,1.4587,0.821,0.639,"activation of innate immune response"),
+c("GO:1902164","positive regulation of DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator",0.001,1.4587,0.818,0.653,"activation of innate immune response"),
+c("GO:0002561","basophil degranulation",0.001,1.4587,0.906,0.690,"activation of innate immune response"),
+c("GO:0019373","epoxygenase P450 pathway",0.013,3.1135,0.859,0.082,"epoxygenase P450 pathway"),
+c("GO:0006660","phosphatidylserine catabolic process",0.003,1.4587,0.848,0.388,"epoxygenase P450 pathway"),
+c("GO:0006425","glutaminyl-tRNA aminoacylation",0.011,1.4587,0.805,0.422,"epoxygenase P450 pathway"),
+c("GO:0042840","D-glucuronate catabolic process",0.005,1.4587,0.857,0.531,"epoxygenase P450 pathway"),
+c("GO:0036101","leukotriene B4 catabolic process",0.005,2.9172,0.851,0.665,"epoxygenase P450 pathway"),
+c("GO:1901569","fatty acid derivative catabolic process",0.005,2.9172,0.905,0.665,"epoxygenase P450 pathway"),
+c("GO:0042758","long-chain fatty acid catabolic process",0.011,2.1605,0.852,0.694,"epoxygenase P450 pathway"),
+c("GO:0017144","drug metabolic process",0.048,1.9427,0.924,0.091,"drug metabolism"));
+
+stuff <- data.frame(revigo.data);
+names(stuff) <- revigo.names;
+
+stuff$abslog10pvalue <- as.numeric( as.character(stuff$abslog10pvalue) );
+stuff$freqInDbPercent <- as.numeric( as.character(stuff$freqInDbPercent) );
+stuff$uniqueness <- as.numeric( as.character(stuff$uniqueness) );
+stuff$dispensability <- as.numeric( as.character(stuff$dispensability) );
+
+# by default, outputs to a PDF file
+pdf( file="revigo_treemap.pdf", width=16, height=9 ) # width and height are in inches
+
+# check the tmPlot command documentation for all possible parameters - there are a lot more
+tmPlot(
+	stuff,
+	index = c("representative","description"),
+	vSize = "abslog10pvalue",
+	type = "categorical",
+	vColor = "representative",
+	title = "REVIGO Gene Ontology treemap",
+	inflate.labels = FALSE,      # set this to TRUE for space-filling group labels - good for posters
+	lowerbound.cex.labels = 0,   # try to draw as many labels as possible (still, some small squares may not get a label)
+	bg.labels = "#CCCCCCAA",     # define background color of group labels
+												       # "#CCCCCC00" is fully transparent, "#CCCCCCAA" is semi-transparent grey, NA is opaque
+	position.legend = "none"
+)
+
+dev.off()

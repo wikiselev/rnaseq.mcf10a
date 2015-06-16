@@ -1,0 +1,352 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0019752,"carboxylic acid metabolic process",2.886%, 8.079, 1.316,3.404,-7.6198,0.646,0.000,19752,0
+GO:0032787,"monocarboxylic acid metabolic process",1.329%,null,null,3.067,-5.8539,0.668,0.858,19752,1
+GO:0072329,"monocarboxylic acid catabolic process",0.172%,null,null,2.182,-2.2807,0.655,0.914,19752,1
+GO:0072330,"monocarboxylic acid biosynthetic process",0.430%,null,null,2.577,-1.4346,0.629,0.821,19752,1
+GO:0016054,"organic acid catabolic process",0.449%,null,null,2.597,-3.8539,0.645,0.949,19752,1
+GO:0046395,"carboxylic acid catabolic process",0.449%,null,null,2.597,-3.8539,0.642,0.754,19752,1
+GO:0009062,"fatty acid catabolic process",0.140%,null,null,2.093,-1.6476,0.622,0.948,19752,1
+GO:0009063,"cellular amino acid catabolic process",0.283%,null,null,2.396,-1.5674,0.635,0.955,19752,1
+GO:0019395,"fatty acid oxidation",0.155%,null,null,2.137,-1.5459,0.652,0.968,19752,1
+GO:0006520,"cellular amino acid metabolic process",1.579%,null,null,3.142,-1.5563,0.640,0.877,19752,1
+GO:0043436,"oxoacid metabolic process",3.077%,null,null,3.432,-6.3468,0.645,0.958,19752,1
+GO:0006090,"pyruvate metabolic process",0.378%,null,null,2.522,-3.2291,0.685,0.811,19752,1
+GO:0006631,"fatty acid metabolic process",0.720%,null,null,2.801,-3.3872,0.629,0.796,19752,1
+GO:0006635,"fatty acid beta-oxidation",0.108%,null,null,1.982,-2.1506,0.618,0.880,19752,1
+GO:0046320,"regulation of fatty acid oxidation",0.056%,null,null,1.699,-1.5387,0.636,0.902,19752,1
+GO:0043279,"response to alkaloid",0.450%,-1.255,-0.550,2.598,-2.8182,0.951,0.000,43279,0
+GO:0006808,"regulation of nitrogen utilization",0.009%,-0.161, 1.347,0.954,-1.3951,0.961,0.015,6808,0
+GO:0019740,"nitrogen utilization",0.009%,-0.217, 1.213,0.954,-1.3951,0.977,0.015,19740,0
+GO:0006848,"pyruvate transport",0.010%,-2.605, 7.305,1.000,-4.1871,0.889,0.015,6848,0
+GO:0032981,"mitochondrial respiratory chain complex I assembly",0.018%,-2.524, 1.672,1.230,-1.9642,0.924,0.034,32981,0
+GO:0050999,"regulation of nitric-oxide synthase activity",0.060%, 0.460,-2.355,1.732,-3.9208,0.894,0.050,50999,0
+GO:0032768,"regulation of monooxygenase activity",0.082%,null,null,1.863,-3.2291,0.892,0.907,50999,1
+GO:0051001,"negative regulation of nitric-oxide synthase activity",0.016%,null,null,1.176,-1.8265,0.899,0.879,50999,1
+GO:0010817,"regulation of hormone levels",1.029%,-1.138, 1.545,2.956,-2.5768,0.930,0.054,10817,0
+GO:0033004,"negative regulation of mast cell activation",0.024%,-1.888,-2.900,1.342,-3.6021,0.835,0.073,33004,0
+GO:0033003,"regulation of mast cell activation",0.065%,null,null,1.763,-2.8601,0.850,0.864,33004,1
+GO:0033006,"regulation of mast cell activation involved in immune response",0.047%,null,null,1.623,-1.4141,0.845,0.957,33004,1
+GO:0045576,"mast cell activation",0.114%,null,null,2.004,-2.2076,0.870,0.747,33004,1
+GO:0002275,"myeloid cell activation involved in immune response",0.154%,null,null,2.134,-1.5572,0.860,0.852,33004,1
+GO:0002279,"mast cell activation involved in immune response",0.081%,null,null,1.857,-1.8633,0.861,0.946,33004,1
+GO:0043305,"negative regulation of mast cell degranulation",0.010%,null,null,1.000,-1.3951,0.762,0.837,33004,1
+GO:0043304,"regulation of mast cell degranulation",0.041%,null,null,1.568,-1.5275,0.766,0.949,33004,1
+GO:0043303,"mast cell degranulation",0.075%,null,null,1.826,-1.9642,0.782,0.932,33004,1
+GO:0051156,"glucose 6-phosphate metabolic process",0.024%, 1.485, 1.061,1.342,-2.9281,0.851,0.084,51156,0
+GO:0016925,"protein sumoylation",0.064%, 0.212,-1.314,1.756,-1.6082,0.893,0.092,16925,0
+GO:0048539,"bone marrow development",0.008%,-4.149,-6.020,0.903,-2.0367,0.914,0.097,48539,0
+GO:0072524,"pyridine-containing compound metabolic process",0.204%, 2.513, 0.432,2.255,-2.7670,0.829,0.103,72524,0
+GO:0044710,"single-organism metabolic process",26.477%, 1.120, 1.369,4.366,-3.6021,0.898,0.112,44710,0
+GO:0048385,"regulation of retinoic acid receptor signaling pathway",0.073%,-3.622,-0.750,1.813,-2.2013,0.870,0.113,48385,0
+GO:0048384,"retinoic acid receptor signaling pathway",0.142%,null,null,2.100,-1.6101,0.873,0.719,48385,1
+GO:0051186,"cofactor metabolic process",0.798%, 0.399, 0.454,2.846,-4.1739,0.892,0.119,51186,0
+GO:0005975,"carbohydrate metabolic process",3.046%, 0.916, 0.509,3.427,-1.5619,0.887,0.138,5975,0
+GO:0002504,"antigen processing and presentation of peptide or polysaccharide antigen via MHC class II",4.627%,-2.047,-1.219,3.609,-2.1649,0.966,0.152,2504,0
+GO:0030638,"polyketide metabolic process",0.009%, 2.761, 0.663,0.954,-1.5275,0.861,0.152,30638,0
+GO:0046149,"pigment catabolic process",0.010%, 4.838,-0.418,1.000,-3.2147,0.812,0.153,46149,0
+GO:0050690,"regulation of defense response to virus by virus",0.033%,-2.337,-2.184,1.477,-1.9731,0.921,0.156,50690,0
+GO:0051607,"defense response to virus",0.379%,null,null,2.524,-1.4152,0.934,0.765,50690,1
+GO:0006091,"generation of precursor metabolites and energy",6.571%, 1.286, 0.720,3.761,-8.2757,0.868,0.160,6091,0
+GO:0046184,"aldehyde biosynthetic process",0.021%, 5.001, 0.428,1.279,-2.0367,0.774,0.162,46184,0
+GO:0019242,"methylglyoxal biosynthetic process",0.007%,null,null,0.845,-1.3951,0.787,0.757,46184,1
+GO:0046166,"glyceraldehyde-3-phosphate biosynthetic process",0.001%,null,null,0.301,-1.3951,0.780,0.810,46184,1
+GO:0009438,"methylglyoxal metabolic process",0.010%,null,null,1.000,-1.3951,0.842,0.774,46184,1
+GO:0032800,"receptor biosynthetic process",0.030%, 2.520,-0.113,1.431,-1.5387,0.869,0.164,32800,0
+GO:0002448,"mast cell mediated immunity",0.081%,-1.416,-0.625,1.857,-1.9642,0.957,0.170,2448,0
+GO:0060263,"regulation of respiratory burst",0.015%, 3.533,-1.360,1.146,-1.5275,0.840,0.175,60263,0
+GO:0060265,"positive regulation of respiratory burst involved in inflammatory response",0.002%,null,null,0.477,-1.3951,0.783,0.815,60263,1
+GO:0060454,"positive regulation of gastric acid secretion",0.003%,-6.202, 2.723,0.602,-1.3951,0.859,0.178,60454,0
+GO:0043603,"cellular amide metabolic process",0.480%, 2.000, 0.456,2.625,-1.4170,0.861,0.178,43603,0
+GO:0006081,"cellular aldehyde metabolic process",0.106%, 4.434, 0.810,1.973,-1.6082,0.827,0.188,6081,0
+GO:0007168,"receptor guanylyl cyclase signaling pathway",0.013%,-2.683,-0.350,1.079,-2.0367,0.891,0.189,7168,0
+GO:0042440,"pigment metabolic process",0.165%, 4.537, 0.666,2.164,-1.5488,0.844,0.196,42440,0
+GO:0019886,"antigen processing and presentation of exogenous peptide antigen via MHC class II",0.130%,-0.874, 0.096,2.061,-2.3206,0.966,0.216,19886,0
+GO:0002478,"antigen processing and presentation of exogenous peptide antigen",0.296%,null,null,2.417,-1.5355,0.966,0.927,19886,1
+GO:1902337,"regulation of apoptotic process involved in morphogenesis",0.035%,-3.430,-4.732,1.505,-1.6619,0.857,0.220,1902337,0
+GO:0060561,"apoptotic process involved in morphogenesis",0.076%,null,null,1.833,-1.4104,0.875,0.923,1902337,1
+GO:0010731,"protein glutathionylation",0.001%,-0.019,-1.252,0.301,-1.3951,0.915,0.224,10731,0
+GO:0005996,"monosaccharide metabolic process",0.738%, 6.059, 0.621,2.812,-4.5686,0.762,0.231,5996,0
+GO:0044723,"single-organism carbohydrate metabolic process",1.976%,null,null,3.239,-2.3820,0.750,0.766,5996,1
+GO:0044724,"single-organism carbohydrate catabolic process",0.464%,null,null,2.611,-3.7447,0.717,0.748,5996,1
+GO:0046364,"monosaccharide biosynthetic process",0.218%,null,null,2.283,-2.0799,0.703,0.856,5996,1
+GO:0046365,"monosaccharide catabolic process",0.100%,null,null,1.949,-3.8861,0.738,0.866,5996,1
+GO:0016051,"carbohydrate biosynthetic process",0.513%,null,null,2.654,-1.3961,0.695,0.756,5996,1
+GO:0019318,"hexose metabolic process",0.687%,null,null,2.781,-3.6576,0.751,0.952,5996,1
+GO:0019320,"hexose catabolic process",0.091%,null,null,1.908,-4.1192,0.736,0.859,5996,1
+GO:0006006,"glucose metabolic process",0.520%,null,null,2.660,-3.4437,0.756,0.757,5996,1
+GO:0006007,"glucose catabolic process",0.066%,null,null,1.771,-3.9208,0.742,0.963,5996,1
+GO:0006098,"pentose-phosphate shunt",0.058%,null,null,1.716,-1.8633,0.617,0.955,5996,1
+GO:0006096,"glycolytic process",0.309%,null,null,2.435,-1.9630,0.609,0.953,5996,1
+GO:0019884,"antigen processing and presentation of exogenous antigen",0.303%,-1.008,-0.167,2.427,-1.4943,0.971,0.237,19884,0
+GO:0016137,"glycoside metabolic process",0.030%, 4.503, 1.568,1.431,-2.6055,0.834,0.244,16137,0
+GO:0044237,"cellular metabolic process",42.121%, 1.272, 1.568,4.568,-1.5058,0.886,0.249,44237,0
+GO:0007268,"synaptic transmission",1.611%,-2.554, 1.074,3.151,-1.7044,0.875,0.255,7268,0
+GO:0001505,"regulation of neurotransmitter levels",0.382%,null,null,2.526,-1.5249,0.851,0.740,7268,1
+GO:1901564,"organonitrogen compound metabolic process",11.844%, 3.429, 0.289,4.017,-1.7807,0.827,0.261,1901564,0
+GO:0035235,"ionotropic glutamate receptor signaling pathway",0.106%,-2.872,-0.680,1.973,-1.6619,0.875,0.278,35235,0
+GO:0046950,"cellular ketone body metabolic process",0.016%, 6.494, 1.190,1.176,-1.5275,0.802,0.281,46950,0
+GO:0021762,"substantia nigra development",0.055%,-3.262,-5.472,1.690,-1.7610,0.919,0.285,21762,0
+GO:0021539,"subthalamus development",0.057%,null,null,1.708,-1.6718,0.919,0.752,21762,1
+GO:0015949,"nucleobase-containing small molecule interconversion",0.021%, 6.248, 0.617,1.279,-1.5387,0.780,0.287,15949,0
+GO:0001949,"sebaceous gland cell differentiation",0.001%,-3.985,-5.984,0.301,-1.3951,0.894,0.292,1949,0
+GO:0016139,"glycoside catabolic process",0.008%, 5.384, 0.158,0.903,-1.6619,0.792,0.293,16139,0
+GO:0044597,"daunorubicin metabolic process",0.009%,null,null,0.954,-1.5275,0.716,1.000,16139,1
+GO:0044598,"doxorubicin metabolic process",0.009%,null,null,0.954,-1.5275,0.716,0.867,16139,1
+GO:0030647,"aminoglycoside antibiotic metabolic process",0.015%,null,null,1.146,-1.4141,0.831,0.896,16139,1
+GO:0070980,"biphenyl catabolic process",0.006%, 2.183,-1.469,0.778,-1.3951,0.816,0.294,70980,0
+GO:0022904,"respiratory electron transport chain",4.683%, 6.334, 1.454,3.614,-7.3010,0.729,0.296,22904,0
+GO:0009060,"aerobic respiration",1.407%,null,null,3.092,-4.5528,0.759,0.746,22904,1
+GO:0045333,"cellular respiration",5.546%,null,null,3.687,-9.4685,0.725,0.896,22904,1
+GO:0009126,"purine nucleoside monophosphate metabolic process",5.595%,null,null,3.691,-1.7279,0.636,0.936,22904,1
+GO:0009161,"ribonucleoside monophosphate metabolic process",5.638%,null,null,3.695,-1.5171,0.636,0.940,22904,1
+GO:0009167,"purine ribonucleoside monophosphate metabolic process",5.594%,null,null,3.691,-1.7279,0.636,0.941,22904,1
+GO:0046034,"ATP metabolic process",5.499%,null,null,3.684,-1.7387,0.615,0.854,22904,1
+GO:0015980,"energy derivation by oxidation of organic compounds",5.874%,null,null,3.712,-8.3565,0.724,0.863,22904,1
+GO:0006120,"mitochondrial electron transport, NADH to ubiquinone",1.163%,null,null,3.009,-3.6383,0.650,0.800,22904,1
+GO:0006119,"oxidative phosphorylation",3.103%,null,null,3.435,-4.4559,0.623,0.779,22904,1
+GO:0022900,"electron transport chain",5.048%,null,null,3.647,-7.2218,0.729,0.874,22904,1
+GO:0042773,"ATP synthesis coupled electron transport",2.606%,null,null,3.359,-4.5528,0.623,0.845,22904,1
+GO:0042775,"mitochondrial ATP synthesis coupled electron transport",1.190%,null,null,3.019,-4.5528,0.649,0.757,22904,1
+GO:0035229,"positive regulation of glutamate-cysteine ligase activity",0.001%, 0.243,-1.966,0.301,-1.3951,0.917,0.297,35229,0
+GO:0033013,"tetrapyrrole metabolic process",0.173%, 2.589, 0.526,2.185,-2.2534,0.831,0.300,33013,0
+GO:0006629,"lipid metabolic process",3.159%, 6.368, 0.834,3.443,-3.4559,0.792,0.300,6629,0
+GO:0014806,"smooth muscle hyperplasia",0.007%,-3.089,-4.700,0.845,-1.3951,0.934,0.305,14806,0
+GO:0070221,"sulfide oxidation, using sulfide:quinone oxidoreductase",0.006%, 3.868, 1.095,0.778,-1.8265,0.832,0.307,70221,0
+GO:0043095,"regulation of GTP cyclohydrolase I activity",0.002%, 0.283,-2.288,0.477,-1.3951,0.915,0.308,43095,0
+GO:0035563,"positive regulation of chromatin binding",0.008%,-0.578,-0.858,0.903,-1.3951,0.961,0.309,35563,0
+GO:0071449,"cellular response to lipid hydroperoxide",0.001%,-2.162,-1.316,0.301,-1.3951,0.928,0.313,71449,0
+GO:2000474,"regulation of opioid receptor signaling pathway",0.006%,-1.807,-0.235,0.778,-1.3951,0.890,0.314,2000474,0
+GO:0044711,"single-organism biosynthetic process",4.776%, 8.128, 0.434,3.622,-2.0540,0.761,0.320,44711,0
+GO:0032534,"regulation of microvillus assembly",0.007%,-2.040, 1.349,0.845,-1.3951,0.890,0.324,32534,0
+GO:0046951,"ketone body biosynthetic process",0.009%, 6.807, 0.771,0.954,-1.6619,0.757,0.326,46951,0
+GO:0006739,"NADP metabolic process",0.087%, 6.935, 0.423,1.886,-3.7447,0.697,0.326,6739,0
+GO:0046496,"nicotinamide nucleotide metabolic process",0.179%,null,null,2.199,-3.1549,0.682,0.944,6739,1
+GO:0006732,"coenzyme metabolic process",0.636%,null,null,2.747,-1.9918,0.828,0.855,6739,1
+GO:0006733,"oxidoreduction coenzyme metabolic process",0.213%,null,null,2.274,-2.4895,0.840,0.761,6739,1
+GO:0006740,"NADPH regeneration",0.059%,null,null,1.724,-1.7713,0.697,0.872,6739,1
+GO:0019362,"pyridine nucleotide metabolic process",0.179%,null,null,2.199,-3.1549,0.682,0.977,6739,1
+GO:0051188,"cofactor biosynthetic process",0.441%,null,null,2.589,-1.4170,0.789,0.914,6739,1
+GO:0043587,"tongue morphogenesis",0.027%,-3.741,-5.923,1.398,-1.5275,0.923,0.327,43587,0
+GO:0009589,"detection of UV",0.005%,-0.452, 0.660,0.699,-1.3951,0.977,0.330,9589,0
+GO:0071276,"cellular response to cadmium ion",0.032%,-3.141,-0.975,1.462,-1.5275,0.923,0.332,71276,0
+GO:0072229,"metanephric proximal convoluted tubule development",0.006%,-3.680,-5.878,0.778,-1.3951,0.923,0.335,72229,0
+GO:0072019,"proximal convoluted tubule development",0.006%,null,null,0.778,-1.3951,0.923,0.940,72229,1
+GO:0044406,"adhesion of symbiont to host",0.007%,-0.359,-0.195,0.845,-1.8265,0.986,0.338,44406,0
+GO:1902512,"positive regulation of apoptotic DNA fragmentation",0.001%, 1.702,-1.856,0.301,-1.3951,0.783,0.347,1902512,0
+GO:0006766,"vitamin metabolic process",0.209%, 6.842, 0.939,2.265,-1.6280,0.786,0.356,6766,0
+GO:0002432,"granuloma formation",0.002%,-2.115,-1.600,0.477,-1.3951,0.957,0.360,2432,0
+GO:0050857,"positive regulation of antigen receptor-mediated signaling pathway",0.052%,-3.986,-2.068,1.672,-1.8265,0.850,0.361,50857,0
+GO:2001037,"positive regulation of tongue muscle cell differentiation",0.003%,-3.073,-5.577,0.602,-1.3951,0.850,0.364,2001037,0
+GO:0035981,"tongue muscle cell differentiation",0.003%,null,null,0.602,-1.3951,0.879,1.000,2001037,1
+GO:2001035,"regulation of tongue muscle cell differentiation",0.003%,null,null,0.602,-1.3951,0.856,1.000,2001037,1
+GO:1990001,"inhibition of cysteine-type endopeptidase activity involved in apoptotic process",0.003%,-0.580,-3.906,0.602,-1.3951,0.833,0.368,1990001,0
+GO:0097340,"inhibition of cysteine-type endopeptidase activity",0.003%,null,null,0.602,-1.3951,0.860,1.000,1990001,1
+GO:0007267,"cell-cell signaling",2.522%,-2.365, 1.161,3.345,-1.4603,0.878,0.371,7267,0
+GO:0055114,"oxidation-reduction process",10.933%, 7.827, 1.149,3.982,-11.2757,0.770,0.372,55114,0
+GO:1902600,"hydrogen ion transmembrane transport",3.156%,-2.400, 7.446,3.443,-4.1675,0.797,0.372,1902600,0
+GO:0015992,"proton transport",3.250%,null,null,3.455,-3.3979,0.861,0.963,1902600,1
+GO:0009124,"nucleoside monophosphate biosynthetic process",1.453%,null,null,3.106,-2.3206,0.619,0.887,1902600,1
+GO:0009127,"purine nucleoside monophosphate biosynthetic process",1.383%,null,null,3.085,-2.9914,0.619,0.962,1902600,1
+GO:0006164,"purine nucleotide biosynthetic process",1.766%,null,null,3.191,-1.9991,0.601,0.975,1902600,1
+GO:0009145,"purine nucleoside triphosphate biosynthetic process",1.337%,null,null,3.070,-3.0177,0.624,0.976,1902600,1
+GO:0009142,"nucleoside triphosphate biosynthetic process",1.370%,null,null,3.080,-3.0506,0.626,0.871,1902600,1
+GO:0009156,"ribonucleoside monophosphate biosynthetic process",1.428%,null,null,3.098,-2.4461,0.618,0.978,1902600,1
+GO:0009152,"purine ribonucleotide biosynthetic process",1.740%,null,null,3.184,-2.1035,0.598,0.939,1902600,1
+GO:0009163,"nucleoside biosynthetic process",1.503%,null,null,3.121,-1.9974,0.613,0.984,1902600,1
+GO:0009168,"purine ribonucleoside monophosphate biosynthetic process",1.383%,null,null,3.085,-2.9914,0.619,0.978,1902600,1
+GO:0009165,"nucleotide biosynthetic process",2.080%,null,null,3.262,-1.6133,0.612,0.954,1902600,1
+GO:0006754,"ATP biosynthetic process",1.284%,null,null,3.052,-3.5528,0.598,0.974,1902600,1
+GO:0015985,"energy coupled proton transport, down electrochemical gradient",1.236%,null,null,3.036,-3.2441,0.814,0.845,1902600,1
+GO:0015986,"ATP synthesis coupled proton transport",1.236%,null,null,3.036,-3.2441,0.530,0.845,1902600,1
+GO:0009201,"ribonucleoside triphosphate biosynthetic process",1.348%,null,null,3.073,-2.7077,0.624,0.982,1902600,1
+GO:0046129,"purine ribonucleoside biosynthetic process",1.446%,null,null,3.104,-2.7282,0.613,0.968,1902600,1
+GO:0009206,"purine ribonucleoside triphosphate biosynthetic process",1.334%,null,null,3.069,-3.0177,0.624,0.982,1902600,1
+GO:0009260,"ribonucleotide biosynthetic process",1.776%,null,null,3.193,-1.8060,0.610,0.979,1902600,1
+GO:0042455,"ribonucleoside biosynthetic process",1.493%,null,null,3.118,-2.2226,0.613,0.980,1902600,1
+GO:0015672,"monovalent inorganic cation transport",4.597%,null,null,3.606,-1.5874,0.860,0.795,1902600,1
+GO:0034220,"ion transmembrane transport",6.093%,null,null,3.728,-2.9031,0.790,0.800,1902600,1
+GO:0042451,"purine nucleoside biosynthetic process",1.446%,null,null,3.104,-2.7282,0.613,0.976,1902600,1
+GO:0010565,"regulation of cellular ketone metabolic process",0.322%, 6.308,-1.178,2.453,-1.6216,0.700,0.373,10565,0
+GO:0019217,"regulation of fatty acid metabolic process",0.148%,null,null,2.117,-1.7201,0.624,0.880,10565,1
+GO:0043046,"DNA methylation involved in gamete generation",0.036%,-0.579,-5.531,1.519,-1.4141,0.802,0.374,43046,0
+GO:0006839,"mitochondrial transport",0.326%,-2.781, 7.346,2.458,-2.1124,0.882,0.376,6839,0
+GO:0006702,"androgen biosynthetic process",0.026%, 5.466, 1.116,1.380,-2.3429,0.684,0.378,6702,0
+GO:0042573,"retinoic acid metabolic process",0.046%,null,null,1.613,-1.8633,0.651,0.780,6702,1
+GO:0042448,"progesterone metabolic process",0.033%,null,null,1.477,-1.4141,0.681,0.792,6702,1
+GO:0070407,"oxidation-dependent protein catabolic process",0.008%, 2.883,-1.620,0.903,-1.3951,0.853,0.380,70407,0
+GO:0072522,"purine-containing compound biosynthetic process",1.805%, 4.069,-0.150,3.200,-1.7387,0.738,0.381,72522,0
+GO:0032287,"peripheral nervous system myelin maintenance",0.048%,-5.455,-3.890,1.633,-1.5275,0.808,0.396,32287,0
+GO:0060465,"pharynx development",0.002%,-3.954,-5.855,0.477,-1.3951,0.935,0.396,60465,0
+GO:0036149,"phosphatidylinositol acyl-chain remodeling",0.018%, 5.172, 0.791,1.230,-1.4141,0.754,0.397,36149,0
+GO:0044282,"small molecule catabolic process",0.575%, 7.215, 0.104,2.704,-4.5086,0.718,0.397,44282,0
+GO:0010734,"negative regulation of protein glutathionylation",0.001%,-0.082,-4.703,0.301,-1.3951,0.863,0.398,10734,0
+GO:0010732,"regulation of protein glutathionylation",0.001%,null,null,0.301,-1.3951,0.879,1.000,10734,1
+GO:0051341,"regulation of oxidoreductase activity",0.137%, 0.553,-2.829,2.083,-2.4389,0.894,0.398,51341,0
+GO:0090407,"organophosphate biosynthetic process",2.638%, 3.741, 0.545,3.365,-1.6676,0.772,0.403,90407,0
+GO:0003051,"angiotensin-mediated drinking behavior",0.007%,-5.004,-3.983,0.845,-1.3951,0.898,0.403,3051,0
+GO:1901208,"negative regulation of heart looping",0.001%,-3.935,-6.346,0.301,-1.3951,0.890,0.409,1901208,0
+GO:0071395,"cellular response to jasmonic acid stimulus",0.005%,-2.460,-0.835,0.699,-2.0367,0.925,0.412,71395,0
+GO:0097031,"mitochondrial respiratory chain complex I biogenesis",0.018%,-2.075, 1.416,1.230,-1.9642,0.968,0.413,97031,0
+GO:0010883,"regulation of lipid storage",0.088%,-2.669, 6.088,1.892,-1.7174,0.870,0.417,10883,0
+GO:0030730,"sequestering of triglyceride",0.017%,null,null,1.204,-1.4141,0.890,0.834,10883,1
+GO:0010889,"regulation of sequestering of triglyceride",0.014%,null,null,1.114,-1.8265,0.882,0.822,10883,1
+GO:0010890,"positive regulation of sequestering of triglyceride",0.008%,null,null,0.903,-1.3951,0.881,0.946,10883,1
+GO:0071361,"cellular response to ethanol",0.022%,-2.697,-0.885,1.301,-1.6619,0.924,0.422,71361,0
+GO:0007588,"excretion",0.129%,-3.281,-5.069,2.057,-1.4622,0.932,0.423,7588,0
+GO:0046745,"viral capsid secondary envelopment",0.001%,-0.262,-0.201,0.301,-1.3951,0.958,0.425,46745,0
+GO:0051037,"regulation of transcription during meiosis",0.013%, 1.721,-0.759,1.079,-1.3951,0.791,0.429,51037,0
+GO:0035470,"positive regulation of vascular wound healing",0.003%,-4.523,-5.883,0.602,-1.3951,0.888,0.433,35470,0
+GO:0010634,"positive regulation of epithelial cell migration",0.119%,-6.143, 1.741,2.021,-1.5137,0.792,0.436,10634,0
+GO:0010595,"positive regulation of endothelial cell migration",0.068%,null,null,1.785,-1.5488,0.799,0.875,10634,1
+GO:0043542,"endothelial cell migration",0.259%,null,null,2.358,-1.4522,0.826,0.882,10634,1
+GO:0045358,"negative regulation of interferon-beta biosynthetic process",0.009%,-0.870,-6.160,0.954,-1.3951,0.787,0.440,45358,0
+GO:0002495,"antigen processing and presentation of peptide antigen via MHC class II",0.134%,-1.109, 0.173,2.076,-2.2027,0.970,0.442,2495,0
+GO:0050994,"regulation of lipid catabolic process",0.089%, 6.254,-1.592,1.898,-3.3188,0.706,0.448,50994,0
+GO:0044242,"cellular lipid catabolic process",0.310%,null,null,2.436,-2.8861,0.689,0.812,50994,1
+GO:0090207,"regulation of triglyceride metabolic process",0.047%,null,null,1.623,-1.7713,0.739,0.702,50994,1
+GO:0036034,"mediator complex assembly",0.001%,-3.231, 2.332,0.301,-1.3951,0.968,0.450,36034,0
+GO:2001178,"positive regulation of mediator complex assembly",0.001%,-2.981, 1.991,0.301,-1.3951,0.941,0.450,2001178,0
+GO:2001176,"regulation of mediator complex assembly",0.001%,null,null,0.301,-1.3951,0.947,1.000,2001178,1
+GO:0090410,"malonate catabolic process",0.001%, 6.957,-0.139,0.301,-1.3951,0.751,0.452,90410,0
+GO:0007521,"muscle cell fate determination",0.007%,-2.389,-4.660,0.845,-1.3951,0.899,0.463,7521,0
+GO:0044281,"small molecule metabolic process",13.539%, 6.646, 0.847,4.075,-7.0969,0.765,0.464,44281,0
+GO:0043105,"negative regulation of GTP cyclohydrolase I activity",0.002%, 0.293,-2.354,0.477,-1.3951,0.913,0.465,43105,0
+GO:0002358,"B cell homeostatic proliferation",0.010%,-0.534, 0.481,1.000,-1.3951,0.895,0.465,2358,0
+GO:0072363,"regulation of glycolytic by positive regulation of transcription from RNA polymerase II promoter",0.001%, 7.298,-1.551,0.301,-1.3951,0.681,0.472,72363,0
+GO:0030209,"dermatan sulfate catabolic process",0.001%, 7.290,-0.442,0.301,-1.3951,0.709,0.473,30209,0
+GO:0009753,"response to jasmonic acid",0.005%,-1.496,-0.550,0.699,-2.0367,0.960,0.491,9753,0
+GO:0006082,"organic acid metabolic process",3.105%, 7.079, 1.337,3.436,-6.2076,0.702,0.493,6082,0
+GO:0019418,"sulfide oxidation",0.006%, 3.717, 0.997,0.778,-1.8265,0.832,0.498,19418,0
+GO:0061034,"olfactory bulb mitral cell layer development",0.003%,-3.957,-5.967,0.602,-1.3951,0.926,0.499,61034,0
+GO:0047497,"mitochondrion transport along microtubule",0.018%,-2.760, 7.100,1.230,-1.6619,0.846,0.501,47497,0
+GO:0034643,"establishment of mitochondrion localization, microtubule-mediated",0.018%,null,null,1.230,-1.6619,0.855,0.963,47497,1
+GO:0051654,"establishment of mitochondrion localization",0.025%,null,null,1.362,-1.4141,0.914,0.884,47497,1
+GO:0006818,"hydrogen transport",3.252%,-2.909, 7.477,3.456,-3.2924,0.881,0.502,6818,0
+GO:0048343,"paraxial mesodermal cell fate commitment",0.003%,-3.371,-5.630,0.602,-1.3951,0.881,0.508,48343,0
+GO:0048342,"paraxial mesodermal cell differentiation",0.003%,null,null,0.602,-1.3951,0.883,0.820,48343,1
+GO:0019402,"galactitol metabolic process",0.005%, 6.667, 1.037,0.699,-1.3951,0.772,0.516,19402,0
+GO:0071384,"cellular response to corticosteroid stimulus",0.112%,-2.693,-0.871,1.996,-1.4722,0.913,0.520,71384,0
+GO:0010257,"NADH dehydrogenase complex assembly",0.018%,-1.739, 1.247,1.230,-1.9642,0.965,0.523,10257,0
+GO:0006438,"valyl-tRNA aminoacylation",0.009%, 5.887,-0.612,0.954,-2.7905,0.733,0.525,6438,0
+GO:0009082,"branched-chain amino acid biosynthetic process",0.009%, 7.383, 0.513,0.954,-1.3951,0.699,0.525,9082,0
+GO:0006550,"isoleucine catabolic process",0.003%,null,null,0.602,-1.3951,0.720,0.790,9082,1
+GO:0051038,"negative regulation of transcription during meiosis",0.001%, 0.889,-2.018,0.301,-1.3951,0.801,0.526,51038,0
+GO:0000379,"tRNA-type intron splice site recognition and cleavage",0.005%, 1.481,-0.623,0.699,-1.3951,0.882,0.532,379,0
+GO:0019322,"pentose biosynthetic process",0.008%, 5.635, 0.520,0.903,-3.6021,0.756,0.536,19322,0
+GO:0005999,"xylulose biosynthetic process",0.002%,null,null,0.477,-2.7905,0.773,0.811,19322,1
+GO:0005997,"xylulose metabolic process",0.005%,null,null,0.699,-3.6021,0.818,0.840,19322,1
+GO:0060340,"positive regulation of type I interferon-mediated signaling pathway",0.021%,-2.977,-1.812,1.279,-1.5275,0.834,0.538,60340,0
+GO:0015920,"lipopolysaccharide transport",0.002%,-2.401, 6.819,0.477,-1.3951,0.911,0.539,15920,0
+GO:0016042,"lipid catabolic process",0.537%, 8.170, 0.101,2.674,-2.8962,0.715,0.546,16042,0
+GO:0019216,"regulation of lipid metabolic process",0.558%,null,null,2.691,-1.9698,0.729,0.743,16042,1
+GO:0044255,"cellular lipid metabolic process",2.183%,null,null,3.283,-2.8153,0.705,0.739,16042,1
+GO:0008202,"steroid metabolic process",0.613%,null,null,2.732,-2.3325,0.745,0.750,16042,1
+GO:0042776,"mitochondrial ATP synthesis coupled proton transport",0.018%, 3.373, 5.642,1.230,-3.8239,0.634,0.550,42776,0
+GO:0019388,"galactose catabolic process",0.011%, 6.165,-0.244,1.041,-1.8265,0.768,0.550,19388,0
+GO:0006099,"tricarboxylic acid cycle",0.104%, 4.863, 0.683,1.964,-4.1427,0.804,0.550,6099,0
+GO:0046390,"ribose phosphate biosynthetic process",1.781%, 4.353, 0.695,3.194,-2.1379,0.726,0.560,46390,0
+GO:1901293,"nucleoside phosphate biosynthetic process",2.102%,null,null,3.266,-1.5777,0.616,0.897,46390,1
+GO:1901659,"glycosyl compound biosynthetic process",1.506%,null,null,3.122,-1.9974,0.696,0.831,46390,1
+GO:0035669,"TRAM-dependent toll-like receptor 4 signaling pathway",0.006%,-2.557,-1.376,0.778,-1.3951,0.867,0.563,35669,0
+GO:0035668,"TRAM-dependent toll-like receptor signaling pathway",0.006%,null,null,0.778,-1.3951,0.867,0.706,35669,1
+GO:0070541,"response to platinum ion",0.006%,-1.138,-0.481,0.778,-1.3951,0.965,0.564,70541,0
+GO:0042631,"cellular response to water deprivation",0.006%,-3.619,-1.182,0.778,-1.3951,0.883,0.566,42631,0
+GO:0043653,"mitochondrial fragmentation involved in apoptotic process",0.011%,-3.657, 1.107,1.041,-1.5275,0.893,0.566,43653,0
+GO:0034440,"lipid oxidation",0.158%, 6.178, 0.594,2.146,-1.5137,0.736,0.573,34440,0
+GO:0052695,"cellular glucuronidation",0.021%, 6.580, 0.666,1.279,-1.5275,0.696,0.574,52695,0
+GO:0019585,"glucuronate metabolic process",0.025%,null,null,1.362,-1.4141,0.692,0.988,52695,1
+GO:2001031,"positive regulation of cellular glucuronidation",0.001%,null,null,0.301,-1.3951,0.700,0.834,52695,1
+GO:2001029,"regulation of cellular glucuronidation",0.006%,null,null,0.778,-1.3951,0.681,0.908,52695,1
+GO:0055085,"transmembrane transport",7.528%,-2.261, 7.665,3.820,-1.8948,0.801,0.575,55085,0
+GO:0001777,"T cell homeostatic proliferation",0.014%,-1.425, 1.311,1.114,-1.3951,0.860,0.576,1777,0
+GO:0035227,"regulation of glutamate-cysteine ligase activity",0.001%, 0.255,-2.011,0.301,-1.3951,0.917,0.581,35227,0
+GO:0044712,"single-organism catabolic process",5.557%, 8.333, 0.314,3.688,-2.5003,0.726,0.583,44712,0
+GO:1901575,"organic substance catabolic process",7.339%,null,null,3.809,-1.7610,0.798,0.852,44712,1
+GO:0019321,"pentose metabolic process",0.028%, 4.826, 0.608,1.415,-3.3468,0.801,0.589,19321,0
+GO:0006063,"uronic acid metabolic process",0.025%, 6.953, 0.697,1.362,-1.4141,0.698,0.592,6063,0
+GO:0032976,"release of matrix enzymes from mitochondria",0.001%,-2.858, 0.888,0.301,-1.3951,0.906,0.593,32976,0
+GO:0006614,"SRP-dependent cotranslational protein targeting to membrane",0.150%,-3.012, 6.240,2.124,-1.4289,0.853,0.597,6614,0
+GO:0006613,"cotranslational protein targeting to membrane",0.156%,null,null,2.140,-1.4058,0.854,0.892,6614,1
+GO:0045759,"negative regulation of action potential",0.008%,-1.911,-1.122,0.903,-1.3951,0.927,0.601,45759,0
+GO:0009229,"thiamine diphosphate biosynthetic process",0.008%, 3.902, 0.298,0.903,-1.3951,0.754,0.610,9229,0
+GO:0000266,"mitochondrial fission",0.042%,-3.444, 2.389,1.580,-1.6874,0.927,0.611,266,0
+GO:0006665,"sphingolipid metabolic process",0.312%, 7.294, 0.463,2.439,-1.4522,0.701,0.612,6665,0
+GO:0006682,"galactosylceramide biosynthetic process",0.017%,null,null,1.204,-1.3951,0.693,0.745,6665,1
+GO:0019375,"galactolipid biosynthetic process",0.017%,null,null,1.204,-1.3951,0.713,0.928,6665,1
+GO:1990117,"B cell receptor apoptotic signaling pathway",0.001%,-4.423,-0.821,0.301,-1.3951,0.878,0.613,1990117,0
+GO:0002719,"negative regulation of cytokine production involved in immune response",0.023%,-3.556,-5.517,1.322,-1.6619,0.863,0.621,2719,0
+GO:0002737,"negative regulation of plasmacytoid dendritic cell cytokine production",0.001%,null,null,0.301,-1.3951,0.878,0.848,2719,1
+GO:0002736,"regulation of plasmacytoid dendritic cell cytokine production",0.001%,null,null,0.301,-1.3951,0.895,1.000,2719,1
+GO:0002731,"negative regulation of dendritic cell cytokine production",0.005%,null,null,0.699,-1.3951,0.871,0.912,2719,1
+GO:0002701,"negative regulation of production of molecular mediator of immune response",0.023%,null,null,1.322,-1.6619,0.916,0.762,2719,1
+GO:2000300,"regulation of synaptic vesicle exocytosis",0.049%,-3.822, 6.058,1.643,-1.5275,0.787,0.624,2000300,0
+GO:0009123,"nucleoside monophosphate metabolic process",5.669%, 7.285, 0.874,3.697,-1.4299,0.646,0.625,9123,0
+GO:0016115,"terpenoid catabolic process",0.007%, 6.355,-0.500,0.845,-2.3261,0.745,0.626,16115,0
+GO:0016103,"diterpenoid catabolic process",0.005%,null,null,0.699,-1.3951,0.750,0.959,16115,1
+GO:0034653,"retinoic acid catabolic process",0.005%,null,null,0.699,-1.3951,0.656,0.927,16115,1
+GO:0006820,"anion transport",1.726%,-2.862, 7.563,3.181,-1.6317,0.874,0.626,6820,0
+GO:0006669,"sphinganine-1-phosphate biosynthetic process",0.001%, 5.886, 0.402,0.301,-1.3951,0.730,0.628,6669,0
+GO:0006787,"porphyrin-containing compound catabolic process",0.027%, 5.166,-0.444,1.398,-3.2147,0.754,0.628,6787,0
+GO:0006778,"porphyrin-containing compound metabolic process",0.132%,null,null,2.068,-2.1938,0.781,0.930,6787,1
+GO:0048033,"heme o metabolic process",0.003%,null,null,0.602,-1.3951,0.782,0.716,6787,1
+GO:0048034,"heme O biosynthetic process",0.003%,null,null,0.602,-1.3951,0.730,0.716,6787,1
+GO:0006789,"bilirubin conjugation",0.001%,null,null,0.301,-1.3951,0.793,0.838,6787,1
+GO:0042168,"heme metabolic process",0.089%,null,null,1.898,-2.6345,0.735,0.869,6787,1
+GO:0042167,"heme catabolic process",0.010%,null,null,1.000,-3.2147,0.729,0.943,6787,1
+GO:0033015,"tetrapyrrole catabolic process",0.027%,null,null,1.398,-3.2147,0.784,0.774,6787,1
+GO:0072366,"regulation of cellular ketone metabolic process by positive regulation of transcription from RNA polymerase II promoter",0.001%, 5.595,-2.091,0.301,-1.3951,0.763,0.630,72366,0
+GO:1902445,"regulation of mitochondrial membrane permeability involved in programmed necrotic cell death",0.008%,-3.327, 5.486,0.903,-1.3951,0.809,0.633,1902445,0
+GO:1900053,"negative regulation of retinoic acid biosynthetic process",0.001%, 5.589,-1.377,0.301,-1.3951,0.640,0.633,1900053,0
+GO:0045827,"negative regulation of isoprenoid metabolic process",0.001%,null,null,0.301,-1.3951,0.764,0.903,1900053,1
+GO:1900052,"regulation of retinoic acid biosynthetic process",0.001%,null,null,0.301,-1.3951,0.651,0.903,1900053,1
+GO:0015727,"lactate transport",0.008%,-2.180, 6.673,0.903,-2.0367,0.891,0.633,15727,0
+GO:0035873,"lactate transmembrane transport",0.008%,-2.319, 6.970,0.903,-2.0367,0.850,0.633,35873,0
+GO:0097341,"zymogen inhibition",0.003%, 0.035,-4.398,0.602,-1.3951,0.872,0.638,97341,0
+GO:0006850,"mitochondrial pyruvate transport",0.009%,-2.688, 7.455,0.954,-2.7905,0.872,0.638,6850,0
+GO:1901475,"pyruvate transmembrane transport",0.006%,null,null,0.778,-1.3951,0.851,0.963,6850,1
+GO:0098528,"skeletal muscle fiber differentiation",0.003%,-3.475,-5.682,0.602,-1.3951,0.882,0.640,98528,0
+GO:0033108,"mitochondrial respiratory chain complex assembly",0.040%,-2.247, 1.553,1.556,-1.4722,0.921,0.642,33108,0
+GO:1901207,"regulation of heart looping",0.001%,-4.176,-6.120,0.301,-1.3951,0.904,0.643,1901207,0
+GO:1901211,"negative regulation of cardiac chamber formation",0.001%,-3.896,-6.266,0.301,-1.3951,0.893,0.643,1901211,0
+GO:1901210,"regulation of cardiac chamber formation",0.001%,null,null,0.301,-1.3951,0.907,0.878,1901211,1
+GO:0008300,"isoprenoid catabolic process",0.011%, 5.994,-0.380,1.041,-1.8265,0.741,0.648,8300,0
+GO:0002373,"plasmacytoid dendritic cell cytokine production",0.001%,-3.053,-4.690,0.301,-1.3951,0.914,0.648,2373,0
+GO:0042357,"thiamine diphosphate metabolic process",0.010%, 2.802, 0.718,1.000,-1.3951,0.792,0.649,42357,0
+GO:0006636,"unsaturated fatty acid biosynthetic process",0.108%, 7.479, 0.331,1.982,-1.7610,0.628,0.651,6636,0
+GO:0006633,"fatty acid biosynthetic process",0.312%,null,null,2.439,-1.4289,0.599,0.862,6636,1
+GO:0051187,"cofactor catabolic process",0.047%, 3.035,-0.582,1.623,-1.9642,0.803,0.651,51187,0
+GO:0008206,"bile acid metabolic process",0.077%, 7.461, 0.301,1.839,-1.9038,0.675,0.657,8206,0
+GO:0015718,"monocarboxylic acid transport",0.270%,-2.268, 6.809,2.377,-2.0565,0.867,0.658,15718,0
+GO:0015698,"inorganic anion transport",0.768%,null,null,2.829,-1.4374,0.866,0.837,15718,1
+GO:0015721,"bile acid and bile salt transport",0.046%,null,null,1.613,-1.5275,0.879,0.730,15718,1
+GO:0015711,"organic anion transport",0.945%,null,null,2.919,-1.4588,0.858,0.754,15718,1
+GO:0016052,"carbohydrate catabolic process",0.480%, 4.967,-0.618,2.625,-3.5850,0.793,0.661,16052,0
+GO:0042445,"hormone metabolic process",0.448%,-0.955, 1.321,2.595,-2.0195,0.875,0.663,42445,0
+GO:0046676,"negative regulation of insulin secretion",0.071%,null,null,1.799,-1.4722,0.756,0.715,42445,1
+GO:0034754,"cellular hormone metabolic process",0.197%,null,null,2.241,-1.5789,0.845,0.778,42445,1
+GO:0002792,"negative regulation of peptide secretion",0.079%,null,null,1.845,-1.4722,0.849,0.795,42445,1
+GO:0090278,"negative regulation of peptide hormone secretion",0.077%,null,null,1.839,-1.4722,0.755,0.991,42445,1
+GO:1902476,"chloride transmembrane transport",0.222%,-2.247, 6.791,2.292,-1.8383,0.823,0.664,1902476,0
+GO:0006821,"chloride transport",0.319%,null,null,2.449,-1.5572,0.873,0.815,1902476,1
+GO:0015709,"thiosulfate transport",0.088%,null,null,1.886,-1.3951,0.885,0.735,1902476,1
+GO:0035094,"response to nicotine",0.207%,-1.306,-0.520,2.262,-2.7212,0.949,0.667,35094,0
+GO:0071315,"cellular response to morphine",0.011%,null,null,1.041,-1.3951,0.919,0.874,35094,1
+GO:0043278,"response to morphine",0.082%,null,null,1.863,-2.3915,0.951,0.810,35094,1
+GO:0014072,"response to isoquinoline alkaloid",0.084%,null,null,1.875,-2.2967,0.952,0.812,35094,1
+GO:0006707,"cholesterol catabolic process",0.019%, 7.606, 0.003,1.255,-1.6619,0.706,0.668,6707,0
+GO:0016127,"sterol catabolic process",0.019%,null,null,1.255,-1.6619,0.706,0.929,6707,1
+GO:0006749,"glutathione metabolic process",0.149%, 7.262, 0.408,2.121,-2.9706,0.683,0.671,6749,0
+GO:0006750,"glutathione biosynthetic process",0.040%,null,null,1.556,-2.0762,0.659,0.786,6749,1
+GO:0006518,"peptide metabolic process",0.350%,null,null,2.489,-1.7518,0.817,0.874,6749,1
+GO:0019184,"nonribosomal peptide biosynthetic process",0.043%,null,null,1.591,-1.9642,0.800,0.931,6749,1
+GO:0006811,"ion transport",7.803%,-2.904, 7.546,3.836,-1.6720,0.870,0.673,6811,0
+GO:0015911,"plasma membrane long-chain fatty acid transport",0.015%,-2.454, 7.120,1.146,-1.5275,0.834,0.674,15911,0
+GO:0021536,"diencephalon development",0.350%,-3.718,-5.955,2.489,-1.5110,0.911,0.674,21536,0
+GO:0070972,"protein localization to endoplasmic reticulum",0.196%,-2.375, 6.828,2.238,-1.5032,0.912,0.677,70972,0
+GO:1902582,"single-organism intracellular transport",2.514%,-2.808, 7.472,3.344,-1.9027,0.863,0.685,1902582,0
+GO:0046456,"icosanoid biosynthetic process",0.098%, 7.768, 0.592,1.940,-1.4622,0.675,0.696,46456,0
+GO:1901570,"fatty acid derivative biosynthetic process",0.098%,null,null,1.940,-1.4622,0.771,0.911,46456,1
+GO:0050996,"positive regulation of lipid catabolic process",0.036%, 5.958,-1.699,1.519,-2.8601,0.712,0.696,50996,0
+GO:0032000,"positive regulation of fatty acid beta-oxidation",0.016%,null,null,1.176,-1.6619,0.619,0.886,50996,1
+GO:0031998,"regulation of fatty acid beta-oxidation",0.028%,null,null,1.415,-2.2013,0.613,0.873,50996,1
+GO:0043648,"dicarboxylic acid metabolic process",0.213%, 7.947, 1.016,2.274,-1.9626,0.712,0.696,43648,0

@@ -1,0 +1,266 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0006071,"glycerol metabolic process",0.052%,-3.317,-5.241,1.672,-5.1938,0.760,0.000,6071,0
+GO:0019751,"polyol metabolic process",0.210%,null,null,2.267,-2.5654,0.795,0.710,6071,1
+GO:0019400,"alditol metabolic process",0.058%,null,null,1.716,-4.9586,0.760,0.820,6071,1
+GO:0019401,"alditol biosynthetic process",0.006%,null,null,0.778,-2.4535,0.725,0.860,6071,1
+GO:0006114,"glycerol biosynthetic process",0.006%,null,null,0.778,-2.4535,0.725,0.860,6071,1
+GO:0007157,"heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules",0.084%, 0.016, 0.394,1.875,-2.8539,0.992,0.000,7157,0
+GO:0031427,"response to methotrexate",0.011%,-0.894, 2.928,1.041,-2.1530,0.965,0.000,31427,0
+GO:0060043,"regulation of cardiac muscle cell proliferation",0.096%, 6.520,-1.653,1.929,-2.8013,0.573,0.029,60043,0
+GO:0060419,"heart growth",0.165%,null,null,2.164,-2.1772,0.639,0.867,60043,1
+GO:0060420,"regulation of heart growth",0.117%,null,null,2.017,-2.5003,0.619,0.934,60043,1
+GO:0016202,"regulation of striated muscle tissue development",0.316%,null,null,2.444,-1.5792,0.634,0.924,60043,1
+GO:0014855,"striated muscle cell proliferation",0.147%,null,null,2.114,-2.3990,0.940,0.839,60043,1
+GO:0060038,"cardiac muscle cell proliferation",0.133%,null,null,2.072,-2.3990,0.617,0.960,60043,1
+GO:0060044,"negative regulation of cardiac muscle cell proliferation",0.022%,null,null,1.301,-1.6792,0.599,0.891,60043,1
+GO:0060045,"positive regulation of cardiac muscle cell proliferation",0.066%,null,null,1.771,-1.4603,0.576,0.960,60043,1
+GO:0055021,"regulation of cardiac muscle tissue growth",0.105%,null,null,1.968,-2.6596,0.597,0.976,60043,1
+GO:0055024,"regulation of cardiac muscle tissue development",0.128%,null,null,2.053,-2.3675,0.606,0.843,60043,1
+GO:0055017,"cardiac muscle tissue growth",0.150%,null,null,2.124,-2.2807,0.623,0.975,60043,1
+GO:0055013,"cardiac muscle cell development",0.139%,null,null,2.090,-2.5003,0.575,0.799,60043,1
+GO:0055015,"ventricular cardiac muscle cell development",0.041%,null,null,1.568,-1.5053,0.604,0.908,60043,1
+GO:0046620,"regulation of organ growth",0.213%,null,null,2.274,-1.9842,0.753,0.923,60043,1
+GO:0055012,"ventricular cardiac muscle cell differentiation",0.060%,null,null,1.732,-1.3485,0.601,0.863,60043,1
+GO:0055006,"cardiac cell development",0.145%,null,null,2.107,-2.4306,0.603,0.892,60043,1
+GO:0055007,"cardiac muscle cell differentiation",0.236%,null,null,2.318,-1.9119,0.567,0.930,60043,1
+GO:0055001,"muscle cell development",0.469%,null,null,2.616,-1.3754,0.659,0.752,60043,1
+GO:0055002,"striated muscle cell development",0.447%,null,null,2.594,-1.4372,0.656,0.890,60043,1
+GO:0048634,"regulation of muscle organ development",0.322%,null,null,2.453,-1.5572,0.656,0.722,60043,1
+GO:0048638,"regulation of developmental growth",0.309%,null,null,2.435,-1.4281,0.733,0.756,60043,1
+GO:1901861,"regulation of muscle tissue development",0.317%,null,null,2.446,-1.5682,0.715,0.723,60043,1
+GO:0048739,"cardiac muscle fiber development",0.015%,null,null,1.146,-1.8539,0.626,0.848,60043,1
+GO:0048738,"cardiac muscle tissue development",0.438%,null,null,2.585,-1.3925,0.621,0.822,60043,1
+GO:0007005,"mitochondrion organization",0.649%, 0.510,-0.105,2.757,-1.9694,0.914,0.035,7005,0
+GO:0055089,"fatty acid homeostasis",0.017%, 1.322, 2.674,1.204,-1.6130,0.963,0.042,55089,0
+GO:0046629,"gamma-delta T cell activation",0.048%, 0.021, 0.661,1.633,-1.6130,0.911,0.057,46629,0
+GO:0006801,"superoxide metabolic process",0.140%,-0.207, 0.287,2.093,-2.3675,0.917,0.071,6801,0
+GO:1902600,"hydrogen ion transmembrane transport",3.156%,-1.570, 6.511,3.443,-4.3872,0.824,0.079,1902600,0
+GO:0015992,"proton transport",3.250%,null,null,3.455,-4.0269,0.893,0.963,1902600,1
+GO:0009124,"nucleoside monophosphate biosynthetic process",1.453%,null,null,3.106,-2.8041,0.623,0.887,1902600,1
+GO:0009127,"purine nucleoside monophosphate biosynthetic process",1.383%,null,null,3.085,-3.1079,0.622,0.962,1902600,1
+GO:0006164,"purine nucleotide biosynthetic process",1.766%,null,null,3.191,-2.0535,0.606,0.975,1902600,1
+GO:0009145,"purine nucleoside triphosphate biosynthetic process",1.337%,null,null,3.070,-3.4437,0.629,0.976,1902600,1
+GO:0009142,"nucleoside triphosphate biosynthetic process",1.370%,null,null,3.080,-3.1308,0.631,0.871,1902600,1
+GO:0009156,"ribonucleoside monophosphate biosynthetic process",1.428%,null,null,3.098,-2.8633,0.621,0.978,1902600,1
+GO:0009152,"purine ribonucleotide biosynthetic process",1.740%,null,null,3.184,-2.0931,0.606,0.939,1902600,1
+GO:0009163,"nucleoside biosynthetic process",1.503%,null,null,3.121,-2.4202,0.629,0.984,1902600,1
+GO:0009168,"purine ribonucleoside monophosphate biosynthetic process",1.383%,null,null,3.085,-3.1079,0.622,0.978,1902600,1
+GO:0009165,"nucleotide biosynthetic process",2.080%,null,null,3.262,-1.6351,0.618,0.954,1902600,1
+GO:0006754,"ATP biosynthetic process",1.284%,null,null,3.052,-3.6990,0.603,0.974,1902600,1
+GO:0015985,"energy coupled proton transport, down electrochemical gradient",1.236%,null,null,3.036,-4.5086,0.838,0.845,1902600,1
+GO:0015986,"ATP synthesis coupled proton transport",1.236%,null,null,3.036,-4.5086,0.564,0.845,1902600,1
+GO:0009201,"ribonucleoside triphosphate biosynthetic process",1.348%,null,null,3.073,-3.2924,0.628,0.982,1902600,1
+GO:0046129,"purine ribonucleoside biosynthetic process",1.446%,null,null,3.104,-2.7305,0.628,0.968,1902600,1
+GO:0009206,"purine ribonucleoside triphosphate biosynthetic process",1.334%,null,null,3.069,-3.4437,0.629,0.982,1902600,1
+GO:0009260,"ribonucleotide biosynthetic process",1.776%,null,null,3.193,-1.9784,0.618,0.979,1902600,1
+GO:0042455,"ribonucleoside biosynthetic process",1.493%,null,null,3.118,-2.5200,0.629,0.980,1902600,1
+GO:0015672,"monovalent inorganic cation transport",4.597%,null,null,3.606,-2.3325,0.897,0.795,1902600,1
+GO:0034220,"ion transmembrane transport",6.093%,null,null,3.728,-1.5926,0.822,0.800,1902600,1
+GO:0042451,"purine nucleoside biosynthetic process",1.446%,null,null,3.104,-2.7305,0.628,0.976,1902600,1
+GO:0072593,"reactive oxygen species metabolic process",0.387%,-0.573,-0.447,2.533,-1.3754,0.910,0.083,72593,0
+GO:0044763,"single-organism cellular process",45.302%,-0.027,-0.481,4.599,-1.5972,0.907,0.098,44763,0
+GO:0030029,"actin filament-based process",1.610%,-0.197,-0.151,3.150,-1.3106,0.889,0.114,30029,0
+GO:0010694,"positive regulation of alkaline phosphatase activity",0.025%,-3.369,-0.272,1.362,-1.8539,0.854,0.115,10694,0
+GO:0010692,"regulation of alkaline phosphatase activity",0.040%,null,null,1.556,-1.6130,0.850,0.796,10694,1
+GO:0006091,"generation of precursor metabolites and energy",6.571%,-1.314,-1.370,3.761,-3.2218,0.884,0.121,6091,0
+GO:0044710,"single-organism metabolic process",26.477%,-1.419,-1.674,4.366,-1.7247,0.908,0.135,44710,0
+GO:0006104,"succinyl-CoA metabolic process",0.010%,-2.332,-0.976,1.000,-1.7577,0.862,0.165,6104,0
+GO:0042506,"tyrosine phosphorylation of Stat5 protein",0.050%,-3.139, 0.670,1.653,-1.5556,0.824,0.182,42506,0
+GO:0022904,"respiratory electron transport chain",4.683%,-3.441,-4.765,3.614,-3.6383,0.763,0.184,22904,0
+GO:0045333,"cellular respiration",5.546%,null,null,3.687,-4.0655,0.759,0.896,22904,1
+GO:0009126,"purine nucleoside monophosphate metabolic process",5.595%,null,null,3.691,-1.8038,0.657,0.936,22904,1
+GO:0009161,"ribonucleoside monophosphate metabolic process",5.638%,null,null,3.695,-1.7228,0.657,0.940,22904,1
+GO:0009167,"purine ribonucleoside monophosphate metabolic process",5.594%,null,null,3.691,-1.8038,0.657,0.941,22904,1
+GO:0046034,"ATP metabolic process",5.499%,null,null,3.684,-1.9516,0.645,0.854,22904,1
+GO:0015980,"energy derivation by oxidation of organic compounds",5.874%,null,null,3.712,-3.6990,0.759,0.863,22904,1
+GO:0006119,"oxidative phosphorylation",3.103%,null,null,3.435,-1.8453,0.649,0.779,22904,1
+GO:0022900,"electron transport chain",5.048%,null,null,3.647,-3.6198,0.763,0.874,22904,1
+GO:0042773,"ATP synthesis coupled electron transport",2.606%,null,null,3.359,-2.0434,0.652,0.845,22904,1
+GO:0042775,"mitochondrial ATP synthesis coupled electron transport",1.190%,null,null,3.019,-2.0434,0.677,0.757,22904,1
+GO:0010621,"negative regulation of transcription by transcription factor localization",0.003%,-4.509, 2.370,0.602,-1.9780,0.813,0.196,10621,0
+GO:0030518,"intracellular steroid hormone receptor signaling pathway",0.228%,-0.338, 1.395,2.303,-1.4190,0.867,0.224,30518,0
+GO:0036304,"umbilical cord morphogenesis",0.005%, 5.449,-3.196,0.699,-2.4535,0.816,0.225,36304,0
+GO:0061027,"umbilical cord development",0.005%, 5.521,-3.274,0.699,-2.4535,0.843,0.225,61027,0
+GO:0009067,"aspartate family amino acid biosynthetic process",0.060%,-4.180,-6.058,1.732,-3.1079,0.648,0.231,9067,0
+GO:0071265,"L-methionine biosynthetic process",0.019%,null,null,1.255,-1.7577,0.665,0.896,9067,1
+GO:0071267,"L-methionine salvage",0.019%,null,null,1.255,-1.7577,0.663,0.993,9067,1
+GO:0009068,"aspartate family amino acid catabolic process",0.019%,null,null,1.255,-1.3826,0.722,0.859,9067,1
+GO:0009086,"methionine biosynthetic process",0.044%,null,null,1.602,-1.5556,0.648,0.926,9067,1
+GO:1901607,"alpha-amino acid biosynthetic process",0.283%,null,null,2.396,-1.8142,0.628,0.839,9067,1
+GO:0008652,"cellular amino acid biosynthetic process",0.373%,null,null,2.516,-1.4947,0.635,0.736,9067,1
+GO:0070982,"L-asparagine metabolic process",0.002%,null,null,0.477,-2.4535,0.753,0.805,9067,1
+GO:0070981,"L-asparagine biosynthetic process",0.002%,null,null,0.477,-2.4535,0.703,0.757,9067,1
+GO:0019509,"L-methionine biosynthetic process from methylthioadenosine",0.017%,null,null,1.204,-1.7577,0.666,0.852,9067,1
+GO:0006533,"aspartate catabolic process",0.005%,null,null,0.699,-1.9780,0.727,0.878,9067,1
+GO:0006529,"asparagine biosynthetic process",0.014%,null,null,1.114,-2.1530,0.673,0.879,9067,1
+GO:0006531,"aspartate metabolic process",0.011%,null,null,1.041,-1.7577,0.719,0.831,9067,1
+GO:0006532,"aspartate biosynthetic process",0.002%,null,null,0.477,-2.1530,0.692,0.757,9067,1
+GO:0006528,"asparagine metabolic process",0.018%,null,null,1.230,-1.8539,0.725,0.856,9067,1
+GO:0019550,"glutamate catabolic process to aspartate",0.002%,null,null,0.477,-2.1530,0.736,0.849,9067,1
+GO:0019551,"glutamate catabolic process to 2-oxoglutarate",0.002%,null,null,0.477,-2.1530,0.753,0.859,9067,1
+GO:0006555,"methionine metabolic process",0.054%,null,null,1.681,-1.5053,0.702,0.917,9067,1
+GO:0000097,"sulfur amino acid biosynthetic process",0.056%,null,null,1.699,-1.5053,0.669,0.748,9067,1
+GO:0010667,"negative regulation of cardiac muscle cell apoptotic process",0.022%,-1.528, 1.898,1.301,-1.7577,0.859,0.250,10667,0
+GO:0010665,"regulation of cardiac muscle cell apoptotic process",0.059%,null,null,1.724,-1.4603,0.865,0.945,10667,1
+GO:0010662,"regulation of striated muscle cell apoptotic process",0.063%,null,null,1.748,-1.3826,0.865,0.971,10667,1
+GO:0010664,"negative regulation of striated muscle cell apoptotic process",0.028%,null,null,1.415,-1.5556,0.857,0.888,10667,1
+GO:0010659,"cardiac muscle cell apoptotic process",0.072%,null,null,1.806,-1.3485,0.885,0.984,10667,1
+GO:0015851,"nucleobase transport",0.008%,-1.107, 6.039,0.903,-1.7577,0.939,0.268,15851,0
+GO:0042180,"cellular ketone metabolic process",0.444%,-3.613,-5.647,2.592,-1.7737,0.768,0.270,42180,0
+GO:0035584,"calcium-mediated signaling using intracellular calcium source",0.018%,-0.711, 1.132,1.230,-1.4196,0.883,0.311,35584,0
+GO:0070633,"transepithelial transport",0.058%,-1.119, 6.026,1.716,-1.6130,0.936,0.317,70633,0
+GO:0044711,"single-organism biosynthetic process",4.776%,-4.580,-6.003,3.622,-2.2765,0.785,0.320,44711,0
+GO:0048864,"stem cell development",0.713%, 6.049,-3.370,2.797,-2.7122,0.680,0.321,48864,0
+GO:0019827,"stem cell maintenance",0.314%,null,null,2.442,-1.5906,0.631,0.884,48864,1
+GO:0001837,"epithelial to mesenchymal transition",0.281%,null,null,2.394,-1.6747,0.622,0.875,48864,1
+GO:0014031,"mesenchymal cell development",0.419%,null,null,2.567,-1.4012,0.633,0.945,48864,1
+GO:0048762,"mesenchymal cell differentiation",0.457%,null,null,2.604,-1.3506,0.637,0.916,48864,1
+GO:2000036,"regulation of stem cell maintenance",0.040%,null,null,1.556,-1.8539,0.669,0.741,48864,1
+GO:0060317,"cardiac epithelial to mesenchymal transition",0.150%,null,null,2.124,-1.3485,0.572,0.881,48864,1
+GO:0086067,"AV node cell to bundle of His cell communication",0.007%, 4.449, 0.639,0.845,-1.9780,0.773,0.331,86067,0
+GO:0003015,"heart process",0.487%,null,null,2.631,-1.3587,0.791,0.819,86067,1
+GO:0008016,"regulation of heart contraction",0.397%,null,null,2.543,-1.4653,0.757,0.702,86067,1
+GO:0060047,"heart contraction",0.483%,null,null,2.628,-1.3587,0.788,0.976,86067,1
+GO:0010460,"positive regulation of heart rate",0.038%,null,null,1.531,-1.3485,0.782,0.791,86067,1
+GO:0015742,"alpha-ketoglutarate transport",0.002%,-1.206, 6.060,0.477,-2.4535,0.939,0.333,15742,0
+GO:0060343,"trabecula formation",0.062%, 6.319,-2.034,1.740,-2.7033,0.722,0.337,60343,0
+GO:0003222,"ventricular trabecula myocardium morphogenesis",0.021%,null,null,1.279,-1.6792,0.642,0.876,60343,1
+GO:0060347,"heart trabecula formation",0.032%,null,null,1.462,-1.4196,0.662,0.921,60343,1
+GO:0060346,"bone trabecula formation",0.025%,null,null,1.362,-1.5556,0.736,0.887,60343,1
+GO:0061430,"bone trabecula morphogenesis",0.036%,null,null,1.519,-1.4603,0.779,0.909,60343,1
+GO:0060033,"anatomical structure regression",0.032%, 5.903,-3.308,1.462,-1.6130,0.795,0.343,60033,0
+GO:0014898,"cardiac muscle hypertrophy in response to stress",0.032%, 4.362,-0.059,1.462,-1.7577,0.807,0.343,14898,0
+GO:0014887,"cardiac muscle adaptation",0.034%,null,null,1.491,-1.6792,0.814,0.913,14898,1
+GO:0014888,"striated muscle adaptation",0.066%,null,null,1.771,-1.3485,0.807,0.853,14898,1
+GO:0003299,"muscle hypertrophy in response to stress",0.032%,null,null,1.462,-1.7577,0.808,0.869,14898,1
+GO:2000678,"negative regulation of transcription regulatory region DNA binding",0.136%,-1.612, 0.820,2.079,-1.5556,0.963,0.350,2000678,0
+GO:0006390,"transcription from mitochondrial promoter",0.011%,-2.805,-4.164,1.041,-1.5053,0.759,0.351,6390,0
+GO:0006979,"response to oxidative stress",0.874%,-0.543,-0.007,2.885,-1.4376,0.971,0.359,6979,0
+GO:0007568,"aging",0.730%, 5.840,-3.274,2.808,-1.7737,0.781,0.360,7568,0
+GO:2000143,"negative regulation of DNA-templated transcription, initiation",0.003%,-2.902,-2.335,0.602,-1.9780,0.805,0.364,2000143,0
+GO:0060633,"negative regulation of transcription initiation from RNA polymerase II promoter",0.002%,null,null,0.477,-2.1530,0.809,0.771,2000143,1
+GO:0060260,"regulation of transcription initiation from RNA polymerase II promoter",0.027%,null,null,1.398,-1.4603,0.795,0.875,2000143,1
+GO:0061383,"trabecula morphogenesis",0.095%, 6.547,-3.587,1.924,-2.3675,0.781,0.368,61383,0
+GO:0007506,"gonadal mesoderm development",0.009%, 6.322,-1.164,0.954,-2.4535,0.743,0.374,7506,0
+GO:0006839,"mitochondrial transport",0.326%,-1.509, 6.750,2.458,-1.9427,0.922,0.376,6839,0
+GO:0000185,"activation of MAPKKK activity",0.013%,-3.173,-1.785,1.079,-1.6130,0.797,0.380,185,0
+GO:0044281,"small molecule metabolic process",13.539%,-3.554,-5.030,4.075,-3.9208,0.800,0.388,44281,0
+GO:0006106,"fumarate metabolic process",0.003%,-2.755,-4.823,0.602,-1.9780,0.776,0.389,6106,0
+GO:0045780,"positive regulation of bone resorption",0.030%, 4.796, 0.594,1.431,-1.4603,0.798,0.395,45780,0
+GO:0046852,"positive regulation of bone remodeling",0.030%,null,null,1.431,-1.4603,0.805,0.917,45780,1
+GO:0045607,"regulation of auditory receptor cell differentiation",0.009%, 6.369,-1.879,0.954,-1.9780,0.688,0.405,45607,0
+GO:0045631,"regulation of mechanoreceptor differentiation",0.010%,null,null,1.000,-1.9780,0.703,0.708,45607,1
+GO:2000980,"regulation of inner ear receptor cell differentiation",0.010%,null,null,1.000,-1.9780,0.695,0.994,45607,1
+GO:0006863,"purine nucleobase transport",0.006%,-1.215, 6.284,0.778,-1.8539,0.936,0.405,6863,0
+GO:0015853,"adenine transport",0.003%,null,null,0.602,-1.9780,0.938,0.941,6863,1
+GO:0014070,"response to organic cyclic compound",2.318%,-0.701, 1.981,3.309,-1.8687,0.957,0.408,14070,0
+GO:1901566,"organonitrogen compound biosynthetic process",2.941%,-3.434,-4.714,3.412,-1.7167,0.797,0.409,1901566,0
+GO:0009123,"nucleoside monophosphate metabolic process",5.669%,-4.515,-4.951,3.697,-1.6882,0.670,0.417,9123,0
+GO:0007340,"acrosome reaction",0.056%, 0.057, 6.348,1.699,-1.3485,0.862,0.418,7340,0
+GO:0007605,"sensory perception of sound",0.268%, 5.088, 0.071,2.373,-1.5572,0.804,0.433,7605,0
+GO:0050793,"regulation of developmental process",4.431%, 6.527,-3.467,3.590,-1.4685,0.755,0.441,50793,0
+GO:0032354,"response to follicle-stimulating hormone",0.041%,-0.905, 3.075,1.568,-1.5053,0.962,0.454,32354,0
+GO:0055114,"oxidation-reduction process",10.933%,-4.108,-5.527,3.982,-2.5498,0.805,0.464,55114,0
+GO:0035912,"dorsal aorta morphogenesis",0.013%, 6.936,-2.268,1.079,-1.9780,0.704,0.465,35912,0
+GO:0035907,"dorsal aorta development",0.014%,null,null,1.114,-1.8539,0.708,0.844,35912,1
+GO:0035905,"ascending aorta development",0.007%,null,null,0.845,-1.9780,0.718,0.813,35912,1
+GO:0035910,"ascending aorta morphogenesis",0.007%,null,null,0.845,-1.9780,0.713,0.818,35912,1
+GO:0035909,"aorta morphogenesis",0.050%,null,null,1.653,-1.3170,0.680,0.915,35912,1
+GO:0061156,"pulmonary artery morphogenesis",0.011%,null,null,1.041,-1.7577,0.708,0.736,35912,1
+GO:0090129,"positive regulation of synapse maturation",0.027%, 4.957,-1.181,1.398,-1.7577,0.678,0.469,90129,0
+GO:0090128,"regulation of synapse maturation",0.033%,null,null,1.477,-1.6792,0.677,0.945,90129,1
+GO:0009636,"response to toxic substance",0.330%,-0.931, 2.776,2.464,-1.3670,0.965,0.471,9636,0
+GO:0006122,"mitochondrial electron transport, ubiquinol to cytochrome c",0.014%,-4.261,-4.700,1.114,-1.7577,0.768,0.474,6122,0
+GO:0001829,"trophectodermal cell differentiation",0.052%, 6.836,-2.214,1.672,-1.3826,0.714,0.477,1829,0
+GO:0060842,"arterial endothelial cell differentiation",0.015%, 6.480,-2.153,1.146,-1.9780,0.673,0.478,60842,0
+GO:0060837,"blood vessel endothelial cell differentiation",0.017%,null,null,1.204,-1.7577,0.670,0.709,60842,1
+GO:0048863,"stem cell differentiation",0.847%, 5.929,-3.386,2.872,-2.3726,0.711,0.478,48863,0
+GO:0045672,"positive regulation of osteoclast differentiation",0.046%, 6.112,-1.834,1.613,-1.3826,0.681,0.483,45672,0
+GO:0033002,"muscle cell proliferation",0.345%, 0.936, 0.166,2.483,-1.5572,0.948,0.487,33002,0
+GO:2000722,"regulation of cardiac vascular smooth muscle cell differentiation",0.002%, 7.146,-2.332,0.477,-2.4535,0.637,0.490,2000722,0
+GO:0060977,"coronary vasculature morphogenesis",0.030%,null,null,1.431,-1.8539,0.671,0.911,2000722,1
+GO:0060948,"cardiac vascular smooth muscle cell development",0.010%,null,null,1.000,-1.9780,0.626,0.887,2000722,1
+GO:2000723,"negative regulation of cardiac vascular smooth muscle cell differentiation",0.001%,null,null,0.301,-2.4535,0.641,0.799,2000722,1
+GO:0060947,"cardiac vascular smooth muscle cell differentiation",0.015%,null,null,1.146,-1.7577,0.626,0.931,2000722,1
+GO:0097084,"vascular smooth muscle cell development",0.021%,null,null,1.279,-1.7577,0.635,0.892,2000722,1
+GO:0051151,"negative regulation of smooth muscle cell differentiation",0.011%,null,null,1.041,-1.6130,0.693,0.801,2000722,1
+GO:1900744,"regulation of p38MAPK cascade",0.018%,-4.109,-1.941,1.230,-1.5556,0.791,0.493,1900744,0
+GO:1900745,"positive regulation of p38MAPK cascade",0.009%,null,null,0.954,-1.6130,0.795,0.942,1900744,1
+GO:1901659,"glycosyl compound biosynthetic process",1.506%,-4.138,-5.667,3.122,-2.4202,0.702,0.499,1901659,0
+GO:1901293,"nucleoside phosphate biosynthetic process",2.102%,null,null,3.266,-1.6223,0.622,0.897,1901659,1
+GO:0046390,"ribose phosphate biosynthetic process",1.781%,null,null,3.194,-1.9516,0.723,0.831,1901659,1
+GO:0007530,"sex determination",0.126%, 5.693,-2.032,2.049,-1.3826,0.805,0.501,7530,0
+GO:0006818,"hydrogen transport",3.252%,-1.458, 6.861,3.456,-3.9586,0.913,0.502,6818,0
+GO:0060575,"intestinal epithelial cell differentiation",0.032%, 6.626,-2.099,1.462,-1.5556,0.714,0.507,60575,0
+GO:0043648,"dicarboxylic acid metabolic process",0.213%,-3.855,-5.789,2.274,-1.7140,0.736,0.508,43648,0
+GO:0007271,"synaptic transmission, cholinergic",0.054%,-0.451, 1.783,1.681,-1.6130,0.899,0.516,7271,0
+GO:0003150,"muscular septum morphogenesis",0.008%, 6.399,-2.159,0.903,-1.8539,0.696,0.528,3150,0
+GO:0060413,"atrial septum morphogenesis",0.023%,null,null,1.322,-1.5053,0.677,0.763,3150,1
+GO:0003283,"atrial septum development",0.027%,null,null,1.398,-1.4196,0.683,0.905,3150,1
+GO:0001546,"preantral ovarian follicle growth",0.003%, 6.260,-1.138,0.602,-2.4535,0.732,0.530,1546,0
+GO:0048162,"multi-layer follicle stage",0.003%,null,null,0.602,-2.4535,0.747,0.893,1546,1
+GO:0042119,"neutrophil activation",0.046%, 0.028, 0.966,1.613,-1.3170,0.912,0.532,42119,0
+GO:0001880,"Mullerian duct regression",0.011%, 6.473,-1.063,1.041,-1.8539,0.771,0.533,1880,0
+GO:0030036,"actin cytoskeleton organization",1.465%, 0.341,-0.409,3.110,-1.4808,0.855,0.533,30036,0
+GO:0007015,"actin filament organization",0.768%,null,null,2.829,-1.5429,0.857,0.894,30036,1
+GO:0003175,"tricuspid valve development",0.013%, 6.262,-1.994,1.079,-2.1530,0.689,0.543,3175,0
+GO:0003195,"tricuspid valve formation",0.005%,null,null,0.699,-2.1530,0.698,0.803,3175,1
+GO:0003199,"endocardial cushion to mesenchymal transition involved in heart valve formation",0.007%,null,null,0.845,-1.9780,0.625,0.829,3175,1
+GO:0003171,"atrioventricular valve development",0.049%,null,null,1.643,-1.6130,0.665,0.901,3175,1
+GO:0003186,"tricuspid valve morphogenesis",0.005%,null,null,0.699,-2.1530,0.700,0.899,3175,1
+GO:0003188,"heart valve formation",0.030%,null,null,1.431,-1.6130,0.668,0.925,3175,1
+GO:0003184,"pulmonary valve morphogenesis",0.019%,null,null,1.255,-1.6792,0.678,0.831,3175,1
+GO:0003177,"pulmonary valve development",0.019%,null,null,1.255,-1.6792,0.682,0.852,3175,1
+GO:0008354,"germ cell migration",0.035%, 4.341, 3.608,1.505,-1.6792,0.771,0.549,8354,0
+GO:0042776,"mitochondrial ATP synthesis coupled proton transport",0.018%,-5.310,-0.412,1.230,-2.9706,0.673,0.550,42776,0
+GO:0061314,"Notch signaling involved in heart development",0.016%, 6.258,-1.185,1.176,-1.6130,0.654,0.551,61314,0
+GO:0006094,"gluconeogenesis",0.180%,-3.789,-5.182,2.201,-3.1805,0.731,0.555,6094,0
+GO:0046364,"monosaccharide biosynthetic process",0.218%,null,null,2.283,-2.9666,0.728,0.843,6094,1
+GO:0019318,"hexose metabolic process",0.687%,null,null,2.781,-1.4588,0.803,0.952,6094,1
+GO:0019319,"hexose biosynthetic process",0.203%,null,null,2.253,-3.0809,0.729,0.977,6094,1
+GO:0006006,"glucose metabolic process",0.520%,null,null,2.660,-1.5972,0.807,0.856,6094,1
+GO:0061099,"negative regulation of protein tyrosine kinase activity",0.024%,-3.381, 0.379,1.342,-1.3170,0.829,0.556,61099,0
+GO:2001212,"regulation of vasculogenesis",0.023%, 7.608,-2.129,1.322,-1.5556,0.639,0.578,2001212,0
+GO:0006744,"ubiquinone biosynthetic process",0.031%,-4.040,-5.714,1.447,-1.4603,0.720,0.582,6744,0
+GO:0006743,"ubiquinone metabolic process",0.034%,null,null,1.491,-1.4196,0.795,0.934,6744,1
+GO:1901663,"quinone biosynthetic process",0.033%,null,null,1.477,-1.3826,0.719,0.939,6744,1
+GO:0060976,"coronary vasculature development",0.038%, 7.644,-2.218,1.531,-1.6792,0.681,0.583,60976,0
+GO:0051960,"regulation of nervous system development",1.545%, 6.865,-1.991,3.133,-1.4499,0.667,0.583,51960,0
+GO:0051093,"negative regulation of developmental process",1.731%,null,null,3.182,-1.3207,0.727,0.724,51960,1
+GO:0035265,"organ growth",0.300%, 4.986,-0.130,2.422,-1.6876,0.794,0.588,35265,0
+GO:0070584,"mitochondrion morphogenesis",0.046%, 5.087,-2.888,1.613,-1.3485,0.723,0.597,70584,0
+GO:2000142,"regulation of DNA-templated transcription, initiation",0.031%,-2.952,-3.052,1.447,-1.3826,0.798,0.597,2000142,0
+GO:0072522,"purine-containing compound biosynthetic process",1.805%,-3.331,-4.542,3.200,-1.9516,0.729,0.599,72522,0
+GO:0044262,"cellular carbohydrate metabolic process",0.802%,-1.676,-2.275,2.848,-2.4750,0.856,0.607,44262,0
+GO:0044723,"single-organism carbohydrate metabolic process",1.976%,null,null,3.239,-1.6469,0.795,0.774,44262,1
+GO:1901029,"negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway",0.006%,-1.354, 5.151,0.778,-1.8539,0.805,0.621,1901029,0
+GO:0006538,"glutamate catabolic process",0.010%,-3.327,-5.543,1.000,-1.6792,0.733,0.631,6538,0
+GO:0043650,"dicarboxylic acid biosynthetic process",0.033%,null,null,1.477,-1.5053,0.683,0.714,6538,1
+GO:0043649,"dicarboxylic acid catabolic process",0.024%,null,null,1.342,-1.4196,0.748,0.751,6538,1
+GO:0006107,"oxaloacetate metabolic process",0.027%,null,null,1.398,-1.5053,0.748,0.757,6538,1
+GO:0006105,"succinate metabolic process",0.025%,null,null,1.362,-1.4603,0.749,0.753,6538,1
+GO:0006103,"2-oxoglutarate metabolic process",0.027%,null,null,1.398,-1.3826,0.748,0.757,6538,1
+GO:0048869,"cellular developmental process",8.570%, 5.710,-3.344,3.876,-1.3508,0.675,0.635,48869,0
+GO:0038066,"p38MAPK cascade",0.022%,-2.987,-1.999,1.301,-1.5053,0.799,0.637,38066,0
+GO:2000820,"negative regulation of transcription from RNA polymerase II promoter involved in smooth muscle cell differentiation",0.005%, 3.144,-4.848,0.699,-2.4535,0.653,0.643,2000820,0
+GO:0035886,"vascular smooth muscle cell differentiation",0.038%,null,null,1.531,-1.4603,0.633,0.744,2000820,1
+GO:0051150,"regulation of smooth muscle cell differentiation",0.036%,null,null,1.519,-1.3485,0.683,0.842,2000820,1
+GO:0048545,"response to steroid hormone",1.316%,-1.095, 3.336,3.063,-1.5607,0.953,0.648,48545,0
+GO:0051384,"response to glucocorticoid",0.384%,null,null,2.529,-1.5682,0.956,0.763,48545,1
+GO:0031960,"response to corticosteroid",0.403%,null,null,2.550,-1.5150,0.955,0.772,48545,1
+GO:0022605,"oogenesis stage",0.010%, 6.638,-0.937,1.000,-1.9780,0.734,0.656,22605,0
+GO:0090500,"endocardial cushion to mesenchymal transition",0.008%, 6.465,-2.005,0.903,-1.8539,0.637,0.658,90500,0
+GO:0015988,"energy coupled proton transmembrane transport, against electrochemical gradient",0.152%,-1.307, 6.505,2.127,-4.1135,0.863,0.667,15988,0
+GO:0015991,"ATP hydrolysis coupled proton transport",0.152%,-1.535, 6.759,2.127,-4.1135,0.863,0.667,15991,0
+GO:0016051,"carbohydrate biosynthetic process",0.513%,-4.477,-5.938,2.654,-1.9606,0.717,0.670,16051,0
+GO:0005996,"monosaccharide metabolic process",0.738%,null,null,2.812,-1.3768,0.807,0.756,16051,1
+GO:0035051,"cardiocyte differentiation",0.283%, 7.401,-2.214,2.396,-1.7007,0.603,0.675,35051,0
+GO:0010669,"epithelial structure maintenance",0.027%, 5.109, 1.106,1.398,-1.4196,0.828,0.676,10669,0
+GO:0050954,"sensory perception of mechanical stimulus",0.316%, 5.157, 0.068,2.444,-1.4848,0.802,0.682,50954,0
+GO:0060074,"synapse maturation",0.047%, 5.802,-1.663,1.623,-1.4603,0.719,0.685,60074,0
+GO:0009066,"aspartate family amino acid metabolic process",0.105%,-3.959,-5.915,1.968,-2.3990,0.716,0.686,9066,0
+GO:0009064,"glutamine family amino acid metabolic process",0.229%,null,null,2.305,-1.9842,0.701,0.757,9066,1
+GO:0033993,"response to lipid",2.113%,-0.909, 2.955,3.268,-1.3040,0.957,0.688,33993,0
+GO:0003214,"cardiac left ventricle morphogenesis",0.031%, 6.793,-2.199,1.447,-1.7577,0.673,0.696,3214,0
+GO:0003215,"cardiac right ventricle morphogenesis",0.038%,null,null,1.531,-1.4196,0.669,0.821,3214,1
+GO:0043102,"amino acid salvage",0.019%,-3.988,-6.053,1.255,-1.7577,0.692,0.698,43102,0

@@ -1,0 +1,106 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:1902600,"hydrogen ion transmembrane transport",3.156%,-1.027,-6.596,3.443,-2.7212,0.816,0.000,1902600,0
+GO:0015992,"proton transport",3.250%,null,null,3.455,-2.4559,0.896,0.963,1902600,1
+GO:0003419,"growth plate cartilage chondrocyte proliferation",0.009%,-6.720, 2.861,0.954,-2.0506,0.845,0.015,3419,0
+GO:0003416,"endochondral bone growth",0.054%,null,null,1.681,-1.3197,0.840,0.768,3419,1
+GO:0003420,"regulation of growth plate cartilage chondrocyte proliferation",0.006%,null,null,0.778,-2.0506,0.799,0.830,3419,1
+GO:0003417,"growth plate cartilage development",0.036%,null,null,1.519,-1.5784,0.836,0.874,3419,1
+GO:0090346,"cellular organofluorine metabolic process",0.002%,-2.077, 2.251,0.477,-2.3468,0.902,0.030,90346,0
+GO:0071372,"cellular response to follicle-stimulating hormone stimulus",0.031%,-1.234,-0.665,1.447,-1.5784,0.916,0.036,71372,0
+GO:0032354,"response to follicle-stimulating hormone",0.041%,null,null,1.568,-1.4045,0.960,0.894,71372,1
+GO:0010726,"positive regulation of hydrogen peroxide metabolic process",0.002%, 0.058,-1.214,0.477,-2.3468,0.786,0.047,10726,0
+GO:0010728,"regulation of hydrogen peroxide biosynthetic process",0.002%,null,null,0.477,-2.3468,0.801,0.849,10726,1
+GO:0010729,"positive regulation of hydrogen peroxide biosynthetic process",0.001%,null,null,0.301,-2.3468,0.785,0.906,10726,1
+GO:0050665,"hydrogen peroxide biosynthetic process",0.030%,null,null,1.431,-1.5784,0.825,0.816,10726,1
+GO:0010310,"regulation of hydrogen peroxide metabolic process",0.011%,null,null,1.041,-1.6556,0.801,0.710,10726,1
+GO:0090345,"cellular organohalogen metabolic process",0.002%,-0.944, 2.224,0.477,-2.3468,0.902,0.047,90345,0
+GO:0009650,"UV protection",0.023%,-0.781, 0.585,1.322,-1.4045,0.976,0.048,9650,0
+GO:0044314,"protein K27-linked ubiquitination",0.006%, 3.873, 6.145,0.778,-1.7520,0.813,0.049,44314,0
+GO:0009812,"flavonoid metabolic process",0.019%,-1.552, 1.129,1.255,-1.5129,0.907,0.053,9812,0
+GO:0043602,"nitrate catabolic process",0.005%, 4.944,-3.641,0.699,-2.3468,0.715,0.064,43602,0
+GO:0042126,"nitrate metabolic process",0.007%,null,null,0.845,-1.8761,0.769,0.963,43602,1
+GO:0010994,"free ubiquitin chain polymerization",0.002%,-3.582, 3.437,0.477,-2.0506,0.823,0.082,10994,0
+GO:0010993,"regulation of ubiquitin homeostasis",0.002%,null,null,0.477,-2.0506,0.841,0.962,10994,1
+GO:2001057,"reactive nitrogen species metabolic process",0.008%, 1.159,-2.481,0.903,-1.7520,0.885,0.100,2001057,0
+GO:0022904,"respiratory electron transport chain",4.683%, 4.217,-1.865,3.614,-2.1739,0.734,0.150,22904,0
+GO:0022900,"electron transport chain",5.048%,null,null,3.647,-2.1612,0.733,0.841,22904,1
+GO:0045333,"cellular respiration",5.546%,null,null,3.687,-1.6925,0.730,0.896,22904,1
+GO:0060192,"negative regulation of lipase activity",0.027%, 1.355, 0.446,1.398,-1.4547,0.849,0.150,60192,0
+GO:0006957,"complement activation, alternative pathway",0.016%, 3.661, 4.152,1.176,-1.6556,0.793,0.166,6957,0
+GO:0070389,"chaperone cofactor-dependent protein refolding",0.010%, 3.581, 5.747,1.000,-1.6556,0.833,0.187,70389,0
+GO:0051085,"chaperone mediated protein folding requiring cofactor",0.052%,null,null,1.672,-1.4045,0.819,0.814,70389,1
+GO:0040016,"embryonic cleavage",0.022%,-6.138, 2.544,1.301,-1.5784,0.840,0.219,40016,0
+GO:0018095,"protein polyglutamylation",0.031%, 4.452, 6.611,1.447,-1.6556,0.810,0.235,18095,0
+GO:0006858,"extracellular transport",0.008%,-1.702,-5.835,0.903,-1.6556,0.952,0.235,6858,0
+GO:0033683,"nucleotide-excision repair, DNA incision",0.009%, 4.564, 0.909,0.954,-1.5784,0.801,0.255,33683,0
+GO:0034498,"early endosome to Golgi transport",0.014%,-1.375,-5.664,1.114,-2.0506,0.930,0.280,34498,0
+GO:0032289,"central nervous system myelin formation",0.009%,-5.934, 3.929,0.954,-2.0506,0.764,0.284,32289,0
+GO:0022010,"central nervous system myelination",0.040%,null,null,1.556,-1.5129,0.767,0.913,32289,1
+GO:0043985,"histone H4-R3 methylation",0.015%, 2.468, 6.045,1.146,-1.7520,0.733,0.286,43985,0
+GO:0090031,"positive regulation of steroid hormone biosynthetic process",0.016%,-2.127,-1.237,1.176,-1.7520,0.681,0.291,90031,0
+GO:0090030,"regulation of steroid hormone biosynthetic process",0.038%,null,null,1.531,-1.4045,0.685,0.916,90031,1
+GO:0032352,"positive regulation of hormone metabolic process",0.026%,null,null,1.380,-1.4547,0.786,0.859,90031,1
+GO:0010893,"positive regulation of steroid biosynthetic process",0.030%,null,null,1.431,-1.3605,0.730,0.928,90031,1
+GO:0090205,"positive regulation of cholesterol metabolic process",0.014%,null,null,1.114,-1.5784,0.701,0.887,90031,1
+GO:0045542,"positive regulation of cholesterol biosynthetic process",0.013%,null,null,1.079,-1.6556,0.697,0.916,90031,1
+GO:0046886,"positive regulation of hormone biosynthetic process",0.019%,null,null,1.255,-1.5129,0.747,0.954,90031,1
+GO:0046210,"nitric oxide catabolic process",0.005%, 4.896,-3.431,0.699,-2.3468,0.771,0.296,46210,0
+GO:0002244,"hematopoietic progenitor cell differentiation",0.320%,-7.112, 3.472,2.450,-1.7011,0.779,0.321,2244,0
+GO:0006860,"extracellular amino acid transport",0.002%,-1.536,-6.647,0.477,-2.3468,0.920,0.333,6860,0
+GO:0019464,"glycine decarboxylation via glycine cleavage system",0.006%, 5.480,-3.683,0.778,-2.3468,0.714,0.341,19464,0
+GO:0006546,"glycine catabolic process",0.042%,null,null,1.580,-1.5129,0.679,0.863,19464,1
+GO:0009071,"serine family amino acid catabolic process",0.051%,null,null,1.663,-1.3605,0.677,0.738,19464,1
+GO:0051340,"regulation of ligase activity",0.133%, 1.183,-0.013,2.072,-1.3799,0.840,0.376,51340,0
+GO:0010992,"ubiquitin homeostasis",0.003%,-4.961, 0.219,0.602,-1.7520,0.861,0.385,10992,0
+GO:0009437,"carnitine metabolic process",0.032%, 3.913,-3.420,1.462,-1.3605,0.747,0.386,9437,0
+GO:1901030,"positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway",0.010%,-3.872,-2.783,1.000,-1.5129,0.778,0.397,1901030,0
+GO:0030282,"bone mineralization",0.204%,-6.517, 2.729,2.255,-1.5498,0.855,0.404,30282,0
+GO:0006200,"ATP catabolic process",1.093%, 5.018,-2.589,2.982,-2.0088,0.569,0.419,6200,0
+GO:0046130,"purine ribonucleoside catabolic process",3.716%,null,null,3.513,-1.3270,0.550,0.907,6200,1
+GO:0009207,"purine ribonucleoside triphosphate catabolic process",3.700%,null,null,3.512,-1.3595,0.546,0.813,6200,1
+GO:0009123,"nucleoside monophosphate metabolic process",5.669%,null,null,3.697,-1.4225,0.622,0.746,6200,1
+GO:0006152,"purine nucleoside catabolic process",3.716%,null,null,3.513,-1.3270,0.550,0.960,6200,1
+GO:0009126,"purine nucleoside monophosphate metabolic process",5.595%,null,null,3.691,-1.5331,0.602,0.936,6200,1
+GO:0009128,"purine nucleoside monophosphate catabolic process",1.101%,null,null,2.985,-1.9706,0.573,0.987,6200,1
+GO:0009146,"purine nucleoside triphosphate catabolic process",3.704%,null,null,3.512,-1.3516,0.546,0.962,6200,1
+GO:0009143,"nucleoside triphosphate catabolic process",3.710%,null,null,3.513,-1.3449,0.546,0.950,6200,1
+GO:0042454,"ribonucleoside catabolic process",3.734%,null,null,3.516,-1.3098,0.550,0.961,6200,1
+GO:0009161,"ribonucleoside monophosphate metabolic process",5.638%,null,null,3.695,-1.4559,0.602,0.940,6200,1
+GO:0009158,"ribonucleoside monophosphate catabolic process",1.100%,null,null,2.985,-1.9706,0.573,0.988,6200,1
+GO:0009169,"purine ribonucleoside monophosphate catabolic process",1.100%,null,null,2.985,-1.9706,0.573,0.988,6200,1
+GO:0009167,"purine ribonucleoside monophosphate metabolic process",5.594%,null,null,3.691,-1.5331,0.602,0.941,6200,1
+GO:0046034,"ATP metabolic process",5.499%,null,null,3.684,-1.6757,0.597,0.734,6200,1
+GO:0034655,"nucleobase-containing compound catabolic process",4.390%,null,null,3.586,-1.3487,0.607,0.921,6200,1
+GO:0009203,"ribonucleoside triphosphate catabolic process",3.700%,null,null,3.512,-1.3595,0.546,0.962,6200,1
+GO:0031145,"anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process",0.103%, 5.743, 2.785,1.959,-1.5229,0.697,0.438,31145,0
+GO:0031146,"SCF-dependent proteasomal ubiquitin-dependent protein catabolic process",0.027%,null,null,1.398,-1.4045,0.721,0.710,31145,1
+GO:0018195,"peptidyl-arginine modification",0.026%, 4.445, 6.831,1.380,-1.3197,0.812,0.443,18195,0
+GO:0010921,"regulation of phosphatase activity",0.162%, 1.806,-1.726,2.155,-1.4134,0.745,0.462,10921,0
+GO:0031214,"biomineral tissue development",0.252%,-6.905, 2.848,2.346,-1.4023,0.853,0.499,31214,0
+GO:0006818,"hydrogen transport",3.252%,-1.631,-7.068,3.456,-2.4202,0.910,0.502,6818,0
+GO:0051443,"positive regulation of ubiquitin-protein transferase activity",0.104%, 3.492, 4.336,1.964,-1.5100,0.680,0.513,51443,0
+GO:0051488,"activation of anaphase-promoting complex activity",0.011%,null,null,1.041,-1.5129,0.716,0.854,51443,1
+GO:0051351,"positive regulation of ligase activity",0.109%,null,null,1.987,-1.4841,0.814,0.966,51443,1
+GO:0051438,"regulation of ubiquitin-protein transferase activity",0.128%,null,null,2.053,-1.4023,0.700,0.981,51443,1
+GO:0001701,"in utero embryonic development",1.158%,-6.479, 2.850,3.007,-1.5452,0.857,0.550,1701,0
+GO:1901533,"negative regulation of hematopoietic progenitor cell differentiation",0.015%,-6.460, 3.580,1.146,-1.5129,0.773,0.554,1901533,0
+GO:0045652,"regulation of megakaryocyte differentiation",0.024%,null,null,1.342,-1.3605,0.766,0.899,1901533,1
+GO:0045653,"negative regulation of megakaryocyte differentiation",0.007%,null,null,0.845,-1.6556,0.780,0.838,1901533,1
+GO:0006868,"glutamine transport",0.015%,-1.484,-6.758,1.146,-2.0506,0.912,0.565,6868,0
+GO:0043249,"erythrocyte maturation",0.021%,-6.954, 1.890,1.279,-1.4547,0.761,0.566,43249,0
+GO:0035082,"axoneme assembly",0.033%,-5.405, 4.155,1.477,-1.8761,0.794,0.589,35082,0
+GO:0007288,"sperm axoneme assembly",0.017%,null,null,1.204,-2.0506,0.798,0.869,35082,1
+GO:0035519,"protein K29-linked ubiquitination",0.006%, 3.870, 6.343,0.778,-1.7520,0.813,0.611,35519,0
+GO:0035246,"peptidyl-arginine N-methylation",0.016%, 4.138, 7.052,1.176,-1.4547,0.775,0.614,35246,0
+GO:0035247,"peptidyl-arginine omega-N-methylation",0.009%,null,null,0.954,-1.5129,0.781,0.969,35246,1
+GO:0018216,"peptidyl-arginine methylation",0.016%,null,null,1.176,-1.4547,0.777,0.943,35246,1
+GO:0019919,"peptidyl-arginine methylation, to asymmetrical-dimethyl arginine",0.008%,null,null,0.903,-1.5784,0.782,0.962,35246,1
+GO:0006308,"DNA catabolic process",0.253%, 6.513, 0.371,2.348,-1.4365,0.662,0.616,6308,0
+GO:0085020,"protein K6-linked ubiquitination",0.009%, 3.975, 6.146,0.954,-1.5129,0.809,0.626,85020,0
+GO:0051346,"negative regulation of hydrolase activity",0.734%, 1.087,-0.149,2.810,-1.3063,0.817,0.633,51346,0
+GO:0044270,"cellular nitrogen compound catabolic process",4.524%, 5.211,-3.697,3.599,-1.7399,0.645,0.657,44270,0
+GO:0034969,"histone arginine methylation",0.021%, 2.553, 5.933,1.279,-1.4547,0.729,0.658,34969,0
+GO:0032291,"axon ensheathment in central nervous system",0.040%,-6.970, 1.515,1.556,-1.5129,0.777,0.663,32291,0
+GO:0060218,"hematopoietic stem cell differentiation",0.032%,-7.121, 3.240,1.462,-1.4547,0.797,0.679,60218,0
+GO:0015804,"neutral amino acid transport",0.080%,-1.495,-6.793,1.851,-1.3605,0.907,0.691,15804,0
+GO:0009125,"nucleoside monophosphate catabolic process",1.104%, 5.247,-2.650,2.987,-1.9508,0.586,0.694,9125,0

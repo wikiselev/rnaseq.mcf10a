@@ -1,0 +1,378 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0009887,"organ morphogenesis",2.260%,-6.640, 2.611,3.298,-5.2076,0.596,0.000,9887,0
+GO:0000902,"cell morphogenesis",2.742%,null,null,3.381,-2.1451,0.569,0.716,9887,1
+GO:0000904,"cell morphogenesis involved in differentiation",1.833%,null,null,3.207,-1.5065,0.576,0.900,9887,1
+GO:0032989,"cellular component morphogenesis",2.952%,null,null,3.414,-1.8611,0.573,0.743,9887,1
+GO:0009987,"cellular process",59.614%,-0.060,-0.460,4.719,-1.7635,0.998,0.000,9987,0
+GO:0022610,"biological adhesion",2.826%, 0.081,-0.551,3.395,-1.5025,0.995,0.000,22610,0
+GO:0023052,"signaling",17.329%, 0.411,-0.702,4.182,-2.9318,0.996,0.000,23052,0
+GO:0032501,"multicellular organismal process",15.657%, 0.291,-0.338,4.138,-2.2741,0.996,0.000,32501,0
+GO:0032502,"developmental process",13.055%, 0.104,-0.301,4.059,-2.1798,0.995,0.000,32502,0
+GO:0040011,"locomotion",3.285%, 0.056,-0.139,3.460,-2.4711,0.995,0.000,40011,0
+GO:0043085,"positive regulation of catalytic activity",3.352%, 2.789,-1.432,3.469,-1.8784,0.871,0.000,43085,0
+GO:0051345,"positive regulation of hydrolase activity",2.284%,null,null,3.302,-1.5902,0.874,0.873,43085,1
+GO:0044093,"positive regulation of molecular function",3.848%,null,null,3.529,-1.7165,0.909,0.784,43085,1
+GO:0050896,"response to stimulus",47.248%,-0.077,-0.657,4.618,-1.9910,0.997,0.000,50896,0
+GO:0065007,"biological regulation",51.216%, 0.010,-0.380,4.653,-2.1273,0.997,0.000,65007,0
+GO:0071593,"lymphocyte aggregation",0.003%, 0.154,-0.597,0.602,-1.7445,0.974,0.013,71593,0
+GO:0010463,"mesenchymal cell proliferation",0.222%,-0.573, 0.220,2.292,-4.7212,0.903,0.019,10463,0
+GO:2000648,"positive regulation of stem cell proliferation",0.132%,null,null,2.068,-4.2676,0.813,0.835,10463,1
+GO:0010464,"regulation of mesenchymal cell proliferation",0.092%,null,null,1.914,-3.8239,0.832,0.890,10463,1
+GO:0072091,"regulation of stem cell proliferation",0.230%,null,null,2.307,-3.4089,0.824,0.873,10463,1
+GO:0002053,"positive regulation of mesenchymal cell proliferation",0.084%,null,null,1.875,-4.1487,0.817,0.884,10463,1
+GO:0007267,"cell-cell signaling",2.522%, 3.475, 6.105,3.345,-3.7696,0.838,0.025,7267,0
+GO:0008283,"cell proliferation",4.075%, 0.042,-0.246,3.554,-3.3872,0.962,0.027,8283,0
+GO:0035690,"cellular response to drug",0.111%, 2.606, 5.099,1.991,-2.6091,0.869,0.040,35690,0
+GO:0070141,"response to UV-A",0.007%, 0.948, 0.289,0.845,-2.3363,0.965,0.048,70141,0
+GO:0006776,"vitamin A metabolic process",0.011%, 1.653,-5.395,1.041,-3.0177,0.879,0.068,6776,0
+GO:0051716,"cellular response to stimulus",19.092%, 1.928, 1.184,4.224,-1.9880,0.911,0.093,51716,0
+GO:0035978,"histone H2A-S139 phosphorylation",0.001%, 1.601,-3.388,0.301,-1.7445,0.878,0.095,35978,0
+GO:0016477,"cell migration",2.372%, 1.295,-0.971,3.319,-3.2441,0.846,0.117,16477,0
+GO:0048870,"cell motility",2.570%,null,null,3.353,-2.8996,0.845,0.964,16477,1
+GO:0001764,"neuron migration",0.400%,null,null,2.547,-1.9512,0.600,0.770,16477,1
+GO:0006928,"cellular component movement",3.830%, 0.953, 0.761,3.527,-2.5114,0.890,0.125,6928,0
+GO:0050789,"regulation of biological process",49.744%, 2.550, 1.790,4.640,-2.7959,0.924,0.159,50789,0
+GO:0044763,"single-organism cellular process",45.302%, 1.071,-0.148,4.599,-1.7844,0.908,0.171,44763,0
+GO:0007154,"cell communication",17.535%, 1.673, 1.417,4.187,-3.1938,0.869,0.173,7154,0
+GO:0032796,"uropod organization",0.008%,-0.901,-1.848,0.903,-1.4475,0.898,0.176,32796,0
+GO:0015942,"formate metabolic process",0.007%, 1.184,-4.617,0.845,-1.7445,0.881,0.185,15942,0
+GO:0033037,"polysaccharide localization",0.002%, 0.602,-1.935,0.477,-1.7445,0.981,0.187,33037,0
+GO:2001033,"negative regulation of double-strand break repair via nonhomologous end joining",0.001%, 2.611, 4.080,0.301,-1.7445,0.820,0.192,2001033,0
+GO:0003131,"mesodermal-endodermal cell signaling",0.001%, 2.381, 4.614,0.301,-1.7445,0.904,0.192,3131,0
+GO:1901660,"calcium ion export",0.005%, 0.707,-2.626,0.699,-1.7445,0.959,0.196,1901660,0
+GO:0031119,"tRNA pseudouridine synthesis",0.009%, 0.896,-2.670,0.954,-1.4475,0.925,0.198,31119,0
+GO:0048519,"negative regulation of biological process",8.588%, 2.041, 0.532,3.877,-2.8386,0.935,0.207,48519,0
+GO:0046022,"positive regulation of transcription from RNA polymerase II promoter during mitosis",0.005%, 3.520,-0.306,0.699,-1.4475,0.859,0.212,46022,0
+GO:0006893,"Golgi to plasma membrane transport",0.063%, 0.822,-2.966,1.748,-1.8274,0.954,0.243,6893,0
+GO:0072720,"response to dithiothreitol",0.001%, 1.454, 2.282,0.301,-1.7445,0.936,0.245,72720,0
+GO:0007621,"negative regulation of female receptivity",0.019%,-4.516, 0.706,1.255,-1.7445,0.781,0.253,7621,0
+GO:0008050,"female courtship behavior",0.016%,null,null,1.176,-1.4475,0.799,0.931,7621,1
+GO:0006184,"GTP catabolic process",2.612%, 2.665,-4.558,3.360,-2.0958,0.760,0.272,6184,0
+GO:1901292,"nucleoside phosphate catabolic process",3.849%,null,null,3.529,-1.7042,0.759,0.949,6184,1
+GO:0030811,"regulation of nucleotide catabolic process",1.890%,null,null,3.220,-1.9626,0.710,0.940,6184,1
+GO:0046434,"organophosphate catabolic process",3.952%,null,null,3.540,-1.8013,0.838,0.704,6184,1
+GO:0043087,"regulation of GTPase activity",1.804%,null,null,3.200,-2.2343,0.692,0.974,6184,1
+GO:0006195,"purine nucleotide catabolic process",3.766%,null,null,3.519,-1.8542,0.756,0.960,6184,1
+GO:0006152,"purine nucleoside catabolic process",3.716%,null,null,3.513,-1.5103,0.766,0.960,6184,1
+GO:0009146,"purine nucleoside triphosphate catabolic process",3.704%,null,null,3.512,-1.5607,0.759,0.962,6184,1
+GO:0009143,"nucleoside triphosphate catabolic process",3.710%,null,null,3.513,-1.5461,0.760,0.952,6184,1
+GO:0043547,"positive regulation of GTPase activity",1.718%,null,null,3.179,-2.2692,0.691,0.921,6184,1
+GO:0009154,"purine ribonucleotide catabolic process",3.749%,null,null,3.517,-1.7486,0.756,0.912,6184,1
+GO:0046039,"GTP metabolic process",2.665%,null,null,3.369,-2.0150,0.781,0.968,6184,1
+GO:1900542,"regulation of purine nucleotide metabolic process",2.109%,null,null,3.268,-1.4915,0.725,0.965,6184,1
+GO:0009166,"nucleotide catabolic process",3.840%,null,null,3.528,-1.7406,0.759,0.957,6184,1
+GO:1901069,"guanosine-containing compound catabolic process",2.615%,null,null,3.361,-2.0752,0.771,0.966,6184,1
+GO:0009203,"ribonucleoside triphosphate catabolic process",3.700%,null,null,3.512,-1.5753,0.759,0.962,6184,1
+GO:0046130,"purine ribonucleoside catabolic process",3.716%,null,null,3.513,-1.5103,0.766,0.958,6184,1
+GO:0009207,"purine ribonucleoside triphosphate catabolic process",3.700%,null,null,3.512,-1.5753,0.759,0.952,6184,1
+GO:0009261,"ribonucleotide catabolic process",3.750%,null,null,3.517,-1.7409,0.759,0.955,6184,1
+GO:0033124,"regulation of GTP catabolic process",1.815%,null,null,3.202,-2.2218,0.705,0.965,6184,1
+GO:0033121,"regulation of purine nucleotide catabolic process",1.889%,null,null,3.220,-1.9735,0.706,0.976,6184,1
+GO:0072523,"purine-containing compound catabolic process",3.782%,null,null,3.521,-1.8309,0.815,0.913,6184,1
+GO:0042454,"ribonucleoside catabolic process",3.734%,null,null,3.516,-1.4752,0.766,0.961,6184,1
+GO:0046579,"positive regulation of Ras protein signal transduction",0.098%, 3.720, 6.134,1.940,-3.5850,0.789,0.273,46579,0
+GO:0035025,"positive regulation of Rho protein signal transduction",0.059%,null,null,1.724,-2.1952,0.796,0.944,46579,1
+GO:0045760,"positive regulation of action potential",0.015%,-0.091, 0.044,1.146,-1.4475,0.940,0.279,45760,0
+GO:0090402,"oncogene-induced cell senescence",0.002%,-3.402, 5.839,0.477,-1.4475,0.754,0.294,90402,0
+GO:0031049,"programmed DNA elimination",0.001%, 0.702,-2.477,0.301,-1.7445,0.934,0.294,31049,0
+GO:0036146,"cellular response to mycotoxin",0.001%, 2.231, 4.368,0.301,-1.7445,0.900,0.303,36146,0
+GO:0072721,"cellular response to dithiothreitol",0.001%, 2.565, 4.557,0.301,-1.7445,0.895,0.303,72721,0
+GO:0048583,"regulation of response to stimulus",26.518%, 2.919, 1.962,4.367,-2.7122,0.912,0.322,48583,0
+GO:0031052,"chromosome breakage",0.001%, 0.260,-3.038,0.301,-1.7445,0.912,0.323,31052,0
+GO:0070194,"synaptonemal complex disassembly",0.001%,-0.480,-2.208,0.301,-1.7445,0.917,0.323,70194,0
+GO:2000036,"regulation of stem cell maintenance",0.040%,-4.353, 5.509,1.556,-2.7235,0.620,0.329,2000036,0
+GO:0035019,"somatic stem cell maintenance",0.113%,null,null,2.000,-1.9582,0.600,0.786,2000036,1
+GO:0002149,"hypochlorous acid biosynthetic process",0.002%, 0.865,-4.217,0.477,-1.7445,0.884,0.333,2149,0
+GO:0002768,"immune response-regulating cell surface receptor signaling pathway",0.710%, 3.434, 6.341,2.795,-1.7812,0.787,0.336,2768,0
+GO:0038095,"Fc-epsilon receptor signaling pathway",0.370%,null,null,2.513,-1.5103,0.798,0.852,2768,1
+GO:0038093,"Fc receptor signaling pathway",0.436%,null,null,2.584,-1.4815,0.795,0.891,2768,1
+GO:0050794,"regulation of cellular process",28.971%, 2.605, 1.435,4.405,-2.9101,0.892,0.337,50794,0
+GO:0097045,"phosphatidylserine exposure on blood platelet",0.001%,-3.656, 1.425,0.301,-1.7445,0.763,0.339,97045,0
+GO:0007468,"regulation of rhodopsin gene expression",0.010%,-5.314, 1.952,1.000,-1.7445,0.672,0.339,7468,0
+GO:0030838,"positive regulation of actin filament polymerization",0.178%, 2.475, 2.536,2.196,-1.4859,0.807,0.339,30838,0
+GO:0048745,"smooth muscle tissue development",0.058%,-5.783, 2.935,1.716,-2.7423,0.719,0.340,48745,0
+GO:0051387,"negative regulation of neurotrophin TRK receptor signaling pathway",0.007%, 2.866, 7.140,0.845,-1.4475,0.777,0.343,51387,0
+GO:0097369,"sodium ion import",0.001%, 0.619,-2.715,0.301,-1.7445,0.925,0.348,97369,0
+GO:0035262,"gonad morphogenesis",0.001%,-5.977, 2.113,0.301,-1.7445,0.735,0.349,35262,0
+GO:0007210,"serotonin receptor signaling pathway",0.055%, 3.412, 6.315,1.690,-1.7445,0.830,0.353,7210,0
+GO:0002930,"trabecular meshwork development",0.007%,-6.475, 2.215,0.845,-1.7445,0.739,0.361,2930,0
+GO:0051674,"localization of cell",2.570%, 0.676,-2.216,3.353,-2.8996,0.972,0.365,51674,0
+GO:0061144,"alveolar secondary septum development",0.008%,-6.857, 2.450,0.903,-1.4475,0.697,0.365,61144,0
+GO:0033151,"V(D)J recombination",0.049%,-5.688, 0.433,1.643,-1.7235,0.676,0.367,33151,0
+GO:0071526,"semaphorin-plexin signaling pathway",0.098%, 3.314, 6.252,1.940,-1.5372,0.824,0.371,71526,0
+GO:0061549,"sympathetic ganglion development",0.021%,-6.333, 2.461,1.279,-2.7235,0.691,0.381,61549,0
+GO:0048485,"sympathetic nervous system development",0.043%,null,null,1.591,-1.7975,0.712,0.869,61549,1
+GO:0061548,"ganglion development",0.023%,-6.319, 2.453,1.322,-2.7235,0.691,0.384,61548,0
+GO:0048483,"autonomic nervous system development",0.085%,-6.588, 2.506,1.881,-3.3188,0.702,0.385,48483,0
+GO:0007259,"JAK-STAT cascade",0.253%, 3.672, 6.534,2.348,-1.9991,0.812,0.391,7259,0
+GO:0032747,"positive regulation of interleukin-23 production",0.007%,-4.363, 1.290,0.845,-1.4475,0.782,0.400,32747,0
+GO:0070848,"response to growth factor",1.438%, 1.723, 2.537,3.101,-1.6216,0.904,0.404,70848,0
+GO:0072075,"metanephric mesenchyme development",0.031%,-6.847, 2.543,1.447,-3.5229,0.626,0.407,72075,0
+GO:0090094,"metanephric cap mesenchymal cell proliferation involved in metanephros development",0.002%,null,null,0.477,-3.4949,0.621,0.833,72075,1
+GO:0090096,"positive regulation of metanephric cap mesenchymal cell proliferation",0.001%,null,null,0.301,-1.7445,0.572,0.969,72075,1
+GO:0090095,"regulation of metanephric cap mesenchymal cell proliferation",0.001%,null,null,0.301,-1.7445,0.582,0.969,72075,1
+GO:0072203,"cell proliferation involved in metanephros development",0.027%,null,null,1.398,-2.3363,0.635,0.746,72075,1
+GO:0072185,"metanephric cap development",0.002%,null,null,0.477,-3.4949,0.674,0.833,72075,1
+GO:0072186,"metanephric cap morphogenesis",0.002%,null,null,0.477,-3.4949,0.649,1.000,72075,1
+GO:0072131,"kidney mesenchyme morphogenesis",0.015%,null,null,1.146,-3.4949,0.620,0.926,72075,1
+GO:0072133,"metanephric mesenchyme morphogenesis",0.015%,null,null,1.146,-3.4949,0.616,0.926,72075,1
+GO:0072162,"metanephric mesenchymal cell differentiation",0.006%,null,null,0.778,-1.4475,0.623,0.876,72075,1
+GO:0021869,"forebrain ventricular zone progenitor cell division",0.013%,-5.801, 2.205,1.079,-1.4475,0.665,0.407,21869,0
+GO:0021847,"ventricular zone neuroblast division",0.009%,null,null,0.954,-1.4475,0.652,0.781,21869,1
+GO:0007600,"sensory perception",1.733%,-5.363, 1.153,3.182,-3.2840,0.738,0.409,7600,0
+GO:0050877,"neurological system process",2.809%,null,null,3.392,-2.4202,0.729,0.794,7600,1
+GO:0050954,"sensory perception of mechanical stimulus",0.316%,null,null,2.444,-1.8167,0.769,0.708,7600,1
+GO:0050953,"sensory perception of light stimulus",0.293%,null,null,2.412,-1.7342,0.771,0.702,7600,1
+GO:0007601,"visual perception",0.288%,null,null,2.405,-1.7956,0.771,0.701,7600,1
+GO:0035986,"senescence-associated heterochromatin focus assembly",0.003%, 0.412,-3.762,0.602,-1.4475,0.905,0.410,35986,0
+GO:0035272,"exocrine system development",0.178%,-6.515, 2.383,2.196,-1.4859,0.703,0.413,35272,0
+GO:0048863,"stem cell differentiation",0.847%,-5.816, 3.321,2.872,-2.1331,0.661,0.415,48863,0
+GO:0035988,"chondrocyte proliferation",0.017%,-0.769, 0.064,1.204,-2.7235,0.930,0.415,35988,0
+GO:0019285,"glycine betaine biosynthetic process from choline",0.002%, 1.415,-5.631,0.477,-1.4475,0.871,0.416,19285,0
+GO:0031455,"glycine betaine metabolic process",0.002%,null,null,0.477,-1.4475,0.877,0.737,19285,1
+GO:0031456,"glycine betaine biosynthetic process",0.002%,null,null,0.477,-1.4475,0.873,1.000,19285,1
+GO:0009115,"xanthine catabolic process",0.001%, 1.108,-4.759,0.301,-1.7445,0.870,0.419,9115,0
+GO:0031662,"positive regulation of cyclin-dependent protein serine/threonine kinase activity involved in G2/M transition of mitotic cell cycle",0.001%, 3.094,-0.374,0.301,-1.7445,0.836,0.424,31662,0
+GO:0060385,"axonogenesis involved in innervation",0.017%,-6.011, 1.563,1.204,-4.2518,0.654,0.424,60385,0
+GO:0021602,"cranial nerve morphogenesis",0.113%,null,null,2.000,-1.7975,0.669,0.861,60385,1
+GO:0060384,"innervation",0.071%,null,null,1.799,-3.0706,0.700,0.759,60385,1
+GO:0060666,"dichotomous subdivision of terminal units involved in salivary gland branching",0.023%,-6.686, 2.547,1.322,-2.5072,0.657,0.434,60666,0
+GO:0060445,"branching involved in salivary gland morphogenesis",0.100%,null,null,1.949,-2.2211,0.625,0.867,60666,1
+GO:0060665,"regulation of branching involved in salivary gland morphogenesis by mesenchymal-epithelial signaling",0.017%,null,null,1.204,-1.4475,0.576,0.809,60666,1
+GO:0007435,"salivary gland morphogenesis",0.131%,null,null,2.064,-1.7875,0.664,0.970,60666,1
+GO:0007431,"salivary gland development",0.139%,null,null,2.090,-1.6417,0.682,0.938,60666,1
+GO:2001213,"negative regulation of vasculogenesis",0.001%,-5.172, 5.302,0.301,-1.7445,0.664,0.436,2001213,0
+GO:0021675,"nerve development",0.234%,-7.361, 2.796,2.314,-2.3325,0.681,0.436,21675,0
+GO:0019220,"regulation of phosphate metabolic process",4.763%, 4.473, 3.569,3.621,-1.5583,0.778,0.441,19220,0
+GO:0006140,"regulation of nucleotide metabolic process",2.113%,null,null,3.268,-1.4748,0.735,0.839,19220,1
+GO:0042327,"positive regulation of phosphorylation",1.686%,null,null,3.171,-1.4765,0.774,0.812,19220,1
+GO:2000685,"positive regulation of cellular response to X-ray",0.001%, 3.406, 3.934,0.301,-1.7445,0.876,0.444,2000685,0
+GO:2000683,"regulation of cellular response to X-ray",0.002%,null,null,0.477,-1.4475,0.887,0.792,2000685,1
+GO:0010646,"regulation of cell communication",6.570%, 3.960, 5.579,3.761,-2.5317,0.784,0.448,10646,0
+GO:0016055,"Wnt signaling pathway",0.887%, 3.877, 6.706,2.892,-1.4816,0.790,0.455,16055,0
+GO:0018108,"peptidyl-tyrosine phosphorylation",1.130%, 1.977,-2.432,2.997,-1.5056,0.883,0.456,18108,0
+GO:0018212,"peptidyl-tyrosine modification",1.147%,null,null,3.003,-1.4815,0.918,0.808,18108,1
+GO:0003008,"system process",4.235%,-5.888, 1.068,3.570,-1.8156,0.728,0.462,3008,0
+GO:0006524,"alanine catabolic process",0.009%, 1.195,-4.778,0.954,-1.7445,0.841,0.462,6524,0
+GO:0009080,"pyruvate family amino acid catabolic process",0.009%,null,null,0.954,-1.7445,0.841,1.000,6524,1
+GO:0006522,"alanine metabolic process",0.009%,null,null,0.954,-1.7445,0.860,1.000,6524,1
+GO:0042853,"L-alanine catabolic process",0.005%,null,null,0.699,-1.7445,0.847,0.964,6524,1
+GO:0042851,"L-alanine metabolic process",0.005%,null,null,0.699,-1.7445,0.865,0.964,6524,1
+GO:0046513,"ceramide biosynthetic process",0.089%, 1.581,-5.024,1.898,-1.9582,0.857,0.465,46513,0
+GO:1900122,"positive regulation of receptor binding",0.005%, 1.238,-1.857,0.699,-1.7445,0.934,0.468,1900122,0
+GO:0060301,"positive regulation of cytokine activity",0.001%,null,null,0.301,-1.7445,0.938,0.832,1900122,1
+GO:0060300,"regulation of cytokine activity",0.003%,null,null,0.602,-1.4475,0.937,0.877,1900122,1
+GO:0045165,"cell fate commitment",0.620%,-5.880, 3.341,2.736,-2.0630,0.669,0.471,45165,0
+GO:0023057,"negative regulation of signaling",2.197%, 2.925, 7.416,3.285,-2.8508,0.807,0.473,23057,0
+GO:0097490,"sympathetic neuron projection extension",0.017%,-6.375, 1.407,1.204,-2.7235,0.648,0.483,97490,0
+GO:0050922,"negative regulation of chemotaxis",0.044%,null,null,1.602,-1.4843,0.814,0.912,97490,1
+GO:1902669,"positive regulation of axon guidance",0.010%,null,null,1.000,-1.4475,0.563,0.909,97490,1
+GO:1902667,"regulation of axon guidance",0.033%,null,null,1.477,-1.7235,0.546,0.738,97490,1
+GO:1902284,"neuron projection extension involved in neuron projection guidance",0.038%,null,null,1.531,-1.5941,0.586,0.765,97490,1
+GO:0030517,"negative regulation of axon extension",0.046%,null,null,1.613,-1.5941,0.554,0.909,97490,1
+GO:0048846,"axon extension involved in axon guidance",0.038%,null,null,1.531,-1.5941,0.584,0.987,97490,1
+GO:1902336,"positive regulation of retinal ganglion cell axon guidance",0.010%,null,null,1.000,-1.4475,0.563,0.909,97490,1
+GO:0048841,"regulation of axon extension involved in axon guidance",0.031%,null,null,1.447,-1.8794,0.534,0.970,97490,1
+GO:0048843,"negative regulation of axon extension involved in axon guidance",0.022%,null,null,1.301,-2.1952,0.522,0.730,97490,1
+GO:0002062,"chondrocyte differentiation",0.244%,-6.514, 2.625,2.332,-3.1135,0.601,0.492,2062,0
+GO:0051216,"cartilage development",0.566%,null,null,2.697,-1.7560,0.617,0.884,2062,1
+GO:0002063,"chondrocyte development",0.063%,null,null,1.748,-1.7235,0.628,0.768,2062,1
+GO:0048705,"skeletal system morphogenesis",0.638%,null,null,2.749,-1.5675,0.608,0.788,2062,1
+GO:0007155,"cell adhesion",2.821%, 0.197,-0.700,3.394,-1.5085,0.992,0.500,7155,0
+GO:0003158,"endothelium development",0.229%,-6.052, 3.079,2.305,-1.8811,0.688,0.502,3158,0
+GO:0072165,"anterior mesonephric tubule development",0.001%,-6.341, 2.318,0.301,-1.7445,0.691,0.512,72165,0
+GO:0051174,"regulation of phosphorus metabolic process",4.788%, 3.740, 3.472,3.624,-1.4989,0.801,0.512,51174,0
+GO:0048546,"digestive tract morphogenesis",0.149%,-7.540, 2.718,2.121,-1.7488,0.658,0.514,48546,0
+GO:0048557,"embryonic digestive tract morphogenesis",0.052%,null,null,1.672,-1.8794,0.648,0.819,48546,1
+GO:0048619,"embryonic hindgut morphogenesis",0.010%,null,null,1.000,-1.4475,0.697,0.734,48546,1
+GO:0002148,"hypochlorous acid metabolic process",0.002%, 0.735,-3.935,0.477,-1.7445,0.888,0.518,2148,0
+GO:0035265,"organ growth",0.300%,-5.179, 1.141,2.422,-2.2668,0.764,0.518,35265,0
+GO:0090080,"positive regulation of MAPKKK cascade by fibroblast growth factor receptor signaling pathway",0.013%, 4.579, 4.998,1.079,-3.4949,0.730,0.521,90080,0
+GO:0008543,"fibroblast growth factor receptor signaling pathway",0.363%,null,null,2.505,-2.4078,0.752,0.752,90080,1
+GO:0038179,"neurotrophin signaling pathway",0.368%,null,null,2.511,-1.6895,0.762,0.754,90080,1
+GO:0071363,"cellular response to growth factor stimulus",1.395%,null,null,3.088,-1.7027,0.825,0.857,90080,1
+GO:0071774,"response to fibroblast growth factor",0.415%,null,null,2.562,-2.1952,0.897,0.753,90080,1
+GO:0044344,"cellular response to fibroblast growth factor stimulus",0.402%,null,null,2.549,-2.2118,0.836,0.981,90080,1
+GO:0009790,"embryo development",2.628%,-6.688, 2.560,3.363,-2.6737,0.649,0.523,9790,0
+GO:0048712,"negative regulation of astrocyte differentiation",0.030%,-4.469, 5.337,1.431,-2.3363,0.603,0.525,48712,0
+GO:0010001,"glial cell differentiation",0.562%,null,null,2.694,-1.5148,0.606,0.759,48712,1
+GO:0070445,"regulation of oligodendrocyte progenitor proliferation",0.010%,null,null,1.000,-1.4475,0.626,0.725,48712,1
+GO:0048710,"regulation of astrocyte differentiation",0.057%,null,null,1.708,-1.4843,0.609,0.844,48712,1
+GO:0045686,"negative regulation of glial cell differentiation",0.068%,null,null,1.785,-1.5941,0.583,0.914,48712,1
+GO:0009078,"pyruvate family amino acid metabolic process",0.009%, 1.327,-5.156,0.954,-1.7445,0.869,0.526,9078,0
+GO:0097491,"sympathetic neuron projection guidance",0.017%,-4.758, 3.046,1.204,-2.7235,0.615,0.532,97491,0
+GO:0044700,"single organism signaling",17.329%, 3.451, 6.567,4.182,-2.9318,0.865,0.533,44700,0
+GO:0007165,"signal transduction",16.054%,null,null,4.149,-2.2668,0.735,0.809,44700,1
+GO:0007413,"axonal fasciculation",0.047%,-6.043, 1.511,1.623,-1.7975,0.658,0.533,7413,0
+GO:0031660,"regulation of cyclin-dependent protein serine/threonine kinase activity involved in G2/M transition of mitotic cell cycle",0.001%, 2.701,-1.177,0.301,-1.7445,0.852,0.544,31660,0
+GO:0060485,"mesenchyme development",0.581%,-7.585, 2.829,2.708,-2.9914,0.626,0.544,60485,0
+GO:0030857,"negative regulation of epithelial cell differentiation",0.059%,-4.559, 5.468,1.724,-2.5686,0.575,0.549,30857,0
+GO:1902178,"fibroblast growth factor receptor apoptotic signaling pathway",0.001%, 3.283, 5.872,0.301,-1.7445,0.825,0.550,1902178,0
+GO:0071436,"sodium ion export",0.010%, 0.607,-2.214,1.000,-1.4475,0.916,0.550,71436,0
+GO:0060437,"lung growth",0.010%,-6.971, 2.257,1.000,-1.4475,0.708,0.551,60437,0
+GO:0072358,"cardiovascular system development",2.258%,-7.651, 2.919,3.297,-2.1325,0.627,0.552,72358,0
+GO:0001944,"vasculature development",1.399%,null,null,3.090,-1.5995,0.642,0.919,72358,1
+GO:0001568,"blood vessel development",1.345%,null,null,3.072,-1.7307,0.642,0.915,72358,1
+GO:0007507,"heart development",1.251%,null,null,3.041,-1.8765,0.626,0.907,72358,1
+GO:0072359,"circulatory system development",2.260%,-7.646, 2.827,3.298,-2.1325,0.638,0.552,72359,0
+GO:0007498,"mesoderm development",0.291%,-6.064, 3.099,2.408,-2.1002,0.692,0.553,7498,0
+GO:0072513,"positive regulation of secondary heart field cardioblast proliferation",0.007%,-4.510, 3.945,0.845,-1.7445,0.608,0.554,72513,0
+GO:0001759,"organ induction",0.070%,null,null,1.792,-1.4843,0.553,0.813,72513,1
+GO:0030111,"regulation of Wnt signaling pathway",0.482%, 3.537, 6.601,2.627,-1.7011,0.784,0.556,30111,0
+GO:0007169,"transmembrane receptor protein tyrosine kinase signaling pathway",1.599%, 3.787, 6.418,3.147,-2.3595,0.764,0.558,7169,0
+GO:0048011,"neurotrophin TRK receptor signaling pathway",0.337%,null,null,2.473,-1.7118,0.756,0.745,7169,1
+GO:0007173,"epidermal growth factor receptor signaling pathway",0.342%,null,null,2.479,-2.2526,0.790,0.746,7169,1
+GO:0008286,"insulin receptor signaling pathway",0.334%,null,null,2.468,-1.4556,0.757,0.744,7169,1
+GO:0038127,"ERBB signaling pathway",0.360%,null,null,2.501,-2.2069,0.789,0.750,7169,1
+GO:0007167,"enzyme linked receptor protein signaling pathway",2.356%, 3.848, 6.288,3.316,-1.6891,0.770,0.558,7167,0
+GO:0072148,"epithelial cell fate commitment",0.039%,-5.975, 3.066,1.544,-1.9714,0.663,0.560,72148,0
+GO:0001708,"cell fate specification",0.197%,null,null,2.241,-1.6761,0.682,0.717,72148,1
+GO:0009888,"tissue development",4.199%,-6.170, 3.202,3.567,-2.0991,0.675,0.561,9888,0
+GO:0072172,"mesonephric tubule formation",0.007%,-6.656, 2.542,0.845,-3.4949,0.624,0.564,72172,0
+GO:2000697,"negative regulation of epithelial cell differentiation involved in kidney development",0.005%,null,null,0.699,-1.7445,0.585,0.780,72172,1
+GO:0061333,"renal tubule morphogenesis",0.051%,null,null,1.663,-1.6560,0.605,0.795,72172,1
+GO:0072183,"negative regulation of nephron tubule epithelial cell differentiation",0.005%,null,null,0.699,-1.7445,0.573,0.704,72172,1
+GO:0001823,"mesonephros development",0.291%,null,null,2.408,-1.7235,0.614,0.848,72172,1
+GO:0072078,"nephron tubule morphogenesis",0.038%,null,null,1.531,-1.7975,0.596,0.941,72172,1
+GO:0072079,"nephron tubule formation",0.027%,null,null,1.398,-2.1952,0.599,0.894,72172,1
+GO:0072164,"mesonephric tubule development",0.269%,null,null,2.375,-2.3363,0.581,0.761,72172,1
+GO:0072163,"mesonephric epithelium development",0.269%,null,null,2.375,-2.1952,0.586,0.984,72172,1
+GO:0072180,"mesonephric duct morphogenesis",0.006%,null,null,0.778,-1.7445,0.631,0.975,72172,1
+GO:0072167,"specification of mesonephric tubule identity",0.001%,null,null,0.301,-1.7445,0.652,0.939,72172,1
+GO:0072168,"specification of anterior mesonephric tubule identity",0.001%,null,null,0.301,-1.7445,0.651,0.900,72172,1
+GO:0072171,"mesonephric tubule morphogenesis",0.008%,null,null,0.903,-3.4949,0.627,0.829,72172,1
+GO:0072169,"specification of posterior mesonephric tubule identity",0.001%,null,null,0.301,-1.7445,0.651,1.000,72172,1
+GO:0090183,"regulation of kidney development",0.131%,null,null,2.064,-1.9129,0.595,0.794,72172,1
+GO:0001657,"ureteric bud development",0.268%,null,null,2.373,-1.5533,0.581,0.997,72172,1
+GO:0072194,"kidney smooth muscle tissue development",0.007%,-6.945, 2.450,0.845,-1.4475,0.671,0.564,72194,0
+GO:0072208,"metanephric smooth muscle tissue development",0.002%,null,null,0.477,-1.4475,0.684,0.734,72194,1
+GO:0090185,"negative regulation of kidney development",0.008%,-5.354, 4.479,0.903,-1.4475,0.631,0.569,90185,0
+GO:0048332,"mesoderm morphogenesis",0.199%,-6.219, 3.175,2.246,-2.0035,0.644,0.570,48332,0
+GO:0048378,"regulation of lateral mesodermal cell fate specification",0.006%,null,null,0.778,-1.4475,0.584,0.863,48332,1
+GO:0048377,"lateral mesodermal cell fate specification",0.006%,null,null,0.778,-1.4475,0.627,1.000,48332,1
+GO:0048372,"lateral mesodermal cell fate commitment",0.006%,null,null,0.778,-1.4475,0.629,0.981,48332,1
+GO:0048371,"lateral mesodermal cell differentiation",0.007%,null,null,0.845,-1.4475,0.632,0.975,48332,1
+GO:0048370,"lateral mesoderm formation",0.008%,null,null,0.903,-1.4475,0.657,0.992,48332,1
+GO:0048369,"lateral mesoderm morphogenesis",0.008%,null,null,0.903,-1.4475,0.669,0.744,48332,1
+GO:0048333,"mesodermal cell differentiation",0.071%,null,null,1.799,-1.5372,0.602,0.865,48332,1
+GO:0042476,"odontogenesis",0.418%,-6.463, 2.510,2.566,-2.4776,0.626,0.571,42476,0
+GO:0043552,"positive regulation of phosphatidylinositol 3-kinase activity",0.051%, 4.167,-0.700,1.663,-1.6560,0.808,0.571,43552,0
+GO:0043551,"regulation of phosphatidylinositol 3-kinase activity",0.107%,null,null,1.978,-1.4843,0.803,0.933,43552,1
+GO:0090218,"positive regulation of lipid kinase activity",0.052%,null,null,1.672,-1.6560,0.808,0.887,43552,1
+GO:0061227,"pattern specification involved in mesonephros development",0.002%,-6.501, 2.197,0.477,-1.7445,0.698,0.574,61227,0
+GO:0072098,"anterior/posterior pattern specification involved in kidney development",0.002%,null,null,0.477,-1.4475,0.701,0.849,61227,1
+GO:0043583,"ear development",0.579%,-7.281, 2.696,2.707,-1.7064,0.653,0.575,43583,0
+GO:0035108,"limb morphogenesis",0.455%,-6.388, 2.464,2.602,-1.4657,0.656,0.576,35108,0
+GO:0036023,"embryonic skeletal limb joint morphogenesis",0.011%,null,null,1.041,-1.4475,0.681,0.742,35108,1
+GO:0036022,"limb joint morphogenesis",0.011%,null,null,1.041,-1.4475,0.729,0.742,35108,1
+GO:0035107,"appendage morphogenesis",0.455%,null,null,2.602,-1.4657,0.656,0.977,35108,1
+GO:1902285,"semaphorin-plexin signaling pathway involved in neuron projection guidance",0.019%,-2.883, 5.875,1.255,-2.7235,0.571,0.579,1902285,0
+GO:0072166,"posterior mesonephric tubule development",0.002%,-6.430, 2.382,0.477,-1.4475,0.681,0.582,72166,0
+GO:0048568,"embryonic organ development",1.162%,-7.578, 2.809,3.009,-3.1135,0.621,0.586,48568,0
+GO:0048562,"embryonic organ morphogenesis",0.783%,null,null,2.838,-3.1871,0.596,0.762,48568,1
+GO:0048598,"embryonic morphogenesis",1.501%,null,null,3.120,-1.6844,0.615,0.819,48568,1
+GO:0048839,"inner ear development",0.387%,null,null,2.533,-1.4983,0.662,0.915,48568,1
+GO:0048701,"embryonic cranial skeleton morphogenesis",0.131%,null,null,2.064,-1.8274,0.636,0.904,48568,1
+GO:0048704,"embryonic skeletal system morphogenesis",0.237%,null,null,2.320,-1.7967,0.621,0.808,48568,1
+GO:0042471,"ear morphogenesis",0.356%,null,null,2.496,-2.0237,0.612,0.844,48568,1
+GO:0042474,"middle ear morphogenesis",0.150%,null,null,2.124,-2.4895,0.634,0.776,48568,1
+GO:0002027,"regulation of heart rate",0.190%,-5.169, 1.061,2.225,-1.4577,0.731,0.587,2027,0
+GO:0086046,"membrane depolarization during SA node cell action potential",0.009%,null,null,0.954,-1.4475,0.727,0.708,2027,1
+GO:0048793,"pronephros development",0.014%,-6.581, 2.348,1.114,-1.4475,0.680,0.587,48793,0
+GO:0010648,"negative regulation of cell communication",2.203%, 3.289, 6.554,3.286,-2.8239,0.756,0.588,10648,0
+GO:0009966,"regulation of signal transduction",5.885%,null,null,3.713,-2.3134,0.741,0.765,10648,1
+GO:0043066,"negative regulation of apoptotic process",1.702%, 2.958, 5.809,3.175,-1.5390,0.793,0.594,43066,0
+GO:0043069,"negative regulation of programmed cell death",1.726%,null,null,3.181,-1.4892,0.793,0.963,43066,1
+GO:0009118,"regulation of nucleoside metabolic process",1.901%, 4.666,-0.189,3.222,-1.9626,0.753,0.594,9118,0
+GO:0048732,"gland development",1.335%,-6.467, 2.514,3.069,-2.9788,0.635,0.596,48732,0
+GO:0035607,"fibroblast growth factor receptor signaling pathway involved in orbitofrontal cortex development",0.006%,-2.925, 6.381,0.778,-1.4475,0.616,0.597,35607,0
+GO:0010470,"regulation of gastrulation",0.060%,-6.458, 2.668,1.732,-1.5372,0.640,0.597,10470,0
+GO:0048585,"negative regulation of response to stimulus",2.501%, 1.768, 4.864,3.342,-2.5834,0.864,0.598,48585,0
+GO:0048523,"negative regulation of cellular process",7.863%,null,null,3.839,-2.7905,0.797,0.720,48585,1
+GO:0035459,"cargo loading into vesicle",0.017%, 0.291,-3.699,1.204,-1.4475,0.932,0.600,35459,0
+GO:0060397,"JAK-STAT cascade involved in growth hormone signaling pathway",0.032%, 3.391, 6.179,1.462,-2.5686,0.781,0.601,60397,0
+GO:0046426,"negative regulation of JAK-STAT cascade",0.032%,null,null,1.462,-1.7235,0.795,0.741,60397,1
+GO:0071378,"cellular response to growth hormone stimulus",0.048%,null,null,1.633,-2.1079,0.862,0.910,60397,1
+GO:0060396,"growth hormone receptor signaling pathway",0.043%,null,null,1.591,-2.1630,0.787,0.968,60397,1
+GO:0060416,"response to growth hormone",0.079%, 1.756, 2.693,1.845,-1.8274,0.914,0.604,60416,0
+GO:0051057,"positive regulation of small GTPase mediated signal transduction",0.113%, 3.655, 6.103,2.000,-3.4089,0.788,0.604,51057,0
+GO:0070444,"oligodendrocyte progenitor proliferation",0.010%,-5.784, 2.202,1.000,-1.4475,0.669,0.605,70444,0
+GO:0022008,"neurogenesis",3.440%,-6.434, 3.412,3.480,-1.7053,0.556,0.607,22008,0
+GO:0048468,"cell development",4.830%,null,null,3.627,-1.5740,0.594,0.725,22008,1
+GO:0030154,"cell differentiation",8.015%,null,null,3.847,-2.0035,0.589,0.809,22008,1
+GO:0061564,"axon development",1.212%,null,null,3.027,-1.6232,0.573,0.735,22008,1
+GO:0048699,"generation of neurons",3.160%,null,null,3.443,-1.4680,0.553,0.838,22008,1
+GO:0019858,"cytosine metabolic process",0.005%, 1.120,-4.701,0.699,-1.4475,0.877,0.612,19858,0
+GO:0072189,"ureter development",0.034%,-7.187, 2.494,1.491,-2.0752,0.659,0.615,72189,0
+GO:0072184,"renal vesicle progenitor cell differentiation",0.001%,-6.737, 2.534,0.301,-1.7445,0.663,0.617,72184,0
+GO:0014911,"positive regulation of smooth muscle cell migration",0.040%, 3.215, 2.095,1.556,-2.3363,0.822,0.617,14911,0
+GO:0071671,"regulation of smooth muscle cell chemotaxis",0.007%,null,null,0.845,-1.4475,0.798,0.949,14911,1
+GO:0071673,"positive regulation of smooth muscle cell chemotaxis",0.006%,null,null,0.778,-1.7445,0.787,0.822,14911,1
+GO:0060600,"dichotomous subdivision of an epithelial terminal unit",0.033%,-6.999, 2.482,1.477,-1.9714,0.665,0.618,60600,0
+GO:0061138,"morphogenesis of a branching epithelium",0.608%,null,null,2.728,-1.4825,0.595,0.765,60600,1
+GO:0044707,"single-multicellular organism process",15.092%,-6.099, 1.096,4.122,-2.4522,0.699,0.619,44707,0
+GO:0007602,"phototransduction",0.145%, 3.147, 6.036,2.107,-1.7698,0.801,0.619,7602,0
+GO:0009583,"detection of light stimulus",0.172%,null,null,2.182,-1.6445,0.933,0.891,7602,1
+GO:0070887,"cellular response to chemical stimulus",5.433%, 3.214, 5.538,3.678,-1.5227,0.827,0.624,70887,0
+GO:0072259,"metanephric interstitial fibroblast development",0.001%,-6.435, 2.392,0.301,-1.7445,0.675,0.624,72259,0
+GO:0072258,"metanephric interstitial fibroblast differentiation",0.001%,null,null,0.301,-1.7445,0.681,0.756,72259,1
+GO:0045446,"endothelial cell differentiation",0.201%,-6.397, 3.321,2.248,-2.0362,0.630,0.627,45446,0
+GO:0097102,"endothelial tip cell fate specification",0.001%,null,null,0.301,-1.7445,0.681,0.915,45446,1
+GO:0045602,"negative regulation of endothelial cell differentiation",0.006%,null,null,0.778,-1.4475,0.623,0.759,45446,1
+GO:0097101,"blood vessel endothelial cell fate specification",0.007%,null,null,0.845,-1.7445,0.661,0.768,45446,1
+GO:0060846,"blood vessel endothelial cell fate commitment",0.007%,null,null,0.845,-1.7445,0.662,0.947,45446,1
+GO:0060847,"endothelial cell fate specification",0.008%,null,null,0.903,-1.7445,0.684,0.954,45446,1
+GO:1901068,"guanosine-containing compound metabolic process",2.687%, 2.289,-4.443,3.373,-1.9566,0.803,0.628,1901068,0
+GO:0045737,"positive regulation of cyclin-dependent protein serine/threonine kinase activity",0.027%, 3.413, 0.935,1.398,-1.4843,0.803,0.632,45737,0
+GO:0009653,"anatomical structure morphogenesis",5.999%,-6.544, 3.417,3.721,-5.2291,0.664,0.639,9653,0
+GO:0048513,"organ development",7.380%,null,null,3.811,-1.6174,0.597,0.705,9653,1
+GO:0042127,"regulation of cell proliferation",3.148%, 2.958, 4.620,3.442,-4.2007,0.799,0.642,42127,0
+GO:0050673,"epithelial cell proliferation",0.708%,null,null,2.794,-2.5302,0.910,0.730,42127,1
+GO:0008284,"positive regulation of cell proliferation",1.657%,null,null,3.163,-4.3010,0.791,0.812,42127,1
+GO:0072074,"kidney mesenchyme development",0.040%,-6.891, 2.583,1.556,-3.2007,0.633,0.643,72074,0
+GO:0048762,"mesenchymal cell differentiation",0.457%,null,null,2.604,-2.1175,0.570,0.775,72074,1
+GO:0072132,"mesenchyme morphogenesis",0.162%,null,null,2.155,-1.5941,0.607,0.866,72074,1
+GO:0072111,"cell proliferation involved in kidney development",0.047%,-6.300, 2.202,1.623,-1.8794,0.631,0.644,72111,0
+GO:0023051,"regulation of signaling",6.570%, 3.959, 6.144,3.761,-2.3036,0.850,0.648,23051,0
+GO:0051056,"regulation of small GTPase mediated signal transduction",1.620%, 3.683, 6.319,3.153,-3.0132,0.760,0.649,51056,0
+GO:0032318,"regulation of Ras GTPase activity",1.146%,null,null,3.003,-1.4815,0.632,0.936,51056,1
+GO:0007265,"Ras protein signal transduction",1.560%,null,null,3.137,-1.6870,0.773,0.855,51056,1
+GO:0046578,"regulation of Ras protein signal transduction",1.383%,null,null,3.085,-2.2343,0.761,0.843,51056,1
+GO:0007264,"small GTPase mediated signal transduction",2.633%, 3.969, 6.325,3.364,-2.1561,0.769,0.650,7264,0
+GO:0051099,"positive regulation of binding",0.197%, 1.097,-1.563,2.241,-1.5754,0.921,0.651,51099,0
+GO:1900747,"negative regulation of vascular endothelial growth factor signaling pathway",0.009%, 3.230, 7.432,0.954,-1.4475,0.773,0.654,1900747,0
+GO:1902548,"negative regulation of cellular response to vascular endothelial growth factor stimulus",0.010%,null,null,1.000,-1.4475,0.814,0.918,1900747,1
+GO:0001958,"endochondral ossification",0.074%,-7.477, 2.646,1.820,-1.4843,0.659,0.660,1958,0
+GO:0048729,"tissue morphogenesis",1.464%,-6.247, 3.197,3.109,-1.9374,0.617,0.660,48729,0
+GO:0046110,"xanthine metabolic process",0.002%, 0.977,-4.396,0.477,-1.4475,0.880,0.661,46110,0
+GO:0036075,"replacement ossification",0.074%,-5.186, 0.859,1.820,-1.4843,0.799,0.661,36075,0
+GO:0042475,"odontogenesis of dentin-containing tooth",0.342%,-6.450, 2.500,2.479,-1.7181,0.631,0.664,42475,0
+GO:0050679,"positive regulation of epithelial cell proliferation",0.313%, 2.684, 3.648,2.441,-2.7986,0.813,0.666,50679,0
+GO:0050678,"regulation of epithelial cell proliferation",0.583%,null,null,2.710,-2.0357,0.823,0.901,50679,1
+GO:0048638,"regulation of developmental growth",0.309%,-5.769, 3.093,2.435,-2.3242,0.679,0.666,48638,0
+GO:0060045,"positive regulation of cardiac muscle cell proliferation",0.066%,null,null,1.771,-1.8794,0.550,0.786,48638,1
+GO:0048640,"negative regulation of developmental growth",0.065%,null,null,1.763,-2.1079,0.681,0.734,48638,1
+GO:0009968,"negative regulation of signal transduction",2.090%, 3.151, 6.554,3.264,-2.6364,0.728,0.667,9968,0
+GO:0045744,"negative regulation of G-protein coupled receptor protein signaling pathway",0.231%,null,null,2.310,-1.4577,0.764,0.752,9968,1
+GO:0048869,"cellular developmental process",8.570%,-5.353, 3.908,3.876,-2.5017,0.611,0.672,48869,0
+GO:0044767,"single-organism developmental process",12.982%,null,null,4.057,-1.9259,0.642,0.843,48869,1
+GO:0048856,"anatomical structure development",11.534%,null,null,4.005,-2.4498,0.662,0.767,48869,1
+GO:0048731,"system development",9.834%,null,null,3.936,-1.7430,0.602,0.790,48869,1
+GO:0006667,"sphinganine metabolic process",0.005%, 1.475,-4.971,0.699,-1.4475,0.875,0.676,6667,0
+GO:0046511,"sphinganine biosynthetic process",0.003%,null,null,0.602,-1.4475,0.874,0.849,6667,1
+GO:2000729,"positive regulation of mesenchymal cell proliferation involved in ureter development",0.007%,-4.992, 4.319,0.845,-1.4475,0.588,0.678,2000729,0
+GO:0072193,"ureter smooth muscle cell differentiation",0.014%,null,null,1.114,-1.4475,0.622,0.863,2000729,1
+GO:0072191,"ureter smooth muscle development",0.014%,null,null,1.114,-1.4475,0.653,0.897,2000729,1
+GO:0046580,"negative regulation of Ras protein signal transduction",0.081%, 2.924, 7.104,1.857,-1.8693,0.779,0.680,46580,0
+GO:0045596,"negative regulation of cell differentiation",1.429%,-3.255, 6.050,3.099,-2.2557,0.557,0.683,45596,0
+GO:1902106,"negative regulation of leukocyte differentiation",0.154%,null,null,2.134,-1.4577,0.572,0.743,45596,1
+GO:0051093,"negative regulation of developmental process",1.731%,null,null,3.182,-1.9423,0.630,0.717,45596,1
+GO:0051058,"negative regulation of small GTPase mediated signal transduction",0.082%, 2.865, 7.024,1.863,-1.8274,0.779,0.686,51058,0
+GO:0048389,"intermediate mesoderm development",0.002%,-5.665, 2.754,0.477,-1.4475,0.759,0.689,48389,0
+GO:0014812,"muscle cell migration",0.136%, 0.623,-1.781,2.079,-1.7875,0.878,0.690,14812,0
+GO:2000027,"regulation of organ morphogenesis",0.521%,-6.943, 2.795,2.661,-1.4657,0.576,0.690,2000027,0
+GO:0002543,"activation of blood coagulation via clotting cascade",0.002%,-3.864, 2.656,0.477,-1.4475,0.763,0.690,2543,0
+GO:0021636,"trigeminal nerve morphogenesis",0.016%,-6.884, 2.546,1.176,-1.7445,0.706,0.694,21636,0
+GO:0007166,"cell surface receptor signaling pathway",8.919%, 3.926, 5.876,3.894,-2.6234,0.750,0.695,7166,0
+GO:0007605,"sensory perception of sound",0.268%,-5.080, 1.020,2.373,-1.9751,0.772,0.696,7605,0
+GO:0072089,"stem cell proliferation",0.477%,-0.560, 0.210,2.623,-3.1135,0.913,0.697,72089,0
