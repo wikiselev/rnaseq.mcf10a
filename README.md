@@ -70,12 +70,11 @@ R version 3.1.3 (2015-03-09)
 Platform: x86_64-apple-darwin10.8.0 (64-bit)
 Running under: OS X 10.10.3 (Yosemite)
 ```
-
 2. Also the following versions (different from the latest release) of some of the packages are required to fully reproduce the results (binary files can be downloaded at the bottom of each page):
-* [DESeq2 (== 1.4.5)](http://www.bioconductor.org/packages/2.14/bioc/html/DESeq2.html)
-* [topGO (== 2.16.0)](http://www.bioconductor.org/packages/2.14/bioc/html/topGO.html)
-* [GO.db (== 2.14.0)](http://www.bioconductor.org/packages/2.14/data/annotation/html/GO.db.html)
-* [org.Hs.eg.db (== 2.14.0)](http://bioconductor.org/packages/2.14/data/annotation/html/org.Hs.eg.db.html)
+    * [DESeq2 (== 1.4.5)](http://www.bioconductor.org/packages/2.14/bioc/html/DESeq2.html)
+    * [topGO (== 2.16.0)](http://www.bioconductor.org/packages/2.14/bioc/html/topGO.html)
+    * [GO.db (== 2.14.0)](http://www.bioconductor.org/packages/2.14/data/annotation/html/GO.db.html)
+    * [org.Hs.eg.db (== 2.14.0)](http://bioconductor.org/packages/2.14/data/annotation/html/org.Hs.eg.db.html)
 
 ### External sources
 
