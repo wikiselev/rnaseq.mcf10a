@@ -1,5 +1,5 @@
 ### "Perturbations of PIP3 signalling trigger a global remodelling of mRNA landscape and reveal a transcriptional feedback loop"
-####Supplementary R package
+##### Supplementary R package
 
 Allows one to use and fully reproduce data presented in the paper.
 
@@ -44,15 +44,15 @@ One can view, export or manipulate with any object for further investigation.
 
 ### Reproduce the paper results
 
-#### Scripts
+##### Scripts
 
 Create a local folder `reproduce`. In this folder create a subfolder `reproduce/data-raw` and download all processing scripts into it from [here](https://github.com/wikiselev/rnaseq.mcf10a/tree/master/data-raw).
 
-#### Data
+##### Data
 
 In `reproduce` folder create a new subfolder `reproduce/inst`. Then copy the folder `paste0(system.file(package = "rnaseq.mcf10a"), "/extdata")` to `reproduce/inst/`. Now `reproduce/inst/` contains all raw data sets required for reproduction (there are also some more supplementary data sets).
 
-#### Run
+##### Run
 
 Once the scripts and the data are organised, from the root of `reproduce` folder run:
 
