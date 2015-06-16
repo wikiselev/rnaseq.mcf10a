@@ -80,5 +80,5 @@ Running under: OS X 10.10.3 (Yosemite)
 
 1. [Submitted manuscript](https://drive.google.com/folderview?id=0B9AEJU3ZybXIYkJ1T3JubFlOSWc&usp=sharing) (accessible only by collaborators).
 2. [Interactive gene expression profiles](http://www.bioinformatics.babraham.ac.uk/shiny/kiselev-pip3-rna-seq-gene-profiles/)
-(source files of this [Shiny app](http://shiny.rstudio.com/) can be viewed in `data-raw/kiselev-pip3-rna-seq-gene-profiles` folder).
+(source files of this [Shiny app](http://shiny.rstudio.com/) can be viewed [here](https://github.com/wikiselev/rnaseq.mcf10a/tree/master/data-raw/kiselev-pip3-rna-seq-gene-profiles)).
 3. [ISMARA](http://ismara.unibas.ch/fcgi/mara) report can be viewed [here](http://lenoverelab.org/data/2015/kiselev/ismara_report_hg19/).
