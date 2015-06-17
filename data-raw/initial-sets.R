@@ -24,7 +24,7 @@ pi3k.related <- unique(c(pten.tc, ki.tc))
 # gene universe
 all.genes <- unique(c(egf, ki, pten, pi3k.related, a66.tc, a66.nost.eff))
 save(egf, ki, pten, a66, pten.tc, ki.tc, a66.tc, a66.nost.eff, pi3k.related,
-     file = "data/auxiliary.gene.sets.rda")
+     all.genes, file = "data/auxiliary.gene.sets.rda")
 
 # WT gene sets
 set1 <- a66.nost.eff[!a66.nost.eff %in% a66.tc & a66.nost.eff %in% egf]
