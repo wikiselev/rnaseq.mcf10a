@@ -50,7 +50,7 @@ Create a local folder `reproduce`. In this folder create a subfolder `reproduce/
 
 ##### Data
 
-In `reproduce` folder create a new subfolder `reproduce/inst`. Then copy the folder `paste0(system.file(package = "rnaseq.mcf10a"), "/extdata")` to `reproduce/inst/`. Now `reproduce/inst/` contains all raw data sets required for reproduction (there are also some more supplementary data sets).
+In `reproduce` folder create a new subfolder `reproduce/inst`. Then copy the folder `paste0(system.file(package = "rnaseq.mcf10a"), "/extdata")` to `reproduce/inst/`. Now `reproduce/inst/extdata` contains all raw data sets required for reproduction (there are also some more supplementary data sets).
 
 ##### Run
 
