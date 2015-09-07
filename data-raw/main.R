@@ -22,3 +22,7 @@ source("data-raw/go.R")
 source("data-raw/go-plot.R")
 # perform ismara processing and analysis
 source("data-raw/ismara.R")
+# perform comparisons with other data
+source("data-raw/other-data.R")
+# proteomics analysis
+source("data-raw/proteomics.R")
