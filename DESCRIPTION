@@ -8,15 +8,15 @@ Maintainer: Vladimir Kiselev <vladimir.yu.kiselev@gmail.com>
 Description: Allows one to fully reproduce results presented in the paper. Contains all data used in the paper with their description.
 License: The MIT License (MIT)
 LazyData: TRUE
-Imports:
-    DESeq2 (== 1.4.5),
+Depends:
+    DESeq2,
     fpc,
     ggplot2,
     reshape,
     data.table,
-    topGO (== 2.16.0),
-    GO.db (== 2.14.0),
-    org.Hs.eg.db (== 2.14.0),
+    topGO,
+    GO.db,
+    org.Hs.eg.db,
     treemap,
     gplots,
     rtracklayer
