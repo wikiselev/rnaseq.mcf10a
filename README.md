@@ -1,7 +1,7 @@
 ### "Perturbations of PIP3 signalling trigger a global remodelling of mRNA landscape and reveal a transcriptional feedback loop"
 ##### Supplementary R package
 
-Allows one to use and fully reproduce data presented in the paper.
+Allows one to use and fully reproduce data presented in the corresponding [paper](http://nar.oxfordjournals.org/content/early/2015/10/11/nar.gkv1015.full).
 
 ### Installation
 
